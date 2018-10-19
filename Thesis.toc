@@ -5,7 +5,8 @@
 \contentsline {section}{\numberline {2.1}Strategies For Closing Performance Gap}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Design Concept}{3}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Technology and methods (T\&M)}{4}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Previous Research}{5}{section.2.2}
+\contentsline {section}{\numberline {2.2}Simulation Parameter Variation}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}Simulation Research for Swiss Buildings}{6}{section.2.3}
 \contentsline {chapter}{\numberline {3}Methodology}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Office Building Introduction}{7}{section.3.1}
 \contentsline {section}{\numberline {3.2}Residential Building Introduction}{8}{section.3.2}
@@ -38,9 +39,11 @@
 \contentsline {chapter}{\numberline {5}Discussion}{44}{chapter.5}
 \contentsline {chapter}{\numberline {6}Conclusion}{45}{chapter.6}
 \contentsline {chapter}{Bibliography}{46}{chapter*.10}
-\contentsline {chapter}{\numberline {A}Heat Losses and Heat Gain Calculation}{A-1}{appendix.U}
-\contentsline {chapter}{\numberline {B}Assumptions}{B-1}{appendix.V}
-\contentsline {chapter}{\numberline {C}TARP Algorithm for convection coefficient}{C-1}{appendix.W}
-\contentsline {chapter}{\numberline {D}Detailed SIA Calculation}{D-1}{appendix.X}
-\contentsline {subsection}{\numberline {D.0.1}Residential Building Heating Demand}{D-1}{subsection.X.0.1}
-\contentsline {subsection}{\numberline {D.0.2}Office Building Calculation Results}{D-2}{subsection.X.0.2}
+\contentsline {chapter}{\numberline {A}Assumptions}{A-1}{appendix.U}
+\contentsline {chapter}{\numberline {B}TARP Method Calculation}{B-1}{appendix.V}
+\contentsline {chapter}{\numberline {C}Static Calculation Formulas and Results}{C-1}{appendix.W}
+\contentsline {section}{\numberline {C.1}Heat Losses}{C-1}{section.W.1}
+\contentsline {section}{\numberline {C.2}Heat Gains}{C-2}{section.W.2}
+\contentsline {section}{\numberline {C.3}Total Heating Demand}{C-3}{section.W.3}
+\contentsline {section}{\numberline {C.4}Residential Building Heating Demand Breakdown}{C-4}{section.W.4}
+\contentsline {section}{\numberline {C.5}Office Building Heating Demand Breakdown}{C-6}{section.W.5}

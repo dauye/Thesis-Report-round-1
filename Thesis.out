@@ -5,42 +5,45 @@
 \BOOKMARK [1][-]{section.2.1}{2.1 Strategies For Closing Performance Gap}{chapter.2}% 5
 \BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Design Concept}{section.2.1}% 6
 \BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Technology and methods \(T\046M\)}{section.2.1}% 7
-\BOOKMARK [1][-]{section.2.2}{2.2 Previous Research}{chapter.2}% 8
-\BOOKMARK [0][]{chapter.3}{3 Methodology}{}% 9
-\BOOKMARK [1][-]{section.3.1}{3.1 Office Building Introduction}{chapter.3}% 10
-\BOOKMARK [1][-]{section.3.2}{3.2 Residential Building Introduction}{chapter.3}% 11
-\BOOKMARK [1][-]{section.3.3}{3.3 Building Model Construction}{chapter.3}% 12
-\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Building Geometry}{section.3.3}% 13
-\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Building Envelope Constructions}{section.3.3}% 14
-\BOOKMARK [1][-]{section.3.4}{3.4 Selection of Simulation Tools}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.5}{3.5 SIA Norms}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.6}{3.6 Weather Data}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.6.1}{3.6.1 Weather Data For Static Calculation}{section.3.6}% 18
-\BOOKMARK [2][-]{subsection.3.6.2}{3.6.2 Weather Data For Dynamic Calculation}{section.3.6}% 19
-\BOOKMARK [1][-]{section.3.7}{3.7 Static Calculation}{chapter.3}% 20
-\BOOKMARK [2][-]{subsection.3.7.1}{3.7.1 Losses}{section.3.7}% 21
-\BOOKMARK [2][-]{subsection.3.7.2}{3.7.2 Gains}{section.3.7}% 22
-\BOOKMARK [2][-]{subsection.3.7.3}{3.7.3 Measurements expected to close the performance gap}{section.3.7}% 23
-\BOOKMARK [1][-]{section.3.8}{3.8 Dynamic Calculation}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.9}{3.9 Calibration}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.10}{3.10 Parameters Variation}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.11}{3.11 Data Processing}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.11.1}{3.11.1 Dynamic Analysis Range}{section.3.11}% 28
-\BOOKMARK [2][-]{subsection.3.11.2}{3.11.2 Correlation Matrix}{section.3.11}% 29
-\BOOKMARK [0][]{chapter.4}{4 Results}{}% 30
-\BOOKMARK [1][-]{section.4.1}{4.1 Static Calculation}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.2}{4.2 Dynamic Simulation}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.3}{4.3 Calibration Results}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.4}{4.4 Parameters Variation Results}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.5}{4.5 Effect of Solar Absorptance on Heating Demand}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.6}{4.6 Effect of Convection Coefficient on Heating Demand}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Global Warming and Heat Island Effect}{section.4.6}% 37
-\BOOKMARK [0][]{chapter.5}{5 Discussion}{}% 38
-\BOOKMARK [0][]{chapter.6}{6 Conclusion}{}% 39
-\BOOKMARK [0][]{chapter*.10}{Bibliography}{}% 40
-\BOOKMARK [0][]{appendix.U}{A Heat Losses and Heat Gain Calculation}{}% 41
-\BOOKMARK [0][]{appendix.V}{B Assumptions}{}% 42
-\BOOKMARK [0][]{appendix.W}{C TARP Algorithm for convection coefficient}{}% 43
-\BOOKMARK [0][]{appendix.X}{D Detailed SIA Calculation}{}% 44
-\BOOKMARK [1][-]{subsection.X.0.1}{D.0.1 Residential Building Heating Demand}{appendix.X}% 45
-\BOOKMARK [2][-]{subsection.X.0.2}{D.0.2 Office Building Calculation Results}{subsection.X.0.1}% 46
+\BOOKMARK [1][-]{section.2.2}{2.2 Simulation Parameter Variation}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.3}{2.3 Simulation Research for Swiss Buildings}{chapter.2}% 9
+\BOOKMARK [0][]{chapter.3}{3 Methodology}{}% 10
+\BOOKMARK [1][-]{section.3.1}{3.1 Office Building Introduction}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.2}{3.2 Residential Building Introduction}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.3}{3.3 Building Model Construction}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Building Geometry}{section.3.3}% 14
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Building Envelope Constructions}{section.3.3}% 15
+\BOOKMARK [1][-]{section.3.4}{3.4 Selection of Simulation Tools}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.5}{3.5 SIA Norms}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.6}{3.6 Weather Data}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.6.1}{3.6.1 Weather Data For Static Calculation}{section.3.6}% 19
+\BOOKMARK [2][-]{subsection.3.6.2}{3.6.2 Weather Data For Dynamic Calculation}{section.3.6}% 20
+\BOOKMARK [1][-]{section.3.7}{3.7 Static Calculation}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.7.1}{3.7.1 Losses}{section.3.7}% 22
+\BOOKMARK [2][-]{subsection.3.7.2}{3.7.2 Gains}{section.3.7}% 23
+\BOOKMARK [2][-]{subsection.3.7.3}{3.7.3 Measurements expected to close the performance gap}{section.3.7}% 24
+\BOOKMARK [1][-]{section.3.8}{3.8 Dynamic Calculation}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.9}{3.9 Calibration}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.10}{3.10 Parameters Variation}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.11}{3.11 Data Processing}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.11.1}{3.11.1 Dynamic Analysis Range}{section.3.11}% 29
+\BOOKMARK [2][-]{subsection.3.11.2}{3.11.2 Correlation Matrix}{section.3.11}% 30
+\BOOKMARK [0][]{chapter.4}{4 Results}{}% 31
+\BOOKMARK [1][-]{section.4.1}{4.1 Static Calculation}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.2}{4.2 Dynamic Simulation}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.3}{4.3 Calibration Results}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.4}{4.4 Parameters Variation Results}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.5}{4.5 Effect of Solar Absorptance on Heating Demand}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.6}{4.6 Effect of Convection Coefficient on Heating Demand}{chapter.4}% 37
+\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Global Warming and Heat Island Effect}{section.4.6}% 38
+\BOOKMARK [0][]{chapter.5}{5 Discussion}{}% 39
+\BOOKMARK [0][]{chapter.6}{6 Conclusion}{}% 40
+\BOOKMARK [0][]{chapter*.10}{Bibliography}{}% 41
+\BOOKMARK [0][]{appendix.U}{A Assumptions}{}% 42
+\BOOKMARK [0][]{appendix.V}{B TARP Method Calculation}{}% 43
+\BOOKMARK [0][]{appendix.W}{C Static Calculation Formulas and Results}{}% 44
+\BOOKMARK [1][-]{section.W.1}{C.1 Heat Losses}{appendix.W}% 45
+\BOOKMARK [1][-]{section.W.2}{C.2 Heat Gains}{appendix.W}% 46
+\BOOKMARK [1][-]{section.W.3}{C.3 Total Heating Demand}{appendix.W}% 47
+\BOOKMARK [1][-]{section.W.4}{C.4 Residential Building Heating Demand Breakdown}{appendix.W}% 48
+\BOOKMARK [1][-]{section.W.5}{C.5 Office Building Heating Demand Breakdown}{appendix.W}% 49

@@ -23,7 +23,7 @@ Empa,Dübendorf\\[2pt]}
 % Optionally, you can put in your own logo here
 %\logo{\includegraphics[width=0.2\columnwidth]{figures/disco_logo_faded}}
 
-\supervisors{Dr. Kristina Orehounig\\[2pt] Dr.\ Georgios Maromatidis\\[2pt]}
+\supervisors{Dr. Kristina Orehounig\\[2pt] Dr.\ Georgios Mavromatidis\\[2pt]}
 
 % Optionally, keywords and categories of the work can be shown (on the Abstract page)
 %\keywords{Keywords go here.}
@@ -90,7 +90,7 @@ Empa,Dübendorf\\[2pt]}
 		Lastly, as the last and main stage of building's life-cycle, different behaviors of building users are also important sources of performance gap \cite{ZOU2018165}. These behaviors, either deliberate or unconscious, are usually not the optimum ways to operate a building. Building owners or occupants have specific behaviors due to their social and personal characteristics, attitude, experience, and thermal comfort standard \cite{userevaluations,LAWRENCE2016651}. For example, users may leave unnecessary appliance on without notice or open the windows when heatings or cooling system is operating \cite{FREI2017421}. Therefore, if an ideal user behavior is used in the building simulations, the input value may not accurately represent the actual user behavior, and the simulation result will not accurately reflect the actual energy consumption and create a performance gap.\\
 
 	\section{Strategies For Closing Performance Gap} 
-		When the causes of performance gap are found out, strategies for closing the gap can also need to be developed. These strategies are grouped into 3 categories, which is, namely, design concept, technology and methods, and "soft" measures \cite{ZOU2018165}.
+		When the causes of performance gap are found out, strategies for closing the gap can also need to be developed. These strategies are grouped into 2 categories, which are design concept and technology \& methods \cite{ZOU2018165}.
 
 		\subsection{Design Concept}
 			\textit{Passive design} is thought to be able to eliminate or decrease the impact of user behavior on energy consumption. Its philosophy is that if a building is designed in a way that no active equipment is needed, user behaviors would not influence the passive mechanism \cite{BLIGHT2013183,NORFORD1994121}. However, this approach has high construction quality requirements and can only have positive effects when both building designers and the occupants fully understand the building energy system. If building designers have inaccurate information about occupants, or building constructors do not have the capability to construct the building according to the specifications, or if the occupants do not fully understand the building system, passive design approach can only have adverse impacts \cite{ZOU2018165}.\\
@@ -133,12 +133,16 @@ Empa,Dübendorf\\[2pt]}
 
 			\textit{(4) T\&M for energy system controlling} aims at reducing building energy consumption without sacrificing the occupants' thermal comfort, and can be devided by three groups: \textit{intelligent HVAC system, artificial lighting} and \textit{occupancy-based control system} \cite{ZOU2018165,hong2015review}. The limitation for T\&M for building automatic control would be it relies heavily on controlling algorithms and the accuracy of sensoring equipments. Therefore, a mal-functioning sensor group would paralise the control system.
 
+	\section{Simulation Parameter Variation}
+		There are a number of research papers trying different approaches to mitigate the problem caused by input uncertainties due to lack of necessary information \cite{GeorgeThesis}. A majority of research papers involve using normal distribution to allocate the uncertain parameters while some others also use different allocation methods such as triangle or uniform distribution. Most uncertainties can be grouped into different types, Mavromatidis \cite{GeorgeThesis} has provided a summary of building simulation uncertainties and classified the related simulation parameters into 4 different types: (1) Building-related parameters; (2) occupant-related parameters; (3) indoor environment-related parameters and (4) weather/climate parameters \cite{GeorgeThesis}.\\
 
+		(1) \textit{Building-related parameters} are those related to building envelope material properties such as construction material thermal properties and infiltration/air tightness. The uncertainties of this type of parameters are due to unknown or partly unknown construction information, or because of the material performance being inconsistent with the lab specifications due to measurement errors, poor workmanship, installation, quality and aging problem \cite{GeorgeThesis}. One of the most difficult-to-measure parameters is air-tightness/air infiltration rate, which can be measured only by a time-consuming blower-door test. Therefore, in many cases a typical assumed value is used for the building simulation processes, and this typical assumed air infiltration value is sometimes different from the actual value \cite{GeorgeThesis,burhenne2013uncertainty}.\\
 
-		
+		(2) \textit{Occupant-related parameters} are the parameters relevant to occupants' presence and activities such as occupancy patterns and usage of lighting, electronic appliances, and domestic hot water consumption. As discussed in previous chapters, user behaviors are essentially random and can greatly influence the indoor environment. Therefore, the deviations in occupant-related parameters can sometimes lead to huge performance gap or indoor environment variations \cite{GeorgeThesis}.\\
 
-	\section{Previous Research}
-		 One similar research has been done in 2015 aiming to investigate the reason behind the huge performance gaps in uninsulated old buildings when using SIA 380/1 and SIA 382 calculation method. The research concluded that three main reasons are the most important: too poor U-values, too low indoor air temperature for unheated ares (based on a research on basement actual temperature), and the discrepancies between standard climate data and actual outdoor air temperature \cite{SIAPreviousreport}. However, there are still some unsolved problems in the previous research. Firstly, the actual temperature of the building site is not fully recorded and used in SIA 380/2 calculation. Secondly, the relations and rankings between the key parameters are not clear. Therefore, in this thesis, more accurate weather information is implemented in both static and dynamic calculations, and a more accurate correlation relationship between the heating demand and each key parameter are also investigated.
+	\section{Simulation Research for Swiss Buildings}
+		In 2015 a research has been done by \textit{Lemon Consult} \cite{SIAPreviousreport} aiming to investigate the reason behind the huge performance gaps in uninsulated old buildings when using SIA 380/1 and SIA 382 calculation method. The research concluded that three main reasons are the most important: too poor U-values, too low indoor air temperature for unheated ares (based on a research on basement actual temperature), and the discrepancies between standard climate data and actual outdoor air temperature \cite{SIAPreviousreport}. However, there are still some unsolved problems in the previous research. Firstly, the actual temperature of the building site is not fully recorded and used in SIA 380/2 calculation. Secondly, the relations and rankings between the key parameters are not clear. Therefore, in this thesis, more accurate weather information is implemented in both static and dynamic calculations, and a more accurate correlation relationship between the heating demand and each key parameter are also investigated.
+
 
 \chapter{Methodology}
 	In order to achieve the thesis aim to reduce the deviation between calculated and measured heating demands and find the short-comings in SIA 380/1 calculation method, the research of this thesis research is divided into three parts. In the first part, a 3D model with exact geometry and orientation for each building is built using \textit{DesignBuilder (version4.7)}. In the second part, the two buildings are subject to building energy analyses using both SIA 380/1 standard tool and EnergyPlus. The models are then verified and calibrated by comparing the measured historical indoor temperature with the calculated indoor temperature. In the final part, a set of key building parameters are varied with a certain range. A number of building models with different building parameters are subject to analyses using jE-Plus. Further analyses would identify the correlation between parameters as well as the influence of climate data. Figure \ref{fig:overview} below shows the key approaches to achieve the thesis aim.\\
@@ -1114,96 +1118,10 @@ Empa,Dübendorf\\[2pt]}
 
 % This creates an appendix chapter, comment if not needed.
 \appendix
-\chapter{Heat Losses and Heat Gain Calculation}
-
-			\textbf{Transmission Heat Loss}\\
-
-				\[\dot{Q}_{transmission} =\frac{ A_{surface} \cdot U \cdot HDD \cdot 24 \cdot 3600}{A_{floor} \cdot 10^6}\]
-				where:\\
-				$\dot{Q}_{transmission}$: Heat transmission in $MJ/m^2$\\
-				$A_{surface}$: Surface area of building element in $m^2$\\
-				$U$: U-Value of building element in $ W/m^2K$\\
-				$HDD$: Heating degree days\\
-				$A_{floor}$: Total conditioned area of entire building\\
-
-				The ground floor use a different formula to calculate the heat transmission heat loss.
-				\[\dot{Q}_{\text{ground}} = \frac{ A_{c} \cdot U \cdot HT \cdot \Delta T \cdot 24 \cdot 3.6}{1000 \cdot A_{floor}}\]
-				where:\\
-				$A_c$: ground area (in m$^2$)\\
-				$HT$: Heating days\\
-				$U$: U-value of the element\\
-				$\Delta T$: Temperature different between heating setpoint temperature and the unheated zone temperature\\
-
-				The U-value of the building elements can be calculated by the formula below: \\
-				\[U = \frac{1}{R_{Ex}+R_{Layer}+R_{In}} = \frac{1}{\frac{1}{h_{ex}}+\sum_{i}\frac{d_i}{\lambda_i} + \frac{1}{h_{in}}}\]
-				where:\\
-				$h_{ex}$: External heat convection coefficient in $W/m^K$\\
-				$h_{in}$: Internal heat convection coefficient\\
-				$R_{Layer}$: Total heat resistance of building element in $m^K/W$\\
-				$d$: thickness of building element in $m$\\
-				$\lambda$: Thermal conductivity of building element in $W/mK$\\
-
-
-			\textbf{Thermal Bridge Heat Loss}\\
-				The loss through thermal bridges can be calculated in the following formula.\\
-				\[\dot{Q}_{TB} = \frac{\Psi \cdot L \cdot HDD \cdot 24 \cdot 3600}{A_{floor} \cdot 10^6}\]
-				where:\\
-				$\dot{Q}_{TB}$: Thermal bridge heat loss in $MJ/m^2$\\
-				$L$: Length of thermal bridge\\
-				$\Psi$: Thermal bridge loss factor\\ 
-				$HDD$: Heating degree days\\
-				$A_{floor}$: Total conditioned area of entire building\\
-
-
-			\textbf{Ventilation Loss}
-				The ventilation heat loss is given below:\\
-				\[Q_{\text{vent}} = \frac{\dot{V} \cdot c_{p,air} \cdot HDD}{24 \cdot 1000}\]
-				where:\\
-				$\dot{Q}_{\text{vent}}$: Ventilation heat loss in $MJ/m^2$\\
-				$\dot{V} = 0.7$: Ventilation rate in $m^3/m^2\cdot h$\\
-				$c_{p,air} = 1.16$: Heat capacity of air $kJ/m^3 \cdot K$\\
-				$HDD$: heating degree days\\
-
-			\textbf{Solar Gains}\\
-			The heat gain from solar energy is given below: \\
-			\[Q_{\text{solar}} = \frac{G \cdot A_{\text{glazing}} \cdot f_1 \cdot f_2 \cdot f_3 \cdot f_g \cdot g}{A_{floor}} \]
-
-			where:\\
-			$f_1$, $f_2$, $f_3$, $f_g$: Reduction factors for shading, frames, overhangs, and impurities on the window, the values are given in previous calculations\\
-			$g$: g-value of the window, transmittance\\
-			$G$: Unit solar radiation onto the surface in $MJ/m^2$\\
-			$A_{\text{glazing}}$: Window area in $m^2$\\
-
-			
-			\textbf{Internal Gains by electronics}\\
-			The heat gain from electronics comes from a factor of electricity demand.
-			\[\dot{Q}_{\text{elec}} = \frac{E_{unit}  \cdot f_{ele} \cdot HT \cdot 3.6}{365} \]
-			$\dot{Q}_{\text{elec}}$: Heat gain by electronics in MJ/m$^2$\\
-			$E_{unit}$: Unit area electricity demand in $kWh/m^2$\\
-			$f_{ele} = 0.7$: electricity gain factor\\
-			$HT$: Heating day\\
-			$A_{floor}$: Total floor area\\
-
-
-			\textbf{Internal Gains by person}\\
-			The internal gain from occupant activities is given below:\\
-
-			\[Q_{\text{occ}} = \frac{\dot{q}_{pl} \cdot h_{\text{present}} \cdot 365 \cdot 3.6}{\text{Occ} \cdot  1000}\]
-			where:\\
-			$\dot{Q}_{\text{occ}}$: Internal gains by person in MJ/m$^2$\\
-			$\text{Occ}$: Unit area occupancy, Occ = 40$m^2/pl$ for residential, 20$m^2/pl$ for office building\\
-			$\dot{q}_{pl} = 70W/pl$: internal gain produce by a single person\\
-			$h_{\text{present}}$: present hour per day, 12 for residential building, 6 for office building\\
-
-
-
-			\textbf{Total Heat Gain}
-
-			\[Q_{\text{gain}} = (Q_{\text{solar}} + Q_{\text{elec}} + Q_{\text{occ}}) \cdot x\]
-			where x is heat gain factor given by:
-			\[ x = \frac{\sum \text{Heat Gain}}{\sum \text{Heat Loss}}\]
 
 \chapter{Assumptions}\label{sec:assumptions}
+
+	The following assumptions are applied in constructing the building geometries and building envelopes in DesignBuilder \& EnergyPlus. All of the assumptions are for simplification of the modelling processes.\\ 
 
 	\textit{Adiabatic Walls}\\
 	As the residential building is attached to other buildings on both sides, the two walls that attach other buildings are seen as adiabatic. Similarily, as the north facade of the office building is attached to another building, it is also seen as adiabatic wall.\\
@@ -1218,25 +1136,123 @@ Empa,Dübendorf\\[2pt]}
 	The majority part of the northen and the easten facade of the office building as well as both external walls of the residential building are covered with plants. However, as the effect of vegitation covering is unknow, the vegitation layer of these facade is ignored in the modeling and analysis process.\\
 
 
-\chapter{TARP Algorithm for convection coefficient}
-\[h_c = h_f + h_n\]
-\[h_f = 2.537 W_f R_f \left(\frac{PV_z}{A}\right)^\frac{1}{2}\]
+\chapter{TARP Method Calculation}
+	The standard calculation SIA380/1 uses a fixed external heat convection coefficient of 25W/m$^2$K and an internal heat convection coefficient of 7.7W/m$^2$K regardless the internal \& external environment. However, many other research have purposed other methods to calculate the convection coefficient. One of the simple method that is used and supported by EnergyPlus is called \textit{TARP method}, which is taking the internal and external thermal condition as well as the surface roughness and air movement speed into account. The \textit{TRAP method} is given in the following fomular set below: \\
+
+	\[h_c = h_f + h_n\]
+	where $h_c$ is heat convection coefficient in W//m$^2$K
+
+	\[h_f = 2.537 W_f R_f \left(\frac{PV_z}{A}\right)^\frac{1}{2}\]
+	\[W_f = 1  \text{   for windward surface}\]
+	\[W_f = 0.5 \text{   for leeward surface}\]
+
+	\[R_f = 1.67 \text{: for brick surface}\]
+	\[R_f = 1.52 \text{: for concrete surface}\]
+	\[R_f = 1.13 \text{: for clear pine surface}\]
+	\[R_f = 1 \text{: for glass surface}\]
+	\[h_n = 1.31 | \Delta T|^{1/3} \text{: for vertical surface}\]
+	
+
+\chapter{Static Calculation Formulas and Results}
+	In this thesis, The SIA380/1 calculation is performed as an excel sheet calculation. A detailed calculation information is given in the tables below, and a detail result breakdown of heat gain and losses is given in the results part.
+	\section{Heat Losses}
+	\textbf{Transmission Heat Loss}\\
+
+		\[\dot{Q}_{transmission} =\frac{ A_{surface} \cdot U \cdot HDD \cdot 24 \cdot 3600}{A_{floor} \cdot 10^6}\]
+		where:\\
+		$\dot{Q}_{transmission}$: Heat transmission in $MJ/m^2$\\
+		$A_{surface}$: Surface area of building element in $m^2$\\
+		$U$: U-Value of building element in $ W/m^2K$\\
+		$HDD$: Heating degree days\\
+		$A_{floor}$: Total conditioned area of entire building\\
+
+		The ground floor use a different formula to calculate the heat transmission heat loss.
+		\[\dot{Q}_{\text{ground}} = \frac{ A_{c} \cdot U \cdot HT \cdot \Delta T \cdot 24 \cdot 3.6}{1000 \cdot A_{floor}}\]
+		where:\\
+		$A_c$: ground area (in m$^2$)\\
+		$HT$: Heating days\\
+		$U$: U-value of the element\\
+		$\Delta T$: Temperature different between heating setpoint temperature and the unheated zone temperature\\
+
+		The U-value of the building elements can be calculated by the formula below: \\
+		\[U = \frac{1}{R_{Ex}+R_{Layer}+R_{In}} = \frac{1}{\frac{1}{h_{ex}}+\sum_{i}\frac{d_i}{\lambda_i} + \frac{1}{h_{in}}}\]
+		where:\\
+		$h_{ex}$: External heat convection coefficient in $W/m^K$\\
+		$h_{in}$: Internal heat convection coefficient\\
+		$R_{Layer}$: Total heat resistance of building element in $m^K/W$\\
+		$d$: thickness of building element in $m$\\
+		$\lambda$: Thermal conductivity of building element in $W/mK$\\
 
 
-\[W_f = 1  \text{   Windward surface}\]
-\[W_f = 0.5 \text{   Leeward surface}\]
+	\textbf{Thermal Bridge Heat Loss}\\
+		The loss through thermal bridges can be calculated in the following formula.\\
+		\[\dot{Q}_{TB} = \frac{\Psi \cdot L \cdot HDD \cdot 24 \cdot 3600}{A_{floor} \cdot 10^6}\]
+		where:\\
+		$\dot{Q}_{TB}$: Thermal bridge heat loss in $MJ/m^2$\\
+		$L$: Length of thermal bridge\\
+		$\Psi$: Thermal bridge loss factor\\ 
+		$HDD$: Heating degree days\\
+		$A_{floor}$: Total conditioned area of entire building\\
 
-\[R_f = 1.67 \text{: Brick}\]
-\[R_f = 1.52 \text{: Concrete}\]
-\[R_f = 1.13 \text{: Clear pine}\]
-\[R_f = 1 \text{: glass}\]
-\[h_n = 1.31 | \Delta T|^{1/3}\]
-for vertical surface
+
+	\textbf{Ventilation Loss}\\
+		The ventilation heat loss is given below:\\
+		\[Q_{\text{vent}} = \frac{\dot{V} \cdot c_{p,air} \cdot HDD}{24 \cdot 1000}\]
+		where:\\
+		$\dot{Q}_{\text{vent}}$: Ventilation heat loss in $MJ/m^2$\\
+		$\dot{V} = 0.7$: Ventilation rate in $m^3/m^2\cdot h$\\
+		$c_{p,air} = 1.16$: Heat capacity of air $kJ/m^3 \cdot K$\\
+		$HDD$: heating degree days\\
+	
+	\textbf{Total Heat Loss}\\
+	The total heat loss is the sum of the individual heat losses.
+	\[\text{Total Heat Loss = Transmission Heat Loss + Thermal Bridge Heat Loss + Ventilation Loss}\]
+
+	\section{Heat Gains}
+	\textbf{Solar Gains}\\
+	The heat gain from solar energy is given below: \\
+	\[Q_{\text{solar}} = \frac{G \cdot A_{\text{glazing}} \cdot f_1 \cdot f_2 \cdot f_3 \cdot f_g \cdot g}{A_{floor}} \]
+
+	where:\\
+	$f_1$, $f_2$, $f_3$, $f_g$: Reduction factors for shading, frames, overhangs, and impurities on the window, the values are given in previous calculations\\
+	$g$: g-value of the window, transmittance\\
+	$G$: Unit solar radiation onto the surface in $MJ/m^2$\\
+	$A_{\text{glazing}}$: Window area in $m^2$\\
+
+	
+	\textbf{Internal Gains by electronics}\\
+	The heat gain from electronics comes from a factor of electricity demand.
+	\[\dot{Q}_{\text{elec}} = \frac{E_{unit}  \cdot f_{ele} \cdot HT \cdot 3.6}{365} \]
+	$\dot{Q}_{\text{elec}}$: Heat gain by electronics in MJ/m$^2$\\
+	$E_{unit}$: Unit area electricity demand in $kWh/m^2$\\
+	$f_{ele} = 0.7$: electricity gain factor\\
+	$HT$: Heating day\\
+	$A_{floor}$: Total floor area\\
 
 
-\chapter{Detailed SIA Calculation}	
-	\subsection{Residential Building Heating Demand}
-		
+	\textbf{Internal Gains by person}\\
+	The internal gain from occupant activities is given below:\\
+
+	\[Q_{\text{occ}} = \frac{\dot{q}_{pl} \cdot h_{\text{present}} \cdot 365 \cdot 3.6}{\text{Occ} \cdot  1000}\]
+	where:\\
+	$\dot{Q}_{\text{occ}}$: Internal gains by person in MJ/m$^2$\\
+	$\text{Occ}$: Unit area occupancy, Occ = 40$m^2/pl$ for residential, 20$m^2/pl$ for office building\\
+	$\dot{q}_{pl} = 70W/pl$: internal gain produce by a single person\\
+	$h_{\text{present}}$: present hour per day, 12 for residential building, 6 for office building\\
+
+
+
+	\textbf{Total Heat Gain}\\
+	\[Q_{\text{gain}} = (Q_{\text{solar}} + Q_{\text{elec}} + Q_{\text{occ}}) \cdot x\]
+	where x is heat gain factor given by:
+	\[ x = \frac{\sum \text{Heat Gain}}{\sum \text{Heat Loss}}\]
+
+	\section{Total Heating Demand}
+	The total heating demand is given by:
+	\[\text{Total Heating Demand = Total Heat Loss - Total Heat Gain}\]
+
+	\newpage 
+	\section{Residential Building Heating Demand Breakdown}		
 		\textbf{Transmission Heat Loss}\\
 		Table \ref{tab:HonggTransmission} below show a the transmission heat loss for each building element under both SIA 381/2 weather data and the 2015 weather station data. The unit of heat loss is in MJ/m$^2$.
 				% Table generated by Excel2LaTeX from sheet 'Sheet1'
@@ -1383,7 +1399,8 @@ for vertical surface
 		  \label{tab:HonggSolarGain}%
 		\end{table}%
 
-		\subsection{Office Building Calculation Results}
+		\newpage 
+		\section{Office Building Heating Demand Breakdown}
 
 		\textbf{Transmission Heat Loss}\\
 		% Table generated by Excel2LaTeX from sheet 'Sheet1'

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.15)  18 OCT 2018 01:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.15)  19 OCT 2018 23:47
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -1092,7 +1092,7 @@ f>
 converted-to.pdf figures/eth_logo_black.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
-<figures/eth_logo_black-eps-converted-to.pdf, id=190, 191.71625pt x 57.21375pt>
+<figures/eth_logo_black-eps-converted-to.pdf, id=202, 191.71625pt x 57.21375pt>
 
 File: figures/eth_logo_black-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/eth_logo_black-eps-converted-to.pdf>
@@ -1114,7 +1114,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.EXE (file ./figures/disco-logo-col-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<figures/disco-logo-col-eps-converted-to.pdf, id=191, 498.36188pt x 143.03438pt
+<figures/disco-logo-col-eps-converted-to.pdf, id=203, 498.36188pt x 143.03438pt
 >
 File: figures/disco-logo-col-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/disco-logo-col-eps-converted-to.pdf>
@@ -1173,7 +1173,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<./figures/SIA380Issue.jpg, id=277, 376.40625pt x 392.21532pt>
+<./figures/SIA380Issue.jpg, id=292, 376.40625pt x 392.21532pt>
 File: ./figures/SIA380Issue.jpg Graphic file (type jpg)
 <use ./figures/SIA380Issue.jpg>
 Package pdftex.def Info: ./figures/SIA380Issue.jpg  used on input line 68.
@@ -1251,7 +1251,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
-<./figures/Energy-relatedData.jpg, id=351, 800.9925pt x 637.63219pt>
+<./figures/Energy-relatedData.jpg, id=366, 800.9925pt x 637.63219pt>
 File: ./figures/Energy-relatedData.jpg Graphic file (type jpg)
 <use ./figures/Energy-relatedData.jpg>
 Package pdftex.def Info: ./figures/Energy-relatedData.jpg  used on input line 1
@@ -1285,38 +1285,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
 [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.142 
-       <./figures/Energy-relatedData.jpg>] [6]
+l.138 
+       <./figures/Energy-relatedData.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+[6]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
-<./figures/overview.JPG, id=385, 791.95876pt x 314.67563pt>
+<./figures/overview.JPG, id=410, 791.95876pt x 314.67563pt>
 File: ./figures/overview.JPG Graphic file (type jpg)
 <use ./figures/overview.JPG>
-Package pdftex.def Info: ./figures/overview.JPG  used on input line 148.
+Package pdftex.def Info: ./figures/overview.JPG  used on input line 152.
 (pdftex.def)             Requested size: 395.97841pt x 157.33742pt.
-<./figures/Sumatra_photo.jpg, id=386, 828.84656pt x 615.80063pt>
+<./figures/Sumatra_photo.jpg, id=411, 828.84656pt x 615.80063pt>
 File: ./figures/Sumatra_photo.jpg Graphic file (type jpg)
 <use ./figures/Sumatra_photo.jpg>
-Package pdftex.def Info: ./figures/Sumatra_photo.jpg  used on input line 157.
+Package pdftex.def Info: ./figures/Sumatra_photo.jpg  used on input line 161.
 (pdftex.def)             Requested size: 372.9775pt x 277.10771pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-<./figures/Sumatra_OG2_Plan.pdf, id=389, 3709.86pt x 1915.155pt>
+<./figures/Sumatra_OG2_Plan.pdf, id=414, 3709.86pt x 1915.155pt>
 File: ./figures/Sumatra_OG2_Plan.pdf Graphic file (type pdf)
 <use ./figures/Sumatra_OG2_Plan.pdf>
-Package pdftex.def Info: ./figures/Sumatra_OG2_Plan.pdf  used on input line 170
+Package pdftex.def Info: ./figures/Sumatra_OG2_Plan.pdf  used on input line 174
 .
 (pdftex.def)             Requested size: 445.164pt x 229.80869pt.
 [7
@@ -1326,19 +1341,19 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.173 		 \end{figure}
+l.177 		 \end{figure}
                       <./figures/overview.JPG>]
 
 pdfTeX warning: pdflatex.EXE (file ./figures/Sumatra_OG3_Plan.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/Sumatra_OG3_Plan.pdf, id=397, 3848.5069pt x 1997.19244pt>
+<./figures/Sumatra_OG3_Plan.pdf, id=422, 3848.5069pt x 1997.19244pt>
 File: ./figures/Sumatra_OG3_Plan.pdf Graphic file (type pdf)
 <use ./figures/Sumatra_OG3_Plan.pdf>
-Package pdftex.def Info: ./figures/Sumatra_OG3_Plan.pdf  used on input line 177
+Package pdftex.def Info: ./figures/Sumatra_OG3_Plan.pdf  used on input line 181
 .
 (pdftex.def)             Requested size: 461.8009pt x 239.65276pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
@@ -1347,68 +1362,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.185 		
+l.189 		
         pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.185 		
+l.189 		
          <./figures/Sumatra_photo.jpg> <./figures/Sumatra_OG2_Plan.pdf, page is
  rotated 90 degrees>]
 
 pdfTeX warning: pdflatex.EXE (file ./figures/Hongg_photo1.pdf): PDF inclusion: 
 found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/Hongg_photo1.pdf, id=416, 277.035pt x 502.87875pt>
+<./figures/Hongg_photo1.pdf, id=441, 277.035pt x 502.87875pt>
 File: ./figures/Hongg_photo1.pdf Graphic file (type pdf)
 <use ./figures/Hongg_photo1.pdf>
-Package pdftex.def Info: ./figures/Hongg_photo1.pdf  used on input line 191.
+Package pdftex.def Info: ./figures/Hongg_photo1.pdf  used on input line 195.
 (pdftex.def)             Requested size: 142.26378pt x 258.23729pt.
 
 
 pdfTeX warning: pdflatex.EXE (file ./figures/Hongg_photo0.pdf): PDF inclusion: 
 found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/Hongg_photo0.pdf, id=417, 380.42125pt x 563.10374pt>
+<./figures/Hongg_photo0.pdf, id=442, 380.42125pt x 563.10374pt>
 File: ./figures/Hongg_photo0.pdf Graphic file (type pdf)
 <use ./figures/Hongg_photo0.pdf>
-Package pdftex.def Info: ./figures/Hongg_photo0.pdf  used on input line 197.
+Package pdftex.def Info: ./figures/Hongg_photo0.pdf  used on input line 201.
 (pdftex.def)             Requested size: 170.71652pt x 252.69836pt.
 
 
 pdfTeX warning: pdflatex.EXE (file ./figures/Hongg_EG_Plan.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/Hongg_EG_Plan.pdf, id=418, 287.32947pt x 394.20174pt>
+<./figures/Hongg_EG_Plan.pdf, id=443, 287.32947pt x 394.20174pt>
 File: ./figures/Hongg_EG_Plan.pdf Graphic file (type pdf)
 <use ./figures/Hongg_EG_Plan.pdf>
-Package pdftex.def Info: ./figures/Hongg_EG_Plan.pdf  used on input line 205.
+Package pdftex.def Info: ./figures/Hongg_EG_Plan.pdf  used on input line 209.
 (pdftex.def)             Requested size: 344.79364pt x 473.0397pt.
 
 
 pdfTeX warning: pdflatex.EXE (file ./figures/Hongg_1OG_Plan.pdf): PDF inclusion
 : found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/Hongg_1OG_Plan.pdf, id=419, 289.95528pt x 399.01672pt>
+<./figures/Hongg_1OG_Plan.pdf, id=444, 289.95528pt x 399.01672pt>
 File: ./figures/Hongg_1OG_Plan.pdf Graphic file (type pdf)
 <use ./figures/Hongg_1OG_Plan.pdf>
-Package pdftex.def Info: ./figures/Hongg_1OG_Plan.pdf  used on input line 212.
+Package pdftex.def Info: ./figures/Hongg_1OG_Plan.pdf  used on input line 216.
 (pdftex.def)             Requested size: 347.94458pt x 478.81766pt.
 [9pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.220 
+l.224 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.220 
+l.224 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.220 
+l.224 
        <./figures/Sumatra_OG3_Plan.pdf, page is rotated 90 degrees> <./figures/
 Hongg_photo1.pdf> <./figures/Hongg_photo0.pdf>] [10pdfTeX warning (ext4): desti
 nation with the same identifier (name{figure.3.7}) has been already used, dupli
@@ -1416,33 +1431,33 @@ cate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.220 
+l.224 
        <./figures/Hongg_EG_Plan.pdf>] [11pdfTeX warning (ext4): destination wit
 h the same identifier (name{figure.3.8}) has been already used, duplicate ignor
 ed
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.220 
+l.224 
        <./figures/Hongg_1OG_Plan.pdf>]
-<./figures/Sumatra_dxf.jpg, id=464, 367.3725pt x 414.79968pt>
+<./figures/Sumatra_dxf.jpg, id=489, 367.3725pt x 414.79968pt>
 File: ./figures/Sumatra_dxf.jpg Graphic file (type jpg)
 <use ./figures/Sumatra_dxf.jpg>
-Package pdftex.def Info: ./figures/Sumatra_dxf.jpg  used on input line 226.
+Package pdftex.def Info: ./figures/Sumatra_dxf.jpg  used on input line 230.
 (pdftex.def)             Requested size: 220.42519pt x 248.88173pt.
-<./figures/Hongger_dxf.jpg, id=465, 701.62125pt x 457.71pt>
+<./figures/Hongger_dxf.jpg, id=490, 701.62125pt x 457.71pt>
 File: ./figures/Hongger_dxf.jpg Graphic file (type jpg)
 <use ./figures/Hongger_dxf.jpg>
-Package pdftex.def Info: ./figures/Hongger_dxf.jpg  used on input line 233.
+Package pdftex.def Info: ./figures/Hongger_dxf.jpg  used on input line 237.
 (pdftex.def)             Requested size: 385.89287pt x 251.74129pt.
  [12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.237 			
+l.241 			
           <./figures/Sumatra_dxf.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
@@ -1451,20 +1466,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.302 
+l.306 
       pdfTeX warning (ext4): destination with the same identifier (name{table.3
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.302 
+l.306 
        <./figures/Hongger_dxf.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 310--310
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
 []\T1/cmr/m/n/10.95 U-Value
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--338
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
 []\T1/cmr/m/n/10.95 U-Value
  []
 
@@ -1473,15 +1488,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--338
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.355 		
+l.359 		
         pdfTeX warning (ext4): destination with the same identifier (name{table
 .3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.355 		
+l.359 		
         ]
-Underfull \hbox (badness 10000) in paragraph at lines 358--360
+Underfull \hbox (badness 10000) in paragraph at lines 362--364
 
  []
 
@@ -1490,54 +1505,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 358--360
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.361 			\newpage
+l.365 			\newpage
                  ]
-Overfull \hbox (3.14691pt too wide) in paragraph at lines 367--367
+Overfull \hbox (3.14691pt too wide) in paragraph at lines 371--371
 []\T1/cmr/m/n/10.95 Thickness 
  []
 
 
-Overfull \hbox (1.95958pt too wide) in paragraph at lines 367--367
+Overfull \hbox (1.95958pt too wide) in paragraph at lines 371--371
 []\T1/cmr/m/n/10.95 Density 
  []
 
 
-Overfull \hbox (3.09111pt too wide) in paragraph at lines 367--367
+Overfull \hbox (3.09111pt too wide) in paragraph at lines 371--371
 []\T1/cmr/m/n/10.95 Lambda 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--367
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
 []\T1/cmr/m/n/10.95 Heat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--367
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
 \T1/cmr/m/n/10.95 Ca-pac-
  []
 
 
-Overfull \hbox (6.0275pt too wide) in paragraph at lines 367--367
+Overfull \hbox (6.0275pt too wide) in paragraph at lines 371--371
 \T1/cmr/m/n/10.95 KJ/Kg.K| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--367
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
 []\T1/cmr/m/n/10.95 R
  []
 
 
-Overfull \hbox (7.00992pt too wide) in paragraph at lines 367--367
+Overfull \hbox (7.00992pt too wide) in paragraph at lines 371--371
 \T1/cmr/m/n/10.95 m$[]$K/W| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--367
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
 []\T1/cmr/m/n/10.95 U
  []
 
 
-Overfull \hbox (4.6689pt too wide) in paragraph at lines 367--367
+Overfull \hbox (4.6689pt too wide) in paragraph at lines 371--371
 \T1/cmr/m/n/10.95 W/m$[]$K| 
  []
 
@@ -1546,113 +1561,113 @@ Overfull \hbox (4.6689pt too wide) in paragraph at lines 367--367
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.414 			\newpage
+l.418 			\newpage
                  ]
-Overfull \hbox (3.90915pt too wide) in paragraph at lines 420--420
+Overfull \hbox (3.90915pt too wide) in paragraph at lines 424--424
 []\T1/cmr/m/n/10.95 Thickness
  []
 
 
-Overfull \hbox (2.77614pt too wide) in paragraph at lines 420--420
+Overfull \hbox (2.77614pt too wide) in paragraph at lines 424--424
 []\T1/cmr/m/n/10.95 Density
  []
 
 
-Overfull \hbox (4.6154pt too wide) in paragraph at lines 420--420
+Overfull \hbox (4.6154pt too wide) in paragraph at lines 424--424
 []\T1/cmr/m/n/10.95 Lambda
  []
 
 
-Overfull \hbox (0.82256pt too wide) in paragraph at lines 420--420
+Overfull \hbox (0.82256pt too wide) in paragraph at lines 424--424
 \T1/cmr/m/n/10.95 W/MK| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []\T1/cmr/m/n/10.95 Heat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \T1/cmr/m/n/10.95 Ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \T1/cmr/m/n/10.95 pac-ity
  []
 
 
-Overfull \hbox (6.0275pt too wide) in paragraph at lines 420--420
+Overfull \hbox (6.0275pt too wide) in paragraph at lines 424--424
 \T1/cmr/m/n/10.95 KJ/Kg.K| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []\T1/cmr/m/n/10.95 R
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \T1/cmr/m/n/10.95 Value
  []
 
 
-Overfull \hbox (2.38254pt too wide) in paragraph at lines 420--420
+Overfull \hbox (2.38254pt too wide) in paragraph at lines 424--424
 \T1/cmr/m/n/10.95 m$[]$K/W| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []\T1/cmr/m/n/10.95 U
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 \T1/cmr/m/n/10.95 Value
  []
 
 
-Overfull \hbox (3.07642pt too wide) in paragraph at lines 420--420
+Overfull \hbox (3.07642pt too wide) in paragraph at lines 424--424
 \T1/cmr/m/n/10.95 W/m2K| 
  []
 
-<./figures/SumatraDesignBuilderModel.JPG, id=507, 823.57687pt x 648.17157pt>
+<./figures/SumatraDesignBuilderModel.JPG, id=532, 823.57687pt x 648.17157pt>
 File: ./figures/SumatraDesignBuilderModel.JPG Graphic file (type jpg)
 <use ./figures/SumatraDesignBuilderModel.JPG>
 Package pdftex.def Info: ./figures/SumatraDesignBuilderModel.JPG  used on input
- line 460.
+ line 464.
 (pdftex.def)             Requested size: 329.42491pt x 259.26402pt.
-<./figures/HonggDesignBuilderModel.JPG, id=508, 516.42938pt x 638.385pt>
+<./figures/HonggDesignBuilderModel.JPG, id=533, 516.42938pt x 638.385pt>
 File: ./figures/HonggDesignBuilderModel.JPG Graphic file (type jpg)
 <use ./figures/HonggDesignBuilderModel.JPG>
 Package pdftex.def Info: ./figures/HonggDesignBuilderModel.JPG  used on input l
-ine 467.
+ine 471.
 (pdftex.def)             Requested size: 206.56808pt x 255.34947pt.
 [17pdfTeX warning (ext4): destination with the same identifier (name{table.3.6}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.471 
+l.475 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.471 
+l.475 
        <./figures/SumatraDesignBuilderModel.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--478
+Underfull \hbox (badness 10000) in paragraph at lines 480--482
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--483
+Underfull \hbox (badness 10000) in paragraph at lines 483--487
 
  []
 
@@ -1661,19 +1676,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 479--483
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.485 		\textbf{EnergyPlus}
+l.489 		\textbf{EnergyPlus}
                            \\ <./figures/HonggDesignBuilderModel.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 485--487
+Underfull \hbox (badness 10000) in paragraph at lines 489--491
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 493--495
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
 
  []
 
@@ -1683,48 +1693,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 497--499
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
+Underfull \hbox (badness 10000) in paragraph at lines 501--503
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--504
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--506
+Underfull \hbox (badness 10000) in paragraph at lines 506--508
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 513--515
+Underfull \hbox (badness 10000) in paragraph at lines 517--519
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
 []\T1/cmr/m/n/10 Average
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
 \T1/cmr/m/n/10 Tem-per-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
 \T1/cmr/m/n/10 a-ture
- []
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 531--531
-[]\T1/cmr/m/n/10 Solar En-
- []
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 533--533
-[]\T1/cmr/m/n/10 Solar En-
  []
 
 
@@ -1738,78 +1743,68 @@ Underfull \hbox (badness 1112) in paragraph at lines 537--537
  []
 
 
-Overfull \hbox (0.58319pt too wide) in paragraph at lines 539--539
+Underfull \hbox (badness 1112) in paragraph at lines 539--539
+[]\T1/cmr/m/n/10 Solar En-
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 541--541
+[]\T1/cmr/m/n/10 Solar En-
+ []
+
+
+Overfull \hbox (0.58319pt too wide) in paragraph at lines 543--543
 []\T1/cmr/m/n/10 Horizontal
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 539--539
+Underfull \hbox (badness 1112) in paragraph at lines 543--543
 \T1/cmr/m/n/10 So-lar En-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--539
+Underfull \hbox (badness 10000) in paragraph at lines 543--543
 \T1/cmr/m/n/10 ergy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--541
+Underfull \hbox (badness 10000) in paragraph at lines 545--545
 []\T1/cmr/m/n/10 Solar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--541
+Underfull \hbox (badness 10000) in paragraph at lines 545--545
 \T1/cmr/m/n/10 En-ergy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--541
+Underfull \hbox (badness 10000) in paragraph at lines 545--545
 \T1/cmr/m/n/10 at NE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
+Underfull \hbox (badness 10000) in paragraph at lines 547--547
 []\T1/cmr/m/n/10 Solar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
+Underfull \hbox (badness 10000) in paragraph at lines 547--547
 \T1/cmr/m/n/10 En-ergy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
+Underfull \hbox (badness 10000) in paragraph at lines 547--547
 \T1/cmr/m/n/10 at SW
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 564--564
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 []\T1/cmr/m/n/10 Average
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--564
-\T1/cmr/m/n/10 Tem-per-a-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 568--568
-[]\T1/cmr/m/n/10 Solar En-
- []
-
-
-Underfull \hbox (badness 3895) in paragraph at lines 568--568
-\T1/cmr/m/n/10 ergy at N
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 570--570
-[]\T1/cmr/m/n/10 Solar En-
- []
-
-
-Underfull \hbox (badness 4660) in paragraph at lines 570--570
-\T1/cmr/m/n/10 ergy at E
+\T1/cmr/m/n/10 Tem-per-a-
  []
 
 
@@ -1818,8 +1813,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 572--572
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 572--572
-\T1/cmr/m/n/10 ergy at S
+Underfull \hbox (badness 3895) in paragraph at lines 572--572
+\T1/cmr/m/n/10 ergy at N
  []
 
 
@@ -1828,23 +1823,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 574--574
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 574--574
-\T1/cmr/m/n/10 ergy at W
+Underfull \hbox (badness 4660) in paragraph at lines 574--574
+\T1/cmr/m/n/10 ergy at E
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 576--576
-[]\T1/cmr/m/n/10 Horizontal
+[]\T1/cmr/m/n/10 Solar En-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--576
-\T1/cmr/m/n/10 So-lar
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 576--576
-\T1/cmr/m/n/10 En-ergy
+Underfull \hbox (badness 6268) in paragraph at lines 576--576
+\T1/cmr/m/n/10 ergy at S
  []
 
 
@@ -1853,7 +1843,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 578--578
  []
 
 
+Underfull \hbox (badness 1668) in paragraph at lines 578--578
+\T1/cmr/m/n/10 ergy at W
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 580--580
+[]\T1/cmr/m/n/10 Horizontal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--580
+\T1/cmr/m/n/10 So-lar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--580
+\T1/cmr/m/n/10 En-ergy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
+[]\T1/cmr/m/n/10 Solar En-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 584--584
 []\T1/cmr/m/n/10 Solar En-
  []
 
@@ -1862,16 +1877,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 580--580
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.585 
+l.589 
       ]
-Underfull \hbox (badness 10000) in paragraph at lines 606--607
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
 
  []
 
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 609.
+ine 613.
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--610
+Underfull \hbox (badness 10000) in paragraph at lines 612--614
 
  []
 
@@ -1880,21 +1895,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 608--610
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.611 			\textbf{2015 Weather File}
+l.615 			\textbf{2015 Weather File}
                                    \\pdfTeX warning (ext4): destination with th
 e same identifier (name{table.3.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.611 			\textbf{2015 Weather File}
+l.615 			\textbf{2015 Weather File}
                                    \\]
-<./figures/WeatherStation.jpg, id=561, 531.48563pt x 499.11469pt>
+<./figures/WeatherStation.jpg, id=586, 531.48563pt x 499.11469pt>
 File: ./figures/WeatherStation.jpg Graphic file (type jpg)
 <use ./figures/WeatherStation.jpg>
-Package pdftex.def Info: ./figures/WeatherStation.jpg  used on input line 616.
+Package pdftex.def Info: ./figures/WeatherStation.jpg  used on input line 620.
 (pdftex.def)             Requested size: 372.0374pt x 349.37788pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--647
+Underfull \hbox (badness 10000) in paragraph at lines 649--651
 
  []
 
@@ -1903,28 +1918,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 645--647
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.647 
+l.651 
       pdfTeX warning (ext4): destination with the same identifier (name{table.3
 .10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.647 
+l.651 
        <./figures/WeatherStation.jpg>]
-<./figures/HeatIsland_Construction.jpg, id=571, 828.84656pt x 420.06938pt>
+<./figures/HeatIsland_Construction.jpg, id=596, 828.84656pt x 420.06938pt>
 File: ./figures/HeatIsland_Construction.jpg Graphic file (type jpg)
 <use ./figures/HeatIsland_Construction.jpg>
 Package pdftex.def Info: ./figures/HeatIsland_Construction.jpg  used on input l
-ine 654.
+ine 658.
 (pdftex.def)             Requested size: 455.86702pt x 231.03888pt.
-<./figures/HeatIslandConstruction.jpg, id=572, 555.57562pt x 330.48468pt>
+<./figures/HeatIslandConstruction.jpg, id=597, 555.57562pt x 330.48468pt>
 File: ./figures/HeatIslandConstruction.jpg Graphic file (type jpg)
 <use ./figures/HeatIslandConstruction.jpg>
 Package pdftex.def Info: ./figures/HeatIslandConstruction.jpg  used on input li
-ne 661.
+ne 665.
 (pdftex.def)             Requested size: 344.45331pt x 204.89838pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--671
+Underfull \hbox (badness 10000) in paragraph at lines 674--675
 
  []
 
@@ -1933,54 +1948,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 670--671
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.671 		\[
+l.675 		\[
           \text{Heating Demand} = \text{Heat Losses} - \text{Heat Gains}\]pdfTe
 X warning (ext4): destination with the same identifier (name{figure.3.15}) has 
 been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.671 		\[
+l.675 		\[
           \text{Heating Demand} = \text{Heat Losses} - \text{Heat Gains}\] <./f
 igures/HeatIsland_Construction.jpg> <./figures/HeatIslandConstruction.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 674--675
+Underfull \hbox (badness 10000) in paragraph at lines 678--679
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 677--678
+Underfull \hbox (badness 10000) in paragraph at lines 681--682
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 686--687
+Underfull \hbox (badness 10000) in paragraph at lines 690--691
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 691.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 695.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 691.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 695.
  [25]
-Underfull \hbox (badness 10000) in paragraph at lines 701--702
+Underfull \hbox (badness 10000) in paragraph at lines 705--706
 
  []
 
-<./figures/TempSetpoint.jpg, id=588, 344.03531pt x 212.29312pt>
+<./figures/TempSetpoint.jpg, id=613, 344.03531pt x 212.29312pt>
 File: ./figures/TempSetpoint.jpg Graphic file (type jpg)
 <use ./figures/TempSetpoint.jpg>
-Package pdftex.def Info: ./figures/TempSetpoint.jpg  used on input line 705.
+Package pdftex.def Info: ./figures/TempSetpoint.jpg  used on input line 709.
 (pdftex.def)             Requested size: 344.03447pt x 212.2926pt.
-<figures/JanOffice_Vent.jpg, id=589, 516.42938pt x 255.95625pt>
+<figures/JanOffice_Vent.jpg, id=614, 516.42938pt x 255.95625pt>
 File: figures/JanOffice_Vent.jpg Graphic file (type jpg)
 <use figures/JanOffice_Vent.jpg>
-Package pdftex.def Info: figures/JanOffice_Vent.jpg  used on input line 714.
+Package pdftex.def Info: figures/JanOffice_Vent.jpg  used on input line 718.
 (pdftex.def)             Requested size: 361.4981pt x 179.16814pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--721
+Underfull \hbox (badness 10000) in paragraph at lines 724--725
 
  []
 
@@ -1989,19 +2004,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 720--721
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.721 		
+l.725 		
         pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.3.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.721 		
+l.725 		
          <./figures/TempSetpoint.jpg> <./figures/JanOffice_Vent.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 724--726
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 728--730
 
  []
@@ -2012,85 +2022,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 732--734
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 739--741
+Underfull \hbox (badness 10000) in paragraph at lines 736--738
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 742--743
+Underfull \hbox (badness 10000) in paragraph at lines 743--745
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 753--754
+Underfull \hbox (badness 10000) in paragraph at lines 746--747
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 756--759
+Underfull \hbox (badness 10000) in paragraph at lines 757--758
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 760--763
 
  []
 
 [27]
-<./figures/Residential_TempSetpoint.jpg, id=604, 456.95718pt x 345.54094pt>
+<./figures/Residential_TempSetpoint.jpg, id=629, 456.95718pt x 345.54094pt>
 File: ./figures/Residential_TempSetpoint.jpg Graphic file (type jpg)
 <use ./figures/Residential_TempSetpoint.jpg>
 Package pdftex.def Info: ./figures/Residential_TempSetpoint.jpg  used on input 
-line 762.
+line 766.
 (pdftex.def)             Requested size: 319.86784pt x 241.877pt.
-<figures/RoomOccupancy.JPG, id=606, 416.30531pt x 277.78781pt>
+<figures/RoomOccupancy.JPG, id=631, 416.30531pt x 277.78781pt>
 File: figures/RoomOccupancy.JPG Graphic file (type jpg)
 <use figures/RoomOccupancy.JPG>
-Package pdftex.def Info: figures/RoomOccupancy.JPG  used on input line 772.
+Package pdftex.def Info: figures/RoomOccupancy.JPG  used on input line 776.
 (pdftex.def)             Requested size: 374.67131pt x 250.0067pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 779--780
+Underfull \hbox (badness 10000) in paragraph at lines 781--784
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--782
+Underfull \hbox (badness 10000) in paragraph at lines 785--786
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 783--784
+Underfull \hbox (badness 10000) in paragraph at lines 788--790
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 786--788
-
- []
-
-<./figures/VentilationLevel.jpg, id=609, 660.21657pt x 339.51843pt>
+<./figures/VentilationLevel.jpg, id=634, 660.21657pt x 339.51843pt>
 File: ./figures/VentilationLevel.jpg Graphic file (type jpg)
 <use ./figures/VentilationLevel.jpg>
-Package pdftex.def Info: ./figures/VentilationLevel.jpg  used on input line 791
+Package pdftex.def Info: ./figures/VentilationLevel.jpg  used on input line 793
 .
 (pdftex.def)             Requested size: 363.12022pt x 186.7357pt.
-<./figures/Office_Vent.jpg, id=610, 895.84688pt x 462.22687pt>
+<./figures/Office_Vent.jpg, id=635, 895.84688pt x 462.22687pt>
 File: ./figures/Office_Vent.jpg Graphic file (type jpg)
 <use ./figures/Office_Vent.jpg>
-Package pdftex.def Info: ./figures/Office_Vent.jpg  used on input line 798.
+Package pdftex.def Info: ./figures/Office_Vent.jpg  used on input line 800.
 (pdftex.def)             Requested size: 313.5511pt x 161.78181pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 803--805
+Underfull \hbox (badness 10000) in paragraph at lines 805--807
 
  []
 
-<./figures/Example_Normal_Distribution.jpg, id=612, 761.09344pt x 475.02469pt>
+<./figures/Example_Normal_Distribution.jpg, id=637, 761.09344pt x 475.02469pt>
 File: ./figures/Example_Normal_Distribution.jpg Graphic file (type jpg)
 <use ./figures/Example_Normal_Distribution.jpg>
 Package pdftex.def Info: ./figures/Example_Normal_Distribution.jpg  used on inp
-ut line 808.
+ut line 810.
 (pdftex.def)             Requested size: 266.3867pt x 166.26112pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 813--816
+Underfull \hbox (badness 10000) in paragraph at lines 815--818
 
  []
 
@@ -2099,7 +2109,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 813--816
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.816 
+l.818 
        <./figures/Residential_TempSetpoint.jpg>]
 
 LaTeX Warning: Text page 29 contains only floats.
@@ -2109,67 +2119,67 @@ LaTeX Warning: Text page 29 contains only floats.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.816 
+l.818 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3.20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.816 
+l.818 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3.21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.816 
+l.818 
        <./figures/RoomOccupancy.JPG> <./figures/VentilationLevel.jpg> <./figure
 s/Office_Vent.jpg>]
-<./figures/Hongger_InConvDist.jpg, id=628, 871.75688pt x 462.97969pt>
+<./figures/Hongger_InConvDist.jpg, id=653, 871.75688pt x 462.97969pt>
 File: ./figures/Hongger_InConvDist.jpg Graphic file (type jpg)
 <use ./figures/Hongger_InConvDist.jpg>
 Package pdftex.def Info: ./figures/Hongger_InConvDist.jpg  used on input line 8
-19.
+21.
 (pdftex.def)             Requested size: 305.11948pt x 162.0453pt.
 File: ./figures/Hongger_InConvDist.jpg Graphic file (type jpg)
 <use ./figures/Hongger_InConvDist.jpg>
 Package pdftex.def Info: ./figures/Hongger_InConvDist.jpg  used on input line 8
-26.
+28.
 (pdftex.def)             Requested size: 305.11948pt x 162.0453pt.
  [30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.834 	\section
+l.836 	\section
                {Data Processing}pdfTeX warning (ext4): destination with the sam
 e identifier (name{figure.3.23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.834 	\section
+l.836 	\section
                {Data Processing}pdfTeX warning (ext4): destination with the sam
 e identifier (name{figure.3.24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.834 	\section
+l.836 	\section
                {Data Processing} <./figures/Example_Normal_Distribution.jpg> <.
 /figures/Hongger_InConvDist.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 841--843
+Underfull \hbox (badness 10000) in paragraph at lines 843--845
 
  []
 
 [31]
 Chapter 4.
-<./figures/Office_SIA.jpg, id=640, 864.22874pt x 496.10344pt>
+<./figures/Office_SIA.jpg, id=665, 864.22874pt x 496.10344pt>
 File: ./figures/Office_SIA.jpg Graphic file (type jpg)
 <use ./figures/Office_SIA.jpg>
-Package pdftex.def Info: ./figures/Office_SIA.jpg  used on input line 852.
+Package pdftex.def Info: ./figures/Office_SIA.jpg  used on input line 854.
 (pdftex.def)             Requested size: 345.68536pt x 198.43785pt.
-<./figures/Residential_SIA.jpg, id=641, 828.09375pt x 459.21562pt>
+<./figures/Residential_SIA.jpg, id=666, 828.09375pt x 459.21562pt>
 File: ./figures/Residential_SIA.jpg Graphic file (type jpg)
 <use ./figures/Residential_SIA.jpg>
-Package pdftex.def Info: ./figures/Residential_SIA.jpg  used on input line 859.
+Package pdftex.def Info: ./figures/Residential_SIA.jpg  used on input line 861.
 
 (pdftex.def)             Requested size: 331.23163pt x 183.68298pt.
 [32
@@ -2179,26 +2189,26 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.865 	\newpage
+l.867 	\newpage
                		pdfTeX warning (ext4): destination with the same identifier (n
 ame{figure.4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.865 	\newpage
+l.867 	\newpage
                		 <./figures/Office_SIA.jpg> <./figures/Residential_SIA.jpg>]
-<./figures/Office_EP.jpg, id=651, 817.55438pt x 438.8897pt>
+<./figures/Office_EP.jpg, id=676, 817.55438pt x 438.8897pt>
 File: ./figures/Office_EP.jpg Graphic file (type jpg)
 <use ./figures/Office_EP.jpg>
-Package pdftex.def Info: ./figures/Office_EP.jpg  used on input line 872.
+Package pdftex.def Info: ./figures/Office_EP.jpg  used on input line 874.
 (pdftex.def)             Requested size: 408.7762pt x 219.4443pt.
-<./figures/Residential_EP.jpg, id=652, 960.58875pt x 489.32813pt>
+<./figures/Residential_EP.jpg, id=677, 960.58875pt x 489.32813pt>
 File: ./figures/Residential_EP.jpg Graphic file (type jpg)
 <use ./figures/Residential_EP.jpg>
-Package pdftex.def Info: ./figures/Residential_EP.jpg  used on input line 879.
+Package pdftex.def Info: ./figures/Residential_EP.jpg  used on input line 881.
 (pdftex.def)             Requested size: 384.22868pt x 195.72777pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 891--892
+Underfull \hbox (badness 10000) in paragraph at lines 893--894
 
  []
 
@@ -2207,199 +2217,199 @@ Underfull \hbox (badness 10000) in paragraph at lines 891--892
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.892 		
+l.894 		
         pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.4.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.892 		
+l.894 		
          <./figures/Office_EP.jpg> <./figures/Residential_EP.jpg>]
-<./figures/ACH_Compare.JPG, id=661, 983.17313pt x 476.53032pt>
+<./figures/ACH_Compare.JPG, id=686, 983.17313pt x 476.53032pt>
 File: ./figures/ACH_Compare.JPG Graphic file (type jpg)
 <use ./figures/ACH_Compare.JPG>
-Package pdftex.def Info: ./figures/ACH_Compare.JPG  used on input line 895.
+Package pdftex.def Info: ./figures/ACH_Compare.JPG  used on input line 897.
 (pdftex.def)             Requested size: 393.26228pt x 190.60875pt.
-<figures/Hongg_Clibration_Origin.JPG, id=662, 594.72188pt x 313.9228pt>
+<figures/Hongg_Clibration_Origin.JPG, id=687, 594.72188pt x 313.9228pt>
 File: figures/Hongg_Clibration_Origin.JPG Graphic file (type jpg)
 <use figures/Hongg_Clibration_Origin.JPG>
 Package pdftex.def Info: figures/Hongg_Clibration_Origin.JPG  used on input lin
-e 902.
+e 904.
 (pdftex.def)             Requested size: 356.83588pt x 188.35512pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--908
+Underfull \hbox (badness 10000) in paragraph at lines 909--910
 
  []
 
-<figures/Hongg_Cali_NoFacility.JPG, id=664, 761.84625pt x 394.47375pt>
+<figures/Hongg_Cali_NoFacility.JPG, id=689, 761.84625pt x 394.47375pt>
 File: figures/Hongg_Cali_NoFacility.JPG Graphic file (type jpg)
 <use figures/Hongg_Cali_NoFacility.JPG>
 Package pdftex.def Info: figures/Hongg_Cali_NoFacility.JPG  used on input line 
-911.
+913.
 (pdftex.def)             Requested size: 380.9222pt x 197.23639pt.
 [34pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.915 			
+l.917 			
          pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.4.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.915 			
+l.917 			
           <./figures/ACH_Compare.JPG> <./figures/Hongg_Clibration_Origin.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 916--917
+Underfull \hbox (badness 10000) in paragraph at lines 918--919
 
  []
 
-<./figures/Hongg_Clibration_03NoLight.JPG, id=671, 584.93532pt x 286.82156pt>
+<./figures/Hongg_Clibration_03NoLight.JPG, id=696, 584.93532pt x 286.82156pt>
 File: ./figures/Hongg_Clibration_03NoLight.JPG Graphic file (type jpg)
 <use ./figures/Hongg_Clibration_03NoLight.JPG>
 Package pdftex.def Info: ./figures/Hongg_Clibration_03NoLight.JPG  used on inpu
-t line 920.
+t line 922.
 (pdftex.def)             Requested size: 350.9639pt x 172.09425pt.
-<./figures/Hongg_Clibration_03NewLight.JPG, id=674, 600.74437pt x 310.15875pt>
+<./figures/Hongg_Clibration_03NewLight.JPG, id=699, 600.74437pt x 310.15875pt>
 File: ./figures/Hongg_Clibration_03NewLight.JPG Graphic file (type jpg)
 <use ./figures/Hongg_Clibration_03NewLight.JPG>
 Package pdftex.def Info: ./figures/Hongg_Clibration_03NewLight.JPG  used on inp
-ut line 949.
+ut line 951.
 (pdftex.def)             Requested size: 300.37144pt x 155.079pt.
 [35pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.953 			
+l.955 			
          pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.4.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.953 			
+l.955 			
           <./figures/Hongg_Cali_NoFacility.JPG> <./figures/Hongg_Clibration_03N
 oLight.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 954--956
+Underfull \hbox (badness 10000) in paragraph at lines 956--958
 
  []
 
-<figures/Office_Calibration_Ori.JPG, id=684, 910.90312pt x 418.56375pt>
+<figures/Office_Calibration_Ori.JPG, id=709, 910.90312pt x 418.56375pt>
 File: figures/Office_Calibration_Ori.JPG Graphic file (type jpg)
 <use figures/Office_Calibration_Ori.JPG>
 Package pdftex.def Info: figures/Office_Calibration_Ori.JPG  used on input line
- 962.
+ 964.
 (pdftex.def)             Requested size: 318.82086pt x 146.4995pt.
 [36pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.966 			
+l.968 			
          pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.4.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.966 			
+l.968 			
           <./figures/Hongg_Clibration_03NewLight.JPG>]
-<./figures/Sumatra_Calibration_AllonShading.JPG, id=691, 1072.005pt x 500.62032
+<./figures/Sumatra_Calibration_AllonShading.JPG, id=716, 1072.005pt x 500.62032
 pt>
 File: ./figures/Sumatra_Calibration_AllonShading.JPG Graphic file (type jpg)
 <use ./figures/Sumatra_Calibration_AllonShading.JPG>
 Package pdftex.def Info: ./figures/Sumatra_Calibration_AllonShading.JPG  used o
-n input line 969.
+n input line 971.
 (pdftex.def)             Requested size: 321.60399pt x 150.18726pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 974--975
+Underfull \hbox (badness 10000) in paragraph at lines 976--977
 
  []
 
-<./figures/Sumatra_Calibration_NewShading.JPG, id=696, 700.11563pt x 352.31625p
+<./figures/Sumatra_Calibration_NewShading.JPG, id=721, 700.11563pt x 352.31625p
 t>
 File: ./figures/Sumatra_Calibration_NewShading.JPG Graphic file (type jpg)
 <use ./figures/Sumatra_Calibration_NewShading.JPG>
 Package pdftex.def Info: ./figures/Sumatra_Calibration_NewShading.JPG  used on 
-input line 1010.
+input line 1012.
 (pdftex.def)             Requested size: 350.05696pt x 176.15768pt.
 [37pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1014 			
+l.1016 			
           pdfTeX warning (ext4): destination with the same identifier (name{fig
 ure.4.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1014 			
+l.1016 			
           pdfTeX warning (ext4): destination with the same identifier (name{tab
 le.4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1014 			
+l.1016 			
           pdfTeX warning (ext4): destination with the same identifier (name{tab
 le.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1014 			
+l.1016 			
            <./figures/Office_Calibration_Ori.JPG> <./figures/Sumatra_Calibratio
 n_AllonShading.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1018
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1019--1020
 
  []
 
-<./figures/Sumatra_2015Distribution.jpg, id=707, 615.0478pt x 309.40594pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
+
+ []
+
+<./figures/Sumatra_2015Distribution.jpg, id=732, 615.0478pt x 309.40594pt>
 File: ./figures/Sumatra_2015Distribution.jpg Graphic file (type jpg)
 <use ./figures/Sumatra_2015Distribution.jpg>
 Package pdftex.def Info: ./figures/Sumatra_2015Distribution.jpg  used on input 
-line 1023.
+line 1025.
 (pdftex.def)             Requested size: 399.77634pt x 201.11147pt.
-<./figures/Hongg_2015Distribution.jpg, id=708, 609.02531pt x 292.84406pt>
+<./figures/Hongg_2015Distribution.jpg, id=733, 609.02531pt x 292.84406pt>
 File: ./figures/Hongg_2015Distribution.jpg Graphic file (type jpg)
 <use ./figures/Hongg_2015Distribution.jpg>
 Package pdftex.def Info: ./figures/Hongg_2015Distribution.jpg  used on input li
-ne 1030.
+ne 1032.
 (pdftex.def)             Requested size: 426.3148pt x 204.98944pt.
 [38pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1034 
+l.1036 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1034 
+l.1036 
         <./figures/Sumatra_Calibration_NewShading.JPG> <./figures/Sumatra_2015D
 istribution.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1035--1036
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1037--1038
 
  []
 
-<./figures/Sumatra_Matrix.jpg, id=718, 813.79031pt x 696.35156pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1039--1040
+
+ []
+
+<./figures/Sumatra_Matrix.jpg, id=743, 813.79031pt x 696.35156pt>
 File: ./figures/Sumatra_Matrix.jpg Graphic file (type jpg)
 <use ./figures/Sumatra_Matrix.jpg>
-Package pdftex.def Info: ./figures/Sumatra_Matrix.jpg  used on input line 1044.
+Package pdftex.def Info: ./figures/Sumatra_Matrix.jpg  used on input line 1046.
 
 (pdftex.def)             Requested size: 488.27795pt x 417.81415pt.
 
-Overfull \hbox (4.58109pt too wide) in paragraph at lines 1044--1045
+Overfull \hbox (4.58109pt too wide) in paragraph at lines 1046--1047
  [][] 
  []
 
@@ -2408,12 +2418,12 @@ Overfull \hbox (4.58109pt too wide) in paragraph at lines 1044--1045
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1048 			
+l.1050 			
            <./figures/Hongg_2015Distribution.jpg>]
-<./figures/Hongger_Matrix.jpg, id=725, 797.98125pt x 690.32906pt>
+<./figures/Hongger_Matrix.jpg, id=750, 797.98125pt x 690.32906pt>
 File: ./figures/Hongger_Matrix.jpg Graphic file (type jpg)
 <use ./figures/Hongger_Matrix.jpg>
-Package pdftex.def Info: ./figures/Hongger_Matrix.jpg  used on input line 1051.
+Package pdftex.def Info: ./figures/Hongger_Matrix.jpg  used on input line 1053.
 
 (pdftex.def)             Requested size: 478.79243pt x 414.20064pt.
  [40pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
@@ -2421,25 +2431,25 @@ Package pdftex.def Info: ./figures/Hongger_Matrix.jpg  used on input line 1051.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1055 
+l.1057 
         <./figures/Sumatra_Matrix.jpg>]
 
 LaTeX Warning: Reference `fig:Hong_solar' on page 41 undefined on input line 10
-59.
+61.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1059--1060
+Underfull \hbox (badness 10000) in paragraph at lines 1061--1062
 
  []
 
-<./figures/Solar_HeatingDemand.JPG, id=730, 829.59938pt x 429.85594pt>
+<./figures/Solar_HeatingDemand.JPG, id=755, 829.59938pt x 429.85594pt>
 File: ./figures/Solar_HeatingDemand.JPG Graphic file (type jpg)
 <use ./figures/Solar_HeatingDemand.JPG>
 Package pdftex.def Info: ./figures/Solar_HeatingDemand.JPG  used on input line 
-1063.
+1065.
 (pdftex.def)             Requested size: 414.79868pt x 214.92744pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1072
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
 
  []
 
@@ -2448,37 +2458,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 1071--1072
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1072         	
+l.1074         	
                  <./figures/Hongger_Matrix.jpg>]
-<./figures/Hongg_ConvCoe.JPG, id=735, 772.38562pt x 430.60875pt>
+<./figures/Hongg_ConvCoe.JPG, id=760, 772.38562pt x 430.60875pt>
 File: ./figures/Hongg_ConvCoe.JPG Graphic file (type jpg)
 <use ./figures/Hongg_ConvCoe.JPG>
-Package pdftex.def Info: ./figures/Hongg_ConvCoe.JPG  used on input line 1075.
+Package pdftex.def Info: ./figures/Hongg_ConvCoe.JPG  used on input line 1077.
 (pdftex.def)             Requested size: 386.19186pt x 215.30383pt.
-<./figures/Sumatra_Comparison.jpg, id=738, 444.15938pt x 341.02406pt>
+<./figures/Sumatra_Comparison.jpg, id=763, 444.15938pt x 341.02406pt>
 File: ./figures/Sumatra_Comparison.jpg Graphic file (type jpg)
 <use ./figures/Sumatra_Comparison.jpg>
 Package pdftex.def Info: ./figures/Sumatra_Comparison.jpg  used on input line 1
-085.
+087.
 (pdftex.def)             Requested size: 279.82188pt x 214.84628pt.
  [42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1089 
+l.1091 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1089 
+l.1091 
         <./figures/Solar_HeatingDemand.JPG> <./figures/Hongg_ConvCoe.JPG>]
-<./figures/Hongg_Comparison.jpg, id=747, 441.90094pt x 348.55219pt>
+<./figures/Hongg_Comparison.jpg, id=772, 441.90094pt x 348.55219pt>
 File: ./figures/Hongg_Comparison.jpg Graphic file (type jpg)
 <use ./figures/Hongg_Comparison.jpg>
 Package pdftex.def Info: ./figures/Hongg_Comparison.jpg  used on input line 109
-2.
+4.
 (pdftex.def)             Requested size: 278.39906pt x 219.58902pt.
 
 [43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
@@ -2486,21 +2496,16 @@ Package pdftex.def Info: ./figures/Hongg_Comparison.jpg  used on input line 109
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1099 \chapter
+l.1101 \chapter
                {Discussion}pdfTeX warning (ext4): destination with the same ide
 ntifier (name{figure.4.20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1099 \chapter
+l.1101 \chapter
                {Discussion} <./figures/Sumatra_Comparison.jpg> <./figures/Hongg
 _Comparison.jpg>]
 Chapter 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1100--1101
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 1102--1103
 
@@ -2508,6 +2513,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1102--1103
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1104--1105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1106--1107
 
  []
 
@@ -2519,38 +2529,32 @@ Chapter 6.
 
 ] [46
 
-]) [47]
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
+]
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+) [47]
+Underfull \hbox (badness 10000) in paragraph at lines 1124--1125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1123--1130
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1132--1138
+Underfull \hbox (badness 10000) in paragraph at lines 1129--1131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1139--1140
+Underfull \hbox (badness 10000) in paragraph at lines 1132--1134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1140--1147
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1149--1151
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1151--1158
+Underfull \hbox (badness 10000) in paragraph at lines 1135--1137
 
  []
 
@@ -2558,338 +2562,356 @@ Underfull \hbox (badness 10000) in paragraph at lines 1151--1158
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1160--1162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1162--1168
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1169--1171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1173--1178
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1182--1188
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1193--1199
-
- []
-
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 1210--1212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1215
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1216--1218
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1219--1221
+Underfull \hbox (badness 10000) in paragraph at lines 1140--1141
 
  []
 
 [1
 
-] [1
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1159--1160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1161--1168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1170--1176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1177--1178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1178--1185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1187--1189
+
+ []
+
+[1
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 1189--1196
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1240.
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1253--1253
+Underfull \hbox (badness 10000) in paragraph at lines 1198--1200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1200--1206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1212--1214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1216--1221
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1233--1235
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 1236--1242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1245--1246
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1267
 []\T1/cmr/m/n/10 U-Value
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1253--1253
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1267
 []\T1/cmr/m/n/10 Loss (SIA)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1253--1253
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1267
 []\T1/cmr/m/n/10 Loss(2015)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1286--1286
+Underfull \hbox (badness 10000) in paragraph at lines 1300--1300
 []\T1/cmr/m/n/10 Ventilation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1287--1287
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1301
 []\T1/cmr/m/n/10 Ventilation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1271--1292
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1306
 
  []
 
-[1
-
-pdfTeX warning (ext4): destination with the same identifier (name{table.X.1}) h
-as been already used, duplicate ignored
+[4pdfTeX warning (ext4): destination with the same identifier (name{table.W.1})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1329 
+l.1343 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
-X.2}) has been already used, duplicate ignored
+W.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1329 
+l.1343 
        ]
-Underfull \hbox (badness 10000) in paragraph at lines 1354--1354
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1368
 []\T1/cmr/m/n/10.95 Weather
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1354--1354
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1368
 []\T1/cmr/m/n/10.95 Unit de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1354--1354
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1368
 \T1/cmr/m/n/10.95 mand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1354--1354
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1368
 []\T1/cmr/m/n/10.95 Heating
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1354--1354
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1368
 []\T1/cmr/m/n/10.95 Heat Gain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1371--1371
+Underfull \hbox (badness 10000) in paragraph at lines 1385--1385
 []\T1/cmr/m/n/10 Window
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1371--1371
+Underfull \hbox (badness 10000) in paragraph at lines 1385--1385
 []\T1/cmr/m/n/10 Solar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1371--1371
+Underfull \hbox (badness 10000) in paragraph at lines 1385--1385
 \T1/cmr/m/n/10 Gain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1371--1371
+Underfull \hbox (badness 10000) in paragraph at lines 1385--1385
 []\T1/cmr/m/n/10 Solar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1371--1371
+Underfull \hbox (badness 10000) in paragraph at lines 1385--1385
 \T1/cmr/m/n/10 Gain
  []
 
 
-Overfull \hbox (5.17471pt too wide) in paragraph at lines 1367--1386
+Overfull \hbox (5.17471pt too wide) in paragraph at lines 1381--1400
  [][][] 
  []
 
+[5pdfTeX warning (ext4): destination with the same identifier (name{table.W.3})
+ has been already used, duplicate ignored
 
-Underfull \hbox (badness 10000) in paragraph at lines 1399--1399
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1402 		\newpage
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{table.W.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1402 		\newpage
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{table.W.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1402 		\newpage
+                 ]
+Underfull \hbox (badness 10000) in paragraph at lines 1414--1414
 []\T1/cmr/m/n/10.95 Loss
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1390--1419
+Underfull \hbox (badness 10000) in paragraph at lines 1405--1434
 
  []
 
-[2pdfTeX warning (ext4): destination with the same identifier (name{table.X.3})
- has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1420 
-       pdfTeX warning (ext4): destination with the same identifier (name{table.
-X.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1420 
-       pdfTeX warning (ext4): destination with the same identifier (name{table.
-X.5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1420 
-       ]
-Overfull \hbox (3.05481pt too wide) in paragraph at lines 1436--1436
+Overfull \hbox (3.05481pt too wide) in paragraph at lines 1451--1451
 []\T1/cmr/m/n/10 Ventilation
  []
 
 
-Overfull \hbox (3.05481pt too wide) in paragraph at lines 1437--1437
+Overfull \hbox (3.05481pt too wide) in paragraph at lines 1452--1452
 []\T1/cmr/m/n/10 Ventilation
  []
 
 
-Overfull \hbox (16.72217pt too wide) in paragraph at lines 1428--1441
+Overfull \hbox (16.72217pt too wide) in paragraph at lines 1443--1456
  [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1422--1441
+Underfull \hbox (badness 10000) in paragraph at lines 1437--1456
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1444--1445
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1455--1455
-[]\T1/cmr/m/n/10 Loss
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1455--1455
-[]\T1/cmr/m/n/10 Loss
- []
-
-[3pdfTeX warning (ext4): destination with the same identifier (name{table.X.6})
+[6pdfTeX warning (ext4): destination with the same identifier (name{table.W.6})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1486 
+l.1457 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
-X.7}) has been already used, duplicate ignored
+W.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1486 
-       pdfTeX warning (ext4): destination with the same identifier (name{table.
-X.8}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1486 
+l.1457 
        ]
-Underfull \hbox (badness 10000) in paragraph at lines 1487--1502
+Underfull \hbox (badness 10000) in paragraph at lines 1459--1460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1514--1514
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
+[]\T1/cmr/m/n/10 Loss
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
+[]\T1/cmr/m/n/10 Loss
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1502--1517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1529--1529
 []\T1/cmr/m/n/10.95 Weather
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1505--1521
+Underfull \hbox (badness 10000) in paragraph at lines 1520--1536
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1525--1526
-
- []
-
-
-Overfull \hbox (6.64606pt too wide) in paragraph at lines 1534--1534
-[]\T1/cmr/m/n/10.95 Window 
- []
-
-
-Overfull \hbox (14.06355pt too wide) in paragraph at lines 1534--1534
-[]\T1/cmr/m/n/10.95 Radiation 
- []
-
-
-Overfull \hbox (14.06355pt too wide) in paragraph at lines 1534--1534
-[]\T1/cmr/m/n/10.95 Radiation 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1534--1534
-[]\T1/cmr/m/n/10.95 Solar
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1534--1534
-[]\T1/cmr/m/n/10.95 Solar
- []
-
-[4pdfTeX warning (ext4): destination with the same identifier (name{table.X.9})
+[7pdfTeX warning (ext4): destination with the same identifier (name{table.W.8})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1551  \cleardoublepage
+l.1537 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.
+W.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1537 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.
+W.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1537 
+       ]
+Underfull \hbox (badness 10000) in paragraph at lines 1540--1541
+
+ []
+
+
+Overfull \hbox (6.64606pt too wide) in paragraph at lines 1549--1549
+[]\T1/cmr/m/n/10.95 Window 
+ []
+
+
+Overfull \hbox (14.06355pt too wide) in paragraph at lines 1549--1549
+[]\T1/cmr/m/n/10.95 Radiation 
+ []
+
+
+Overfull \hbox (14.06355pt too wide) in paragraph at lines 1549--1549
+[]\T1/cmr/m/n/10.95 Radiation 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1549--1549
+[]\T1/cmr/m/n/10.95 Solar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1549--1549
+[]\T1/cmr/m/n/10.95 Solar
+ []
+
+[8pdfTeX warning (ext4): destination with the same identifier (name{table.W.11}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1566  \cleardoublepage
                         pdfTeX warning (ext4): destination with the same identi
-fier (name{table.X.10}) has been already used, duplicate ignored
+fier (name{table.W.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1551  \cleardoublepage
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{table.X.11}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1551  \cleardoublepage
-                        ] [5pdfTeX warning (ext4): destination with the same id
-entifier (name{table.X.12}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1551  \cleardoublepage
+l.1566  \cleardoublepage
                         ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1557.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1557.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1572.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1572.
  (Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1557.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1557.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1572.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1572.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1F7C76F72537D2EE129FD283988DD43F;3387.
+(rerunfilecheck)             Checksum: A9E97DBC08023BD270D54E037A0D5CDB;3607.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1557.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1572.
  ) 
 Here is how much of TeX's memory you used:
- 18332 strings out of 493305
- 339344 string characters out of 3138865
- 430096 words of memory out of 3000000
- 21258 multiletter control sequences out of 15000+200000
+ 18342 strings out of 493305
+ 339474 string characters out of 3138865
+ 422175 words of memory out of 3000000
+ 21264 multiletter control sequences out of 15000+200000
  24280 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,76p,1562b,712s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2920,9 +2942,9 @@ iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb>
-Output written on Thesis.pdf (62 pages, 5093807 bytes).
+Output written on Thesis.pdf (62 pages, 5098744 bytes).
 PDF statistics:
- 1529 PDF objects out of 1728 (max. 8388607)
- 214 named destinations out of 1000 (max. 500000)
- 616 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1551 PDF objects out of 1728 (max. 8388607)
+ 218 named destinations out of 1000 (max. 500000)
+ 640 words of extra memory for PDF output out of 10000 (max. 10000000)
 
