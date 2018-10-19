@@ -1,0 +1,935 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{FREI2017421}{article}{}
+      \name{author}{3}{}{%
+        {{hash=495451b0083e60331bccf707f51966ee}{%
+           family={Frei},
+           familyi={F\bibinitperiod},
+           given={Beat},
+           giveni={B\bibinitperiod}}}%
+        {{hash=7c67a30623a3701d17242a178895bbd7}{%
+           family={Sagerschnig},
+           familyi={S\bibinitperiod},
+           given={Carina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3a2e8b4fb68f7c4b71580f320e821aaa}{%
+           family={Gyalistras},
+           familyi={G\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e52d54d62ffce45525b92033c719fd7}
+      \strng{fullhash}{7e52d54d62ffce45525b92033c719fd7}
+      \strng{bibnamehash}{7e52d54d62ffce45525b92033c719fd7}
+      \strng{authorbibnamehash}{7e52d54d62ffce45525b92033c719fd7}
+      \strng{authornamehash}{7e52d54d62ffce45525b92033c719fd7}
+      \strng{authorfullhash}{7e52d54d62ffce45525b92033c719fd7}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1876-6102}
+      \field{journaltitle}{Energy Procedia}
+      \field{note}{CISBAT 2017 International ConferenceFuture Buildings and Districts – Energy Efficiency from Nano to Urban Scale}
+      \field{title}{Performance gaps in Swiss buildings: an analysis of conflicting objectives and mitigation strategies}
+      \field{volume}{122}
+      \field{year}{2017}
+      \field{pages}{421\bibrangedash 426}
+      \range{pages}{6}
+      \keyw{Performance gap,Energy,Indoor Environment,Operational Expenses,System thinking,Stakeholder analysis}
+    \endentry
+    \entry{SIAPreviousreport}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ac69fd2bcfc765dddf2abb80980df443}{%
+           family={Consult},
+           familyi={C\bibinitperiod},
+           given={Lemon},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac69fd2bcfc765dddf2abb80980df443}
+      \strng{fullhash}{ac69fd2bcfc765dddf2abb80980df443}
+      \strng{bibnamehash}{ac69fd2bcfc765dddf2abb80980df443}
+      \strng{authorbibnamehash}{ac69fd2bcfc765dddf2abb80980df443}
+      \strng{authornamehash}{ac69fd2bcfc765dddf2abb80980df443}
+      \strng{authorfullhash}{ac69fd2bcfc765dddf2abb80980df443}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PRO380: Offene Fragen beim Einsatz der SIA 380/1 als Prognoseinstrument bei Bestandsgebauden (Wohnbauten)}
+      \field{year}{2017}
+    \endentry
+    \entry{ZOU2018165}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8734b50038041e80305bde74812f1122}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Patrick\bibnamedelima X.W.},
+           giveni={P\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=0472c997cfb126f937cf0e3d69a2b507}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Xiaoxiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=972e90d1935f2dabf482d423f1809394}{%
+           family={Sanjayan},
+           familyi={S\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod}}}%
+        {{hash=60d1d9e5d9448cca12f295052649040b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jiayuan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{91707c5b47812e54d8027b07f5219056}
+      \strng{fullhash}{98d2b3a7c03d4a6baaf722277a5c2a30}
+      \strng{bibnamehash}{91707c5b47812e54d8027b07f5219056}
+      \strng{authorbibnamehash}{91707c5b47812e54d8027b07f5219056}
+      \strng{authornamehash}{91707c5b47812e54d8027b07f5219056}
+      \strng{authorfullhash}{98d2b3a7c03d4a6baaf722277a5c2a30}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0378-7788}
+      \field{journaltitle}{Energy and Buildings}
+      \field{title}{Review of 10 years research on building energy performance gap: Life-cycle and stakeholder perspectives}
+      \field{volume}{178}
+      \field{year}{2018}
+      \field{pages}{165\bibrangedash 181}
+      \range{pages}{17}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.enbuild.2018.08.040
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0378778818309460
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0378778818309460
+      \endverb
+      \keyw{Building energy performance gap,Building life-cycle,Stakeholder,Building energy related information,Root causes}
+    \endentry
+    \entry{userevaluations}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a7e003893ca0f18c8eb863533c11185c}{%
+           family={Hauge},
+           familyi={H\bibinitperiod},
+           given={Åshild\bibnamedelima Lappegard},
+           giveni={Å\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=2731a9ad817e92e9714fb5185a114294}{%
+           family={Thomsen},
+           familyi={T\bibinitperiod},
+           given={Judith},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b24f4be73107bed671a22559ed42675e}{%
+           family={Berker},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{60d00806262a4481131ebdde77c7214c}
+      \strng{fullhash}{60d00806262a4481131ebdde77c7214c}
+      \strng{bibnamehash}{60d00806262a4481131ebdde77c7214c}
+      \strng{authorbibnamehash}{60d00806262a4481131ebdde77c7214c}
+      \strng{authornamehash}{60d00806262a4481131ebdde77c7214c}
+      \strng{authorfullhash}{60d00806262a4481131ebdde77c7214c}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Building Energy Research}
+      \field{number}{1}
+      \field{title}{User evaluations of energy efficient buildings: Literature review and further research}
+      \field{volume}{5}
+      \field{year}{2011}
+      \field{pages}{109\bibrangedash 127}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1080/17512549.2011.582350
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/17512549.2011.582350
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/17512549.2011.582350
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/17512549.2011.582350
+      \endverb
+    \endentry
+    \entry{NIU2016275}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3b7bdb225918fb4bf33273267da13f78}{%
+           family={Niu},
+           familyi={N\bibinitperiod},
+           given={Sanyuan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=188e0b0486b277245804f98bce4641f9}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=e9a9cdc1c1b1d2b5e29e17303e5bb430}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yisong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{be119acef4c2ad807b037e4b71db581d}
+      \strng{fullhash}{be119acef4c2ad807b037e4b71db581d}
+      \strng{bibnamehash}{be119acef4c2ad807b037e4b71db581d}
+      \strng{authorbibnamehash}{be119acef4c2ad807b037e4b71db581d}
+      \strng{authornamehash}{be119acef4c2ad807b037e4b71db581d}
+      \strng{authorfullhash}{be119acef4c2ad807b037e4b71db581d}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2210-6707}
+      \field{journaltitle}{Sustainable Cities and Society}
+      \field{title}{A virtual reality integrated design approach to improving occupancy information integrity for closing the building energy performance gap}
+      \field{volume}{27}
+      \field{year}{2016}
+      \field{pages}{275\bibrangedash 286}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.scs.2016.03.010
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S2210670716300415
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S2210670716300415
+      \endverb
+      \keyw{Building energy performance gap,Information integrity,Pre-occupancy evaluation,Design with Intent method,Virtual reality}
+    \endentry
+    \entry{HOFFMANN201731}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2542698b94bd1efa9fd76e027117e2bc}{%
+           family={Hoffmann},
+           familyi={H\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2ebed70b70cb15ad5039bf6c5df2ad30}{%
+           family={Geissler},
+           familyi={G\bibinitperiod},
+           given={Achim},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a69dea1e478867bbaf4c547af26b89c1}
+      \strng{fullhash}{a69dea1e478867bbaf4c547af26b89c1}
+      \strng{bibnamehash}{a69dea1e478867bbaf4c547af26b89c1}
+      \strng{authorbibnamehash}{a69dea1e478867bbaf4c547af26b89c1}
+      \strng{authornamehash}{a69dea1e478867bbaf4c547af26b89c1}
+      \strng{authorfullhash}{a69dea1e478867bbaf4c547af26b89c1}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1876-6102}
+      \field{journaltitle}{Energy Procedia}
+      \field{note}{CISBAT 2017 International ConferenceFuture Buildings \& Districts – Energy Efficiency from Nano to Urban Scale}
+      \field{title}{The prebound-effect in detail: real indoor temperatures in basements and measured versus calculated U-values}
+      \field{volume}{122}
+      \field{year}{2017}
+      \field{pages}{32\bibrangedash 37}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.egypro.2017.07.301
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S1876610217328990
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1876610217328990
+      \endverb
+      \keyw{U-value,measurement,calculation,basement temperature,domestic buildings,existing buildings,prebound-effect}
+    \endentry
+    \entry{DIAZ2017393}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4f7353a5a6ceb6a0299c9da3dbd1a0b3}{%
+           family={Diaz},
+           familyi={D\bibinitperiod},
+           given={Claudio\bibnamedelima Aurelio},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=992442ded58f296a04ff8effb40b6df2}{%
+           family={Osmond},
+           familyi={O\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d0d3242d706501f68a8fbc167c4287e}
+      \strng{fullhash}{6d0d3242d706501f68a8fbc167c4287e}
+      \strng{bibnamehash}{6d0d3242d706501f68a8fbc167c4287e}
+      \strng{authorbibnamehash}{6d0d3242d706501f68a8fbc167c4287e}
+      \strng{authornamehash}{6d0d3242d706501f68a8fbc167c4287e}
+      \strng{authorfullhash}{6d0d3242d706501f68a8fbc167c4287e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1877-7058}
+      \field{journaltitle}{Procedia Engineering}
+      \field{note}{International High-Performance Built Environment Conference – A Sustainable Built Environment Conference 2016 Series (SBE16), iHBE 2016}
+      \field{title}{Influence of Rainfall on the Thermal and Energy Performance of a Low Rise Building in Diverse Locations of the Hot Humid Tropics}
+      \field{volume}{180}
+      \field{year}{2017}
+      \field{pages}{393\bibrangedash 402}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.proeng.2017.04.198
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S1877705817317058
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1877705817317058
+      \endverb
+      \keyw{Evaporative Cooling,Natural Cooling,Hot Humid Tropics,Wind Driven Rain,Low Rise Building}
+    \endentry
+    \entry{doi:10.1080/19401493.2012.718797}{article}{}
+      \name{author}{4}{}{%
+        {{hash=0fa5aab64052a1643ae0d039b2891705}{%
+           family={Bueno},
+           familyi={B\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ea5c99b5e84d73ccc442aa270ec35ba3}{%
+           family={Norford},
+           familyi={N\bibinitperiod},
+           given={Leslie},
+           giveni={L\bibinitperiod}}}%
+        {{hash=272d584f099e5bc879110a1a88902e12}{%
+           family={Hidalgo},
+           familyi={H\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7d68edc7b0b5d5c3b34e0118d7c717e2}{%
+           family={Pigeon},
+           familyi={P\bibinitperiod},
+           given={Grégoire},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{8487edaed5939481b980d730718c7a90}
+      \strng{fullhash}{ca79a5deb5d9d8533592124f1f18ce89}
+      \strng{bibnamehash}{8487edaed5939481b980d730718c7a90}
+      \strng{authorbibnamehash}{8487edaed5939481b980d730718c7a90}
+      \strng{authornamehash}{8487edaed5939481b980d730718c7a90}
+      \strng{authorfullhash}{ca79a5deb5d9d8533592124f1f18ce89}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Building Performance Simulation}
+      \field{number}{4}
+      \field{title}{The urban weather generator}
+      \field{volume}{6}
+      \field{year}{2013}
+      \field{pages}{269\bibrangedash 281}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1080/19401493.2012.718797
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/19401493.2012.718797
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/19401493.2012.718797
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/19401493.2012.718797
+      \endverb
+    \endentry
+    \entry{DEWILDE201440}{article}{}
+      \name{author}{1}{}{%
+        {{hash=34da95bdab40ca9ba25d5a7415680be8}{%
+           family={Wilde},
+           familyi={W\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{34da95bdab40ca9ba25d5a7415680be8}
+      \strng{fullhash}{34da95bdab40ca9ba25d5a7415680be8}
+      \strng{bibnamehash}{34da95bdab40ca9ba25d5a7415680be8}
+      \strng{authorbibnamehash}{34da95bdab40ca9ba25d5a7415680be8}
+      \strng{authornamehash}{34da95bdab40ca9ba25d5a7415680be8}
+      \strng{authorfullhash}{34da95bdab40ca9ba25d5a7415680be8}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0926-5805}
+      \field{journaltitle}{Automation in Construction}
+      \field{title}{The gap between predicted and measured energy performance of buildings: A framework for investigation}
+      \field{volume}{41}
+      \field{year}{2014}
+      \field{pages}{40\bibrangedash 49}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.autcon.2014.02.009
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S092658051400034X
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S092658051400034X
+      \endverb
+      \keyw{Energy performance gap,Prediction,Measurement,Building design and engineering}
+    \endentry
+    \entry{LAWRENCE2016651}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d253f169aeef3916c22168cabc95baf1}{%
+           family={Lawrence},
+           familyi={L\bibinitperiod},
+           given={Ranald},
+           giveni={R\bibinitperiod}}}%
+        {{hash=dceaa7b68c78f2262d5215670924f243}{%
+           family={Keime},
+           familyi={K\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c8e228daadae9f75a6148911a70745c4}
+      \strng{fullhash}{c8e228daadae9f75a6148911a70745c4}
+      \strng{bibnamehash}{c8e228daadae9f75a6148911a70745c4}
+      \strng{authorbibnamehash}{c8e228daadae9f75a6148911a70745c4}
+      \strng{authornamehash}{c8e228daadae9f75a6148911a70745c4}
+      \strng{authorfullhash}{c8e228daadae9f75a6148911a70745c4}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0378-7788}
+      \field{journaltitle}{Energy and Buildings}
+      \field{title}{Bridging the gap between energy and comfort: Post-occupancy evaluation of two higher-education buildings in Sheffield}
+      \field{volume}{130}
+      \field{year}{2016}
+      \field{pages}{651\bibrangedash 666}
+      \range{pages}{16}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.enbuild.2016.09.001
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0378778816308015
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0378778816308015
+      \endverb
+      \keyw{Energy performance,Thermal comfort,Occupancy patterns,Post-occupancy evaluation,Environmental control,Active versus passive design,University buildings}
+    \endentry
+    \entry{BLIGHT2013183}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bb43c52723d08f2f8d95099ba73edb7f}{%
+           family={Blight},
+           familyi={B\bibinitperiod},
+           given={Thomas\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=cc9922cbb076499a6965ce0bba0eecd5}{%
+           family={Coley},
+           familyi={C\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{09ee7d26071782a7c9017649b13754ab}
+      \strng{fullhash}{09ee7d26071782a7c9017649b13754ab}
+      \strng{bibnamehash}{09ee7d26071782a7c9017649b13754ab}
+      \strng{authorbibnamehash}{09ee7d26071782a7c9017649b13754ab}
+      \strng{authornamehash}{09ee7d26071782a7c9017649b13754ab}
+      \strng{authorfullhash}{09ee7d26071782a7c9017649b13754ab}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0378-7788}
+      \field{journaltitle}{Energy and Buildings}
+      \field{title}{Sensitivity analysis of the effect of occupant behaviour on the energy consumption of passive house dwellings}
+      \field{volume}{66}
+      \field{year}{2013}
+      \field{pages}{183\bibrangedash 192}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.enbuild.2013.06.030
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0378778813003794
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0378778813003794
+      \endverb
+      \keyw{Passivhaus,Occupant behaviour,Modelling,Simulation}
+    \endentry
+    \entry{NORFORD1994121}{article}{}
+      \name{author}{4}{}{%
+        {{hash=eba153af71bc33a02c0e1e847912a227}{%
+           family={Norford},
+           familyi={N\bibinitperiod},
+           given={L.K.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3b81f238a104996634486185f3e80f27}{%
+           family={Socolow},
+           familyi={S\bibinitperiod},
+           given={R.H.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2c438dbe19163c33c5e657496bd57f0b}{%
+           family={Hsieh},
+           familyi={H\bibinitperiod},
+           given={E.S.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e46cd961779d77cf7eaa69663ec7734b}{%
+           family={Spadaro},
+           familyi={S\bibinitperiod},
+           given={G.V.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d67fc5952dd6187ea41165f84bc8ccaf}
+      \strng{fullhash}{55fcba54d3c2386470d3febe6c4c8b86}
+      \strng{bibnamehash}{d67fc5952dd6187ea41165f84bc8ccaf}
+      \strng{authorbibnamehash}{d67fc5952dd6187ea41165f84bc8ccaf}
+      \strng{authornamehash}{d67fc5952dd6187ea41165f84bc8ccaf}
+      \strng{authorfullhash}{55fcba54d3c2386470d3febe6c4c8b86}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0378-7788}
+      \field{journaltitle}{Energy and Buildings}
+      \field{number}{2}
+      \field{title}{Two-to-one discrepancy between measured and predicted performance of a ‘low-energy’ office building: insights from a reconciliation based on the DOE-2 model}
+      \field{volume}{21}
+      \field{year}{1994}
+      \field{pages}{121\bibrangedash 131}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0378-7788(94)90005-1
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/0378778894900051
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/0378778894900051
+      \endverb
+      \keyw{Calibration,Energy consumption,Office building,HVAC controls,Occupant behavior}
+    \endentry
+    \entry{karwowski2001international}{book}{}
+      \name{author}{1}{}{%
+        {{hash=037e27b991d474ea0d025044ae4f227b}{%
+           family={Karwowski},
+           familyi={K\bibinitperiod},
+           given={Waldemar},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Crc Press}%
+      }
+      \strng{namehash}{037e27b991d474ea0d025044ae4f227b}
+      \strng{fullhash}{037e27b991d474ea0d025044ae4f227b}
+      \strng{bibnamehash}{037e27b991d474ea0d025044ae4f227b}
+      \strng{authorbibnamehash}{037e27b991d474ea0d025044ae4f227b}
+      \strng{authornamehash}{037e27b991d474ea0d025044ae4f227b}
+      \strng{authorfullhash}{037e27b991d474ea0d025044ae4f227b}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{International encyclopedia of ergonomics and human factors}
+      \field{volume}{3}
+      \field{year}{2001}
+    \endentry
+    \entry{masoso2010dark}{article}{}
+      \name{author}{2}{}{%
+        {{hash=41acb3aac738620b439619f8e61bfa2c}{%
+           family={Masoso},
+           familyi={M\bibinitperiod},
+           given={OT},
+           giveni={O\bibinitperiod}}}%
+        {{hash=211a1223b6d48e34dbad0fd3a7f190d8}{%
+           family={Grobler},
+           familyi={G\bibinitperiod},
+           given={Louis\bibnamedelima Johannes},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{9d8d2fd94d0d56a2567089f7a1ace0c3}
+      \strng{fullhash}{9d8d2fd94d0d56a2567089f7a1ace0c3}
+      \strng{bibnamehash}{9d8d2fd94d0d56a2567089f7a1ace0c3}
+      \strng{authorbibnamehash}{9d8d2fd94d0d56a2567089f7a1ace0c3}
+      \strng{authornamehash}{9d8d2fd94d0d56a2567089f7a1ace0c3}
+      \strng{authorfullhash}{9d8d2fd94d0d56a2567089f7a1ace0c3}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy and buildings}
+      \field{number}{2}
+      \field{title}{The dark side of occupants’ behaviour on building energy use}
+      \field{volume}{42}
+      \field{year}{2010}
+      \field{pages}{173\bibrangedash 177}
+      \range{pages}{5}
+    \endentry
+    \entry{li2014methods}{article}{}
+      \name{author}{3}{}{%
+        {{hash=245a8d7f254eca411dddfa50fd30837e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhengwei},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0b7bdeeb3dae8ca2531b7adfb9c99ff6}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Yanmin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a9f1e89449a8f9e0a4b65ee24d8f421d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{3eee64f4bfcefc79a31398d0cfc63834}
+      \strng{fullhash}{3eee64f4bfcefc79a31398d0cfc63834}
+      \strng{bibnamehash}{3eee64f4bfcefc79a31398d0cfc63834}
+      \strng{authorbibnamehash}{3eee64f4bfcefc79a31398d0cfc63834}
+      \strng{authornamehash}{3eee64f4bfcefc79a31398d0cfc63834}
+      \strng{authorfullhash}{3eee64f4bfcefc79a31398d0cfc63834}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Energy}
+      \field{title}{Methods for benchmarking building energy consumption against its past or intended performance: An overview}
+      \field{volume}{124}
+      \field{year}{2014}
+      \field{pages}{325\bibrangedash 334}
+      \range{pages}{10}
+    \endentry
+    \entry{xu2007optimal}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f6ee155644d2fe5729f5d1f7341fc1a9}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Xinhua},
+           giveni={X\bibinitperiod}}}%
+        {{hash=82bd74adc141e71aa2d08ba62b989cd9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Shengwei},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{e4bf7a285dac89fcdef5481590f67f5c}
+      \strng{fullhash}{e4bf7a285dac89fcdef5481590f67f5c}
+      \strng{bibnamehash}{e4bf7a285dac89fcdef5481590f67f5c}
+      \strng{authorbibnamehash}{e4bf7a285dac89fcdef5481590f67f5c}
+      \strng{authornamehash}{e4bf7a285dac89fcdef5481590f67f5c}
+      \strng{authorfullhash}{e4bf7a285dac89fcdef5481590f67f5c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy and Buildings}
+      \field{number}{5}
+      \field{title}{Optimal simplified thermal models of building envelope based on frequency domain regression using genetic algorithm}
+      \field{volume}{39}
+      \field{year}{2007}
+      \field{pages}{525\bibrangedash 536}
+      \range{pages}{12}
+    \endentry
+    \entry{jia2017occupancy}{article}{}
+      \name{author}{3}{}{%
+        {{hash=da4c57757ba40354b18d2e8a50d071f9}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Mengda},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e774666143924c65b14760843930fdfb}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Ravi\bibnamedelima S},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=06affdf05461ddff87635749cbe1a1fe}{%
+           family={Raheem},
+           familyi={R\bibinitperiod},
+           given={Adeeba\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{31abd34f50639bfb692b152957420a8d}
+      \strng{fullhash}{31abd34f50639bfb692b152957420a8d}
+      \strng{bibnamehash}{31abd34f50639bfb692b152957420a8d}
+      \strng{authorbibnamehash}{31abd34f50639bfb692b152957420a8d}
+      \strng{authornamehash}{31abd34f50639bfb692b152957420a8d}
+      \strng{authorfullhash}{31abd34f50639bfb692b152957420a8d}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+      \field{title}{From occupancy to occupant behavior: An analytical survey of data acquisition technologies, modeling methodologies and simulation coupling mechanisms for building energy efficiency}
+      \field{volume}{68}
+      \field{year}{2017}
+      \field{pages}{525\bibrangedash 540}
+      \range{pages}{16}
+    \endentry
+    \entry{liang2016occupancy}{article}{}
+      \name{author}{3}{}{%
+        {{hash=99bd31393711851e6f2cd5ddc899b95d}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=62378f6c91ff4fcb95c7ca480df3d483}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Tianzhen},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6af52f55d7cdc533bd07adcf1b7e050e}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Geoffrey\bibnamedelima Qiping},
+           giveni={G\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ff8c9a2aaba6c84020ce0939a480d0b7}
+      \strng{fullhash}{ff8c9a2aaba6c84020ce0939a480d0b7}
+      \strng{bibnamehash}{ff8c9a2aaba6c84020ce0939a480d0b7}
+      \strng{authorbibnamehash}{ff8c9a2aaba6c84020ce0939a480d0b7}
+      \strng{authornamehash}{ff8c9a2aaba6c84020ce0939a480d0b7}
+      \strng{authorfullhash}{ff8c9a2aaba6c84020ce0939a480d0b7}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Building and Environment}
+      \field{title}{Occupancy data analytics and prediction: a case study}
+      \field{volume}{102}
+      \field{year}{2016}
+      \field{pages}{179\bibrangedash 192}
+      \range{pages}{14}
+    \endentry
+    \entry{xiao2014data}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9709b2323737c00f5fecdcd701fc99aa}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Fu},
+           giveni={F\bibinitperiod}}}%
+        {{hash=21608dbc6bd143a0d0fa75c074445a4d}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{dc311871bddb496b0854b0173968024e}
+      \strng{fullhash}{dc311871bddb496b0854b0173968024e}
+      \strng{bibnamehash}{dc311871bddb496b0854b0173968024e}
+      \strng{authorbibnamehash}{dc311871bddb496b0854b0173968024e}
+      \strng{authornamehash}{dc311871bddb496b0854b0173968024e}
+      \strng{authorfullhash}{dc311871bddb496b0854b0173968024e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy and buildings}
+      \field{title}{Data mining in building automation system for improving building operational performance}
+      \field{volume}{75}
+      \field{year}{2014}
+      \field{pages}{109\bibrangedash 118}
+      \range{pages}{10}
+    \endentry
+    \entry{hong2015review}{article}{}
+      \name{author}{5}{}{%
+        {{hash=02842a30e7ecafee241eaf3de7e1782d}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Taehoon},
+           giveni={T\bibinitperiod}}}%
+        {{hash=aad3e5970240397a4616c1cc3ecdbd10}{%
+           family={Koo},
+           familyi={K\bibinitperiod},
+           given={Choongwan},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f0ed4347eea6539a4c5647cf4baf3796}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jimin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f4360ed2e8ff5330e47bca317f368663}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Minhyun},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a3a497f598c8d57c6fcd121d6375a7c0}{%
+           family={Jeong},
+           familyi={J\bibinitperiod},
+           given={Kwangbok},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{1acbea618c41c4e7f3d438eaed42a2d9}
+      \strng{fullhash}{41dc6a30c6ba407f29c27ffa2c8cd67a}
+      \strng{bibnamehash}{1acbea618c41c4e7f3d438eaed42a2d9}
+      \strng{authorbibnamehash}{1acbea618c41c4e7f3d438eaed42a2d9}
+      \strng{authornamehash}{1acbea618c41c4e7f3d438eaed42a2d9}
+      \strng{authorfullhash}{41dc6a30c6ba407f29c27ffa2c8cd67a}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Energy}
+      \field{title}{A review on sustainable construction management strategies for monitoring, diagnosing, and retrofitting the building’s dynamic energy performance: Focused on the operation and maintenance phase}
+      \field{volume}{155}
+      \field{year}{2015}
+      \field{pages}{671\bibrangedash 707}
+      \range{pages}{37}
+    \endentry
+    \entry{tuohy2015closing}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e7c2c9522e14c6286b5d64c8c82c9104}{%
+           family={Tuohy},
+           familyi={T\bibinitperiod},
+           given={Paul\bibnamedelima G},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=41ac66934d51caa10d32277c0cfcf520}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Gavin\bibnamedelima B},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{fbe1519d48c8a97af6767ef616c4bf2b}
+      \strng{fullhash}{fbe1519d48c8a97af6767ef616c4bf2b}
+      \strng{bibnamehash}{fbe1519d48c8a97af6767ef616c4bf2b}
+      \strng{authorbibnamehash}{fbe1519d48c8a97af6767ef616c4bf2b}
+      \strng{authornamehash}{fbe1519d48c8a97af6767ef616c4bf2b}
+      \strng{authorfullhash}{fbe1519d48c8a97af6767ef616c4bf2b}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Architectural Science Review}
+      \field{number}{1}
+      \field{title}{Closing the gap in building performance: learning from BIM benchmark industries}
+      \field{volume}{58}
+      \field{year}{2015}
+      \field{pages}{47\bibrangedash 56}
+      \range{pages}{10}
+    \endentry
+    \entry{crawley2008contrasting}{article}{}
+      \name{author}{4}{}{%
+        {{hash=310eafc2196de6fafab537e533986f13}{%
+           family={Crawley},
+           familyi={C\bibinitperiod},
+           given={Drury\bibnamedelima B},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=73e699ddd20bfa00df9eed84eae9d2e6}{%
+           family={Hand},
+           familyi={H\bibinitperiod},
+           given={Jon\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=6d2f894503bbbbc38ddc91ccac558a33}{%
+           family={Kummert},
+           familyi={K\bibinitperiod},
+           given={Micha{ë}l},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1afa3989f6384631b2055e16f59211b9}{%
+           family={Griffith},
+           familyi={G\bibinitperiod},
+           given={Brent\bibnamedelima T},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ab653e6cbedd4d767759601af4d4b615}
+      \strng{fullhash}{22694424567d294ee75b6ee029c132b8}
+      \strng{bibnamehash}{ab653e6cbedd4d767759601af4d4b615}
+      \strng{authorbibnamehash}{ab653e6cbedd4d767759601af4d4b615}
+      \strng{authornamehash}{ab653e6cbedd4d767759601af4d4b615}
+      \strng{authorfullhash}{22694424567d294ee75b6ee029c132b8}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Building and environment}
+      \field{number}{4}
+      \field{title}{Contrasting the capabilities of building energy performance simulation programs}
+      \field{volume}{43}
+      \field{year}{2008}
+      \field{pages}{661\bibrangedash 673}
+      \range{pages}{13}
+    \endentry
+    \entry{SIA2024Shop}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c052dd844adfcd7d772762a74a714e5a}{%
+           family={SIA},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c052dd844adfcd7d772762a74a714e5a}
+      \strng{fullhash}{c052dd844adfcd7d772762a74a714e5a}
+      \strng{bibnamehash}{c052dd844adfcd7d772762a74a714e5a}
+      \strng{authorbibnamehash}{c052dd844adfcd7d772762a74a714e5a}
+      \strng{authornamehash}{c052dd844adfcd7d772762a74a714e5a}
+      \strng{authorfullhash}{c052dd844adfcd7d772762a74a714e5a}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Raumnutzungsdaten fur Energie- und Gebaudetechnik}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb http://shop.sia.ch/normenwerk/architekt/sia%202024/d/2015/D/Product
+      \endverb
+      \verb{url}
+      \verb http://shop.sia.ch/normenwerk/architekt/sia%202024/d/2015/D/Product
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

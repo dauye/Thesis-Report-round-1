@@ -1,0 +1,77 @@
+\documentclass[a4paper, oneside]{discothesis}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{booktabs}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DOCUMENT METADATA
+
+\thesistype{Master's Thesis} % Master's Thesis, Bachelor's Thesis, Semester Thesis, Group Project
+\title{Performance Gap in Swiss Buildings}
+
+\author{Ying He}
+\email{yihe@student.ethz.ch}
+
+\institute{Chair of Building Physics\\[2pt]
+ETH Zürich\\[2pt]
+Laboratory for Urban Energy Systems\\[2pt]
+Empa,Dübendorf\\[2pt]}
+
+% Optionally, you can put in your own logo here
+%\logo{\includegraphics[width=0.2\columnwidth]{figures/disco_logo_faded}}
+
+\supervisors{Dr. Kristina Orehounig\\[2pt] Dr.\ Georgios Maromatidis\\[2pt]}
+
+% Optionally, keywords and categories of the work can be shown (on the Abstract page)
+%\keywords{Keywords go here.}
+%\categories{ACM categories go here.}
+
+\date{\today}
+\graphicspath{{./figures/}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\frontmatter % do not remove this line
+\maketitle
+
+\cleardoublepage
+
+\begin{acknowledgements}
+ I thank xxx
+\end{acknowledgements}
+
+
+\begin{abstract}
+ 	Around 30\% of the world energy are consumed by building sector. Therefore, it is of importance to develop an accurate and efficient approach to estimate the building energy consumption and help improving the current building energy systems. This thesis aims to reduce the deviation between calculated and measured heating demands and find the short-comings in SIA 380/1 calculation method. In addition, this thesis also aims to validate a number of factors which are thought to have great impacts on building energy consumption, and to find out some important factors which are neglected in SIA 380/1 standards. A residential building and an office building are firstly accurately modeled and calculated using EnergyPlus and SIA 380/1 standard. Then, both buildings are  calibrated based on historical annual heating demand and hourly indoor temperature, then several key building parameters are modified within a certain range given by both SIA 2024 Norm and experience values. Based on a large number of simulations, the result indicated that the most influential parameters in simulation are outdoor environments, key area temperature heating setpoints, external wall solar absorptance, infiltration and installed lighting capacity and schedule. In order to reduce the performance gap, it is recommended to create an accurate building envelope with accurate construction material properties and air-tightness, as well as a close-to-reality assumption on user behaviors and indoor environment, and apply a representative outdoor environment.
+\end{abstract}
+
+\tableofcontents
+
+\mainmatter % do not remove this line
+
+% Start writing here
+\chapter{Introduction}
+	Building simulation are widely used for different purposes such as to benchmark buildings or to evaluate energy demands and indoor thermal comfort. However, due to a number of factors, there are often deviations between calculated  and measurement values, a phenomenon which is called \textbf{performance gap}. Previous studies which used a standardized method \textbf{SIA 380/1} to calculate the heating demand of several buildings observed considerably large performance gaps in uninsulated buildings as shown in Figure \ref{fig:SIA380PG} \cite{SIAPreviousreport}. It is believed that part of the problem come from a non-accurate calculation method and non-realistic assumptions on some building parameters and outdoor environment \cite{SIAPreviousreport}. \\
+
+	
+	Therefore, the purpose of this thesis is to find out the main causes of the performance gap in uninsulated buildings, as well as the most influential factors and input assumptions in building simulation. In addition, this thesis also aims to investigate how the resulting energy demand variations affect the performance gap.\\
+
+
+	Two uninsulated buildings, one residential and one office buildings, are carefully modeled and analyzed using different approaches including static calculation (SIA 380/1) which based on monthly average inputs, and dynamic simulation (EnergyPlus) which based on hourly timestep inputs initiative calculation method \cite{SIA2024Shop,SIAPreviousreport,crawley2000energy}. The buildings are firstly calibrated to match the historical measurement, then model input parameters are modified and the most influential factors can be identified.\\
+
+
+
+
+% This displays the bibliography for all cited external documents. All references have to be defined in the file references.bib and can then be cited from within this document.
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+% This creates an appendix chapter, comment if not needed.
+\appendix
+\chapter{First Appendix Chapter Title}
+
+\end{document}

@@ -1,0 +1,19 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'Draft 12Oct.blg'
+[28] biber-MSWIN64:313> INFO - === 
+[55] Biber.pm:371> INFO - Reading 'Draft 12Oct.bcf'
+[132] Biber.pm:857> INFO - Found 24 citekeys in bib section 0
+[147] Biber.pm:3976> INFO - Processing section 0
+[160] Biber.pm:4136> INFO - Looking for bibtex format file 'Reference.bib' for section 0
+[163] bibtex.pm:1500> INFO - LaTeX decoding ...
+[203] bibtex.pm:1316> INFO - Found BibTeX data source 'Reference.bib'
+[204] Utils.pm:193> WARN - Duplicate entry key: 'DEWILDE201440' in file 'Reference.bib', skipping ...
+[300] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Doris_PC\AppData\Local\Temp\EV2ynMyoaK\Reference.bib_19968.utf8, line 304, warning: undefined macro "Oct."
+[302] Utils.pm:193> WARN - I didn't find a database entry for 'crawley2000energy' (section 0)
+[318] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[319] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[319] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[319] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[335] bbl.pm:617> INFO - Writing 'Draft 12Oct.bbl' with encoding 'UTF-8'
+[342] bbl.pm:720> INFO - Output to Draft 12Oct.bbl
+[344] Biber.pm:110> INFO - WARNINGS: 3

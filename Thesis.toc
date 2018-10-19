@@ -1,0 +1,46 @@
+\contentsline {chapter}{Acknowledgements}{i}{chapter*.1}
+\contentsline {chapter}{Abstract}{ii}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Literature Review}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Strategies For Closing Performance Gap}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Design Concept}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Technology and methods (T\&M)}{4}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Previous Research}{5}{section.2.2}
+\contentsline {chapter}{\numberline {3}Methodology}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Office Building Introduction}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Residential Building Introduction}{8}{section.3.2}
+\contentsline {section}{\numberline {3.3}Building Model Construction}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Building Geometry}{12}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Building Envelope Constructions}{15}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Selection of Simulation Tools}{18}{section.3.4}
+\contentsline {section}{\numberline {3.5}SIA Norms}{19}{section.3.5}
+\contentsline {section}{\numberline {3.6}Weather Data}{20}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Weather Data For Static Calculation}{20}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Weather Data For Dynamic Calculation}{22}{subsection.3.6.2}
+\contentsline {section}{\numberline {3.7}Static Calculation}{25}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Losses}{25}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Gains}{25}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}Measurements expected to close the performance gap}{25}{subsection.3.7.3}
+\contentsline {section}{\numberline {3.8}Dynamic Calculation}{25}{section.3.8}
+\contentsline {section}{\numberline {3.9}Calibration}{26}{section.3.9}
+\contentsline {section}{\numberline {3.10}Parameters Variation}{27}{section.3.10}
+\contentsline {section}{\numberline {3.11}Data Processing}{31}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Dynamic Analysis Range}{31}{subsection.3.11.1}
+\contentsline {subsection}{\numberline {3.11.2}Correlation Matrix}{31}{subsection.3.11.2}
+\contentsline {chapter}{\numberline {4}Results}{32}{chapter.4}
+\contentsline {section}{\numberline {4.1}Static Calculation}{32}{section.4.1}
+\contentsline {section}{\numberline {4.2}Dynamic Simulation}{33}{section.4.2}
+\contentsline {section}{\numberline {4.3}Calibration Results}{33}{section.4.3}
+\contentsline {section}{\numberline {4.4}Parameters Variation Results}{38}{section.4.4}
+\contentsline {section}{\numberline {4.5}Effect of Solar Absorptance on Heating Demand}{41}{section.4.5}
+\contentsline {section}{\numberline {4.6}Effect of Convection Coefficient on Heating Demand}{41}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Global Warming and Heat Island Effect}{42}{subsection.4.6.1}
+\contentsline {chapter}{\numberline {5}Discussion}{44}{chapter.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{45}{chapter.6}
+\contentsline {chapter}{Bibliography}{46}{chapter*.10}
+\contentsline {chapter}{\numberline {A}Heat Losses and Heat Gain Calculation}{A-1}{appendix.U}
+\contentsline {chapter}{\numberline {B}Assumptions}{B-1}{appendix.V}
+\contentsline {chapter}{\numberline {C}TARP Algorithm for convection coefficient}{C-1}{appendix.W}
+\contentsline {chapter}{\numberline {D}Detailed SIA Calculation}{D-1}{appendix.X}
+\contentsline {subsection}{\numberline {D.0.1}Residential Building Heating Demand}{D-1}{subsection.X.0.1}
+\contentsline {subsection}{\numberline {D.0.2}Office Building Calculation Results}{D-2}{subsection.X.0.2}
