@@ -23,22 +23,22 @@
 \contentsline {subsection}{\numberline {3.7.2}Gains}{25}{subsection.3.7.2}
 \contentsline {subsection}{\numberline {3.7.3}Measurements expected to close the performance gap}{25}{subsection.3.7.3}
 \contentsline {section}{\numberline {3.8}Dynamic Calculation}{25}{section.3.8}
-\contentsline {section}{\numberline {3.9}Calibration}{26}{section.3.9}
+\contentsline {section}{\numberline {3.9}Calibration}{27}{section.3.9}
 \contentsline {section}{\numberline {3.10}Parameters Variation}{27}{section.3.10}
-\contentsline {section}{\numberline {3.11}Data Processing}{31}{section.3.11}
-\contentsline {subsection}{\numberline {3.11.1}Dynamic Analysis Range}{31}{subsection.3.11.1}
-\contentsline {subsection}{\numberline {3.11.2}Correlation Matrix}{31}{subsection.3.11.2}
-\contentsline {chapter}{\numberline {4}Results}{32}{chapter.4}
-\contentsline {section}{\numberline {4.1}Static Calculation}{32}{section.4.1}
-\contentsline {section}{\numberline {4.2}Dynamic Simulation}{33}{section.4.2}
-\contentsline {section}{\numberline {4.3}Calibration Results}{33}{section.4.3}
-\contentsline {section}{\numberline {4.4}Parameters Variation Results}{38}{section.4.4}
-\contentsline {section}{\numberline {4.5}Effect of Solar Absorptance on Heating Demand}{41}{section.4.5}
-\contentsline {section}{\numberline {4.6}Effect of Convection Coefficient on Heating Demand}{41}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Global Warming and Heat Island Effect}{42}{subsection.4.6.1}
-\contentsline {chapter}{\numberline {5}Discussion}{44}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{45}{chapter.6}
-\contentsline {chapter}{Bibliography}{46}{chapter*.10}
+\contentsline {section}{\numberline {3.11}Data Processing}{33}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Dynamic Analysis Range}{33}{subsection.3.11.1}
+\contentsline {subsection}{\numberline {3.11.2}Correlation Matrix}{33}{subsection.3.11.2}
+\contentsline {chapter}{\numberline {4}Results}{34}{chapter.4}
+\contentsline {section}{\numberline {4.1}Static Calculation}{34}{section.4.1}
+\contentsline {section}{\numberline {4.2}Dynamic Simulation}{35}{section.4.2}
+\contentsline {section}{\numberline {4.3}Calibration Results}{35}{section.4.3}
+\contentsline {section}{\numberline {4.4}Parameters Variation Results}{40}{section.4.4}
+\contentsline {section}{\numberline {4.5}Effect of Solar Absorptance on Heating Demand}{43}{section.4.5}
+\contentsline {section}{\numberline {4.6}Effect of Convection Coefficient on Heating Demand}{43}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Global Warming and Heat Island Effect}{44}{subsection.4.6.1}
+\contentsline {chapter}{\numberline {5}Discussion}{46}{chapter.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{47}{chapter.6}
+\contentsline {chapter}{Bibliography}{48}{chapter*.5}
 \contentsline {chapter}{\numberline {A}Assumptions}{A-1}{appendix.U}
 \contentsline {chapter}{\numberline {B}TARP Method Calculation}{B-1}{appendix.V}
 \contentsline {chapter}{\numberline {C}Static Calculation Formulas and Results}{C-1}{appendix.W}

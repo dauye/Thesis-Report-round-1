@@ -5,7 +5,10 @@
 \usepackage{float}
 \usepackage{multirow}
 \usepackage{booktabs}
-\usepackage[top=2cm,left=2cm,bottom=2cm,right=2cm]{geometry}
+\usepackage{makecell}
+\usepackage{tabu}
+\usepackage{lmodern}
+\usepackage[top=2cm,left=2.2cm,bottom=2cm,right=2cm]{geometry}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % DOCUMENT METADATA
 
@@ -134,14 +137,17 @@ Empa,Dübendorf\\[2pt]}
 			\textit{(4) T\&M for energy system controlling} aims at reducing building energy consumption without sacrificing the occupants' thermal comfort, and can be devided by three groups: \textit{intelligent HVAC system, artificial lighting} and \textit{occupancy-based control system} \cite{ZOU2018165,hong2015review}. The limitation for T\&M for building automatic control would be it relies heavily on controlling algorithms and the accuracy of sensoring equipments. Therefore, a mal-functioning sensor group would paralise the control system.
 
 	\section{Simulation Parameter Variation}
-		There are a number of research papers trying different approaches to mitigate the problem caused by input uncertainties due to lack of necessary information \cite{GeorgeThesis}. A majority of research papers involve using normal distribution to allocate the uncertain parameters while some others also use different allocation methods such as triangle or uniform distribution. Most uncertainties can be grouped into different types, Mavromatidis \cite{GeorgeThesis} has provided a summary of building simulation uncertainties and classified the related simulation parameters into 4 different types: (1) Building-related parameters; (2) occupant-related parameters; (3) indoor environment-related parameters and (4) weather/climate parameters \cite{GeorgeThesis}.\\
+		There are a number of research papers trying different approaches to mitigate the problem caused by input uncertainties due to lack of necessary information \cite{GeorgeThesis}. A majority of research papers involve using normal distribution to allocate the uncertain parameters while some others also use different allocation methods such as triangular or uniform distribution. Most uncertainties can be grouped into different types, Mavromatidis \cite{GeorgeThesis} has provided a summary of building simulation uncertainties and classified the related simulation parameters into 4 different types: (1) Building-related parameters; (2) occupant-related parameters; (3) indoor environment-related parameters and (4) weather/climate parameters \cite{GeorgeThesis}.\\
 
 		(1) \textit{Building-related parameters} are those related to building envelope material properties such as construction material thermal properties and infiltration/air tightness. The uncertainties of this type of parameters are due to unknown or partly unknown construction information, or because of the material performance being inconsistent with the lab specifications due to measurement errors, poor workmanship, installation, quality and aging problem \cite{GeorgeThesis}. One of the most difficult-to-measure parameters is air-tightness/air infiltration rate, which can be measured only by a time-consuming blower-door test. Therefore, in many cases a typical assumed value is used for the building simulation processes, and this typical assumed air infiltration value is sometimes different from the actual value \cite{GeorgeThesis,burhenne2013uncertainty}.\\
 
-		(2) \textit{Occupant-related parameters} are the parameters relevant to occupants' presence and activities such as occupancy patterns and usage of lighting, electronic appliances, and domestic hot water consumption. As discussed in previous chapters, user behaviors are essentially random and can greatly influence the indoor environment. Therefore, the deviations in occupant-related parameters can sometimes lead to huge performance gap or indoor environment variations \cite{GeorgeThesis}.\\
+		(2) \textit{Occupant-related parameters} are the parameters relevant to occupants' presence and activities such as occupancy patterns and usage of lighting, electronic appliances, and domestic hot water consumption. As discussed in previous chapters, user behaviors are essentially random and can greatly influence the indoor environment. Therefore, the deviations in occupant-related parameters can sometimes lead to huge performance gap or indoor environment variations \cite{GeorgeThesis}. To improve this, using ``typical schedules'' is a simple way to address the different occupant working patterns. Yao and Steemers \cite{yao2005method} has purposed 5 typical household occupancy schedules for different working patterns such as full-time commuter, part-time, and unemployed/in-house occupants. Silva and Ghisi \cite{silva2014uncertainty} also purposed 3 different lighting schedules for different utilisation hours.\\
+
+		(3) \textit{Indoor environment-related parameters} such as thermostat values, ventilation level, shading and window opening preferences can be varied from person to person. Similar to the user behavior pattern discussed above, probabilistic approaches are widely used in several researches \cite{GeorgeThesis} Both thermostat setpoints and indoor air quality such as air change rates are of high interest for many researchers, and normal and triangular distribution are a popular way to address uncertainties related to these indoor environment-related parameters \cite{GeorgeThesis}. 
 
 	\section{Simulation Research for Swiss Buildings}
-		In 2015 a research has been done by \textit{Lemon Consult} \cite{SIAPreviousreport} aiming to investigate the reason behind the huge performance gaps in uninsulated old buildings when using SIA 380/1 and SIA 382 calculation method. The research concluded that three main reasons are the most important: too poor U-values, too low indoor air temperature for unheated ares (based on a research on basement actual temperature), and the discrepancies between standard climate data and actual outdoor air temperature \cite{SIAPreviousreport}. However, there are still some unsolved problems in the previous research. Firstly, the actual temperature of the building site is not fully recorded and used in SIA 380/2 calculation. Secondly, the relations and rankings between the key parameters are not clear. Therefore, in this thesis, more accurate weather information is implemented in both static and dynamic calculations, and a more accurate correlation relationship between the heating demand and each key parameter are also investigated.
+		In 2015 a research has been done by \textit{Lemon Consult} \cite{SIAPreviousreport} aiming to investigate the reason behind the huge performance gaps in uninsulated old buildings when using SIA 380/1 and SIA 382 calculation method. The research concluded that three main reasons are the most important: too poor U-values, too low indoor air temperature for unheated ares (based on a research on basement actual temperature), and the discrepancies between standard climate data and actual outdoor air temperature \cite{SIAPreviousreport}. However, there are still some unsolved problems in the previous research. Firstly, the actual temperature of the building site is not fully recorded and used in SIA 380/2 calculation. Secondly, the relations and rankings between the key parameters are not clear. Therefore, in this thesis, a more accurate and up-to-date weather information is implemented in both static and dynamic calculations, and the correlation relationship between the heating demand and each key parameter are also investigated more closely.
+
 
 
 \chapter{Methodology}
@@ -662,7 +668,7 @@ Empa,Dübendorf\\[2pt]}
 				
 				\begin{figure}[H]
 				\centering
-				\includegraphics[scale=0.62]{HeatIslandConstruction.jpg}
+				\includegraphics[scale=0.75]{HeatIslandConstruction.jpg}
 				\caption{Heat Island Temperature Modification Rule}
 				\label{fig:HeatIslandRule}
 				\end{figure}
@@ -675,10 +681,10 @@ Empa,Dübendorf\\[2pt]}
 		\[\text{Heating Demand} = \text{Heat Losses} - \text{Heat Gains}\]
 		
 		\subsection{Losses}
-			The standard calculation method SIA 380/1 takes a number of losses into account, mainly \textit{transmission loss} and \textit{ventilation loss}. The \textit{transmission loss} includes heat loss through conduction, heat loss through convection, and heat loss through thermal bridge. The losses are calculated based on the building location's heating degree days, building material thermal properties, and the dimension of building elements. The formula for the losses are given in appendix \todo{See Appendix xxxx}.\\
+			The standard calculation method SIA 380/1 takes a number of losses into account, mainly \textit{transmission loss} and \textit{ventilation loss}. The \textit{transmission loss} includes heat loss through conduction, heat loss through convection, and heat loss through thermal bridge. The losses are calculated based on the building location's heating degree days, building material thermal properties, and the dimension of building elements. The formula for the losses are given in appendix \ref{sec:siacalculation}.\\
 
 		\subsection{Gains}
-			In SIA 380/1 calculation, heat gains are obtained from solar radiations, internal gains by electronics, and internal gains by occupant activities. A detailed calculation formular set is provided in Appendix xxxx \todo{add appendix}\\
+			In SIA 380/1 calculation, heat gains are obtained from solar radiations, internal gains by electronics, and internal gains by occupant activities. A detailed calculation formular set is also provided in Appendix \ref{sec:siacalculation}
 			
 		\subsection{Measurements expected to close the performance gap}
 			The building model is firstly subject to static calculation with all standard values and assumptions. After the reference static calculation has been made, another calculation with 2015 weather information is conducted. Depend on the obtained result, further parameters are modified and try to match the calculation results with the measured annual results.
@@ -690,23 +696,25 @@ Empa,Dübendorf\\[2pt]}
 		The occupancy schedule and activity level of all zones of the two buildings are from the SIA 2024 standard. The SIA 2024 standard provides a guideline assumptions for different building areas such as bedroom, bathroom, kitchen, office, and corridor.\\
 
 		The detailed information of is stored in separate .\textit{csv} files which contains 8760 entries of hourly data. Below is a list of information obtained from SIA 2024.
-\todo{Add More detail}
-				\begin{itemize}
-					\item Heating/Cooling Setpoint temperature
-					\item Occupancy schedule
-					\item Activity level
-					\item Lighting Schedule
-					\item Lighting Level
-					\item Domestic hot water schedule
-					\item Domestic hot weater level
-					\item Electricity appliance schedule and level
-				\end{itemize}
 
-		Figure \ref{fig:HeatingSP} below shows the nominal heating setpoints of all zones. Most schedules and activities have a certain weekday/weekend pattern and have different patterns in different months. Figure \ref{fig:JanOffice_Vent} below shows the office ventilation schedule in January. The schedule is presented as a percentage of the nominal level in Norm SIA 2024.\\
+	\begin{itemize}
+		\item Heating/Cooling Setpoint temperature ($^oC$)
+		\item Occupancy schedule \& occupant density ($m^2/\text{person}$)
+		\item Activity level (W/m$^2$)
+		\item Lighting Schedule
+		\item Lighting Level ($W/m^2$)
+		\item Domestic hot water schedule 
+		\item Domestic hot weater level ($W/m^2$)
+		\item Electricity appliance schedule
+		\item Electricity appliance level ($W/m^2$)
+	\end{itemize}
+
+
+		Figure \ref{fig:HeatingSP} below shows the nominal heating setpoints of all zones. Most schedules and activities have a certain weekday/weekend pattern and have different patterns in different months. Figure \ref{fig:JanOffice_Vent} below shows the office ventilation schedule on weekdays in January. The schedule is presented as a percentage of the nominal level in Norm SIA 2024.\\
 		
 		\begin{figure}[H]
 		\centering
-		\includegraphics[scale=1]{TempSetpoint.jpg}
+		\includegraphics[scale=1.1]{TempSetpoint.jpg}
 		\caption{Heating Temperature Set point}
 		\label{fig:HeatingSP}
 		\end{figure}
@@ -715,7 +723,7 @@ Empa,Dübendorf\\[2pt]}
 
 		\begin{figure}[h!]
 		\centering
-		\includegraphics[scale=0.7]{figures/JanOffice_Vent.jpg}
+		\includegraphics[scale=0.8]{figures/JanOffice_Vent.jpg}
 		\caption{Office Ventilation Schedule in January Weekday}
 		\label{fig:JanOffice_Vent}
 		\end{figure}
@@ -739,23 +747,57 @@ Empa,Dübendorf\\[2pt]}
 
 	\section{Parameters Variation}
 		
-		
 		\textbf{Simulation Tool}\\
 		\textit{jE-Plus} is used as a tool to coordinate the analysis by sampling different values for the varied parameters \& perform different EnergyPlus simulations using them. jEPlus is also able to collect the relevant results from all simulations. In total, 1000 simulations are performed in the parameter variation analysis.\\
-
+		
+		\par
 		\textbf{Parameters}\\
+		After the building model has been constructed and calibrated, a further analysis with varied parameters can be performed. Following a similar approach from Mavromatidis \cite{GeorgeThesis}, Ioannou and Itard \cite{ioannou2015energy}, Table \ref{tab:ParameterDistribution} shows the parameters that are focused and subject to variation in this thesis:\\
 
-		After the building model has been constructed and calibrated, a further analysis with varied parameters can be performed. Here are the parameters that are focused and subject to variation:\\
-		\todo{Consult the R script!!! Add more detailed settings!! and cite george's thesis}
-		\begin{itemize}
-			\item Heating temperature setpoint for all zones
-			\item Occupancy schedule for key zones and occupancy level (except toilet, wc and corridor, in $m^2/P$)
-			\item Appliance schedule and occupancy level for all zones (Lighting, Electricity, Domestic hot water, in $W/m^2$)			\item Ventilation level for all zones
-			\item Air infiltration
-			\item Internal convection coefficient
-			\item External convection coefficient
-			\item Facade solar absorptance\\
-		\end{itemize}
+	\begin{table}[htbp]
+    	\centering
+    	\small
+    	\caption{Uncertainty distributions for parameters related to building energy demands \cite{GeorgeThesis}}
+    	    \begin{tabular}{|c|c|c|}
+
+			\toprule
+			Parameter           & probability distribution & Distribution parameters \\
+			\hline
+			Material Properties & \makecell{Normal distribution \\ $N(\mu,\sigma)$} & \makecell{$\mu = \text{norminal value}$\\$\sigma=0.1 \cdot \mu$}\\
+			\hline
+			Infiltration (ACH)  &\makecell{Normal distribution \\ $N(\mu,\sigma)$} & \makecell{$\mu = \text{norminal value}$\\$\sigma=0.1 \cdot \mu$}\\
+			\hline
+			\makecell{Occupancy density\\(m$^2$/person)} & \makecell{Triangular distribution \\ $\tau(\alpha,\beta,\gamma)$}  & \makecell{$\alpha = $ SIA2024-min \\ $\beta = $ SIA2024-nominal \\ $\gamma = $ SIA2024 -max} \\
+			
+			\hline
+			
+			\makecell{Lighting capacity\\(W/m$^2$)} & \makecell{Triangular distribution \\ $\tau(\alpha,\beta,\gamma)$}  & \makecell{$\alpha = $ SIA2024-min \\ $\beta = $ SIA2024-nominal \\ $\gamma = $ SIA2024 -max} \\
+			\hline
+			\makecell{Equipment capacity\\ (W/m$^2$)}& \makecell{Triangular distribution \\ $\tau(\alpha,\beta,\gamma)$}  & \makecell{$\alpha = $ SIA2024-min \\ $\beta = $ SIA2024-nominal \\ $\gamma = $ SIA2024 -max} \\
+			\hline
+			
+			\makecell{Hot water demand\\(W/m$^2$)} & \makecell{Triangular distribution \\ $\tau(\alpha,\beta,\gamma)$}  & \makecell{$\alpha = $ SIA2024-min \\ $\beta = $ SIA2024-nominal \\ $\gamma = $ SIA2024 -max} \\
+			\hline
+			\makecell{Ventilation rates\\(m$^3$/h/person)} & \makecell{Normal distribution \\ $N(\mu,\sigma)$}      & \makecell{$\mu = \text{norminal value}$\\$\sigma=0.1 \cdot \mu$}                       \\
+			\hline
+			
+			\makecell{Thermostat setting\\($^oC$)} & \makecell{Normal distribution \\ $N(\mu,\sigma)$}      & \makecell{$\mu = \text{norminal value}$\\$\sigma= 1 ^oC$}\\
+			\hline
+
+			\makecell{External heat transfer coefficient \\ (W/m$^2K$)} & \makecell{Uniform distribution \\ $N(a,b)$}      & \makecell{$a = 90\%\text{ norminal value}$\\$b = 110\% \text{ nominal value}$}\\
+			
+			\hline
+
+			\makecell{Internal heat transfer coefficient \\ (W/m$^2K$)} & \makecell{Normal distribution \\ $N(\mu,\sigma)$}      & \makecell{$a = 90\%\text{ norminal value}$\\$b = 110\% \text{ nominal value}$}\\
+			\hline
+			\makecell{Facade solar absorptance} & \makecell{Uniform distribution \\ $U(a,b)$}      & \makecell{$a = \text{0.2}$\\$b= 0.9$}\\
+			
+			\bottomrule
+        	\end{tabular}%
+        	\label{tab:ParameterDistribution}%
+    \end{table}%			
+			
+			
 
 		\textit{Heating Temperature Setpoint}\\
 			All zones' heating setpoint temperature are part of the parameter variation. The heating setpoint temperature for the same category at the same floor are thought to be identical. For example, the heating setpoint temperature of \textit{Room2} and \textit{Room3} at the second floor would be the same, but might be different to the heating setpoint temperatues for \textit{Room2} and \textit{Room3} at third floor.\\
@@ -763,13 +805,13 @@ Empa,Dübendorf\\[2pt]}
 
 			\begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.7]{Residential_TempSetpoint.jpg}
+			\includegraphics[scale=0.85]{Residential_TempSetpoint.jpg}
 			\caption{Heating Temperature Setpoint Distribution}
 			\label{fig:TempSetpoint}
 			\end{figure}
 		
 		\textit{Occupancy Level}\\
-			The zone occupancy level is given by $m^2/\text{person}$. A triangle distribution is used where the minimum value $a$, the peak value $c$, and the maximum value $b$ are defined in SIA 2024. For example, Figure \ref{fig:HonggRoomOcc} shows the room occupancy level
+			The zone occupancy level is given by $m^2/\text{person}$. A triangular distribution is used where the minimum value $a$, the nominal value $b$, and the maximum value $b$ are defined in SIA 2024, as shown in Table \ref{tab:ParameterDistribution}. For example, Figure \ref{fig:HonggRoomOcc} shows the room occupancy level
 
 			\begin{figure}[h!]
 			\centering
@@ -779,10 +821,35 @@ Empa,Dübendorf\\[2pt]}
 			\end{figure}
 			
 		\textit{Lighting Level}\\
-			The zone lighting level is given by a uniform distribution with.
+			The zone lighting level is given by a triangular distribution with detailed parameter settings shown in norm SIA2024. A box plot is given in Figure \ref{fig:LightingDistribution} to indicate the distribution of the lighting level setpoints.\\
+
+			\begin{figure}[h!]
+			\centering
+			\includegraphics[scale=0.7]{figures/LightingLevelDistribution.jpg}
+			\caption{Lighting Level Distribution for all zones}
+			\label{fig:LightingDistribution}
+			\end{figure}
+
 		\textit{Appliance Level}\\
+			The zone appliance level is given by a triangular distribution with detailed parameter settings shown in norm SIA2024. A box plot is given in Figure \ref{fig:ApplianceDistribution} to indicate the distribution of the lighting level setpoints. SIA 2024 assume a 0 appliance level in corridor, bathroom and toilet area, therefore only 3 zones are shown in the figure. \\
+			\begin{figure}[h!]
+			\centering
+			\includegraphics[scale=0.7]{figures/ApplianceLevelDistribution.jpg}
+			\caption{Appliance Level Distribution for all zones}
+			\label{fig:ApplianceDistribution}
+			\end{figure}
 
 		\textit{Domestic Hot Water Level}\\
+			The zone appliance level is given by a triangular distribution with detailed parameter settings shown in norm SIA2024. A box plot is given in Figure x to indicate the distribution of the lighting level setpoints.\\
+
+
+			\begin{figure}[h!]
+			\centering
+			\includegraphics[scale=0.7]{figures/DHWLevelDistribution.jpg}
+			\caption{DHW Level Distribution for all zones}
+			\label{fig:DHWDistribution}
+			\end{figure}
+		
 
 
 		\textit{Ventilation Level}\\
@@ -790,25 +857,25 @@ Empa,Dübendorf\\[2pt]}
 
 			\begin{figure}[ht!]
 			\centering
-			\includegraphics[scale=0.55]{VentilationLevel.jpg}
-			\caption{Ventilation Level Distribution}
+			\includegraphics[scale=0.68]{VentilationLevel.jpg}
+			\caption{Ventilation Level Distribution for different building room types}
 			\label{fig:VentLevel}
 			\end{figure}
 
 			\begin{figure}[ht!]
 			\centering
-			\includegraphics[scale=0.35]{Office_Vent.jpg}
-			\caption{Air Ventilation Distribution}
+			\includegraphics[scale=0.45]{Office_Vent.jpg}
+			\caption{Air Ventilation Distribution for Office Rooms}
 			\label{fig:VentDist}
 			\end{figure}
 						
 		\textit{Infiltration}\\
-			The infiltration level is roughly a normal distribution which takes the nominal infiltration as mean value $\mu$, and the deviation $\sigma = 10\% \mu$. Figure \ref{fig:EXPAirInfiltration_Sumatra} shows an example air infiltration distribution.\\
+			The infiltration level is roughly a normal distribution which takes the nominal infiltration as mean value $\mu$, and the deviation $\sigma = 10\% \cdot \mu$. Figure \ref{fig:EXPAirInfiltration_Sumatra} shows an example air infiltration distribution.\\
 
 			\begin{figure}[ht!]
 			\centering
-			\includegraphics[scale=0.35]{Example_Normal_Distribution.jpg}
-			\caption{Example Air Infiltration Distribution}
+			\includegraphics[scale=0.5]{Example_Normal_Distribution.jpg}
+			\caption{Example Air Infiltration Distribution }
 			\label{fig:EXPAirInfiltration_Sumatra}
 			\end{figure}
 		
@@ -832,7 +899,7 @@ Empa,Dübendorf\\[2pt]}
 			
 		\textit{Facade solar absorptance}\\
 			The facade paint and facade color determine the facade solar absorptance. It range from 0 to 1 where a 0 absorptance means the surface reflex all the energy onto the surface, and a 1 absorptance means the facade absorb all the solar energy onto the surface. In this analysis the solar absorptance vary between 0.2 to 0.9 at a discrete distribution.
-	\todo{Talk more about Occupancy related parameters and lighting appliance and hot water usage}
+
 	\section{Data Processing}
 		\textit{Python} and Excel are used in processing the results, where excel is used to generate histograms and other regular charts, while Python (with Matplotlib package) is used to merge data sets, process a series of data files, generate other irregular charts such as correlation matrix, and some boxplots.
 
@@ -851,14 +918,14 @@ Empa,Dübendorf\\[2pt]}
 
 		\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.4]{Office_SIA.jpg}
+		\includegraphics[scale=0.46]{Office_SIA.jpg}
 		\caption{SIA Calculation Improvement for Office Building}
 		\label{fig:Sumatra_SIA}
 		\end{figure}
 		
 		\begin{figure}[htbp]
 		\centering
-		\includegraphics[scale=0.4]{Residential_SIA.jpg}
+		\includegraphics[scale=0.46]{Residential_SIA.jpg}
 		\caption{SIA Calculation Improvement for Residential Building}
 		\label{fig:Hongger_SIA}
 		\end{figure}
@@ -894,14 +961,14 @@ Empa,Dübendorf\\[2pt]}
 		
 			\begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.4]{ACH_Compare.JPG}
+			\includegraphics[scale=0.7]{ACH_Compare.JPG}
 			\caption{Origin Temperature Profile of Residential Building}
 			\label{fig:ACH_Compare}
 			\end{figure}
 
 			\begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.6]{figures/Hongg_Clibration_Origin.JPG}
+			\includegraphics[scale=0.7]{figures/Hongg_Clibration_Origin.JPG}
 			\caption{Origin Temperature Profile of Residential Building}
 			\label{fig:HonggCalibrationOrigin}
 			\end{figure}
@@ -910,7 +977,7 @@ Empa,Dübendorf\\[2pt]}
 			
 			\begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.5]{figures/Hongg_Cali_NoFacility.JPG}
+			\includegraphics[scale=0.6]{figures/Hongg_Cali_NoFacility.JPG}
 			\caption{Temperature Profile of Residential Building Without Internal Gains}
 			\label{fig:HonggCalibrationNoGains}
 			\end{figure}
@@ -919,7 +986,7 @@ Empa,Dübendorf\\[2pt]}
 
 			\begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.6]{Hongg_Clibration_03NoLight.JPG}
+			\includegraphics[scale=0.75]{Hongg_Clibration_03NoLight.JPG}
 			\caption{Temperature Profile of Residential Building with No Lighting}
 			\label{fig:HonggerCalibrationNoLight}
 			\end{figure}
@@ -1136,7 +1203,7 @@ Empa,Dübendorf\\[2pt]}
 	The majority part of the northen and the easten facade of the office building as well as both external walls of the residential building are covered with plants. However, as the effect of vegitation covering is unknow, the vegitation layer of these facade is ignored in the modeling and analysis process.\\
 
 
-\chapter{TARP Method Calculation}
+\chapter{TARP Method Calculation}\label{sec:tarp}
 	The standard calculation SIA380/1 uses a fixed external heat convection coefficient of 25W/m$^2$K and an internal heat convection coefficient of 7.7W/m$^2$K regardless the internal \& external environment. However, many other research have purposed other methods to calculate the convection coefficient. One of the simple method that is used and supported by EnergyPlus is called \textit{TARP method}, which is taking the internal and external thermal condition as well as the surface roughness and air movement speed into account. The \textit{TRAP method} is given in the following fomular set below: \\
 
 	\[h_c = h_f + h_n\]
@@ -1153,7 +1220,7 @@ Empa,Dübendorf\\[2pt]}
 	\[h_n = 1.31 | \Delta T|^{1/3} \text{: for vertical surface}\]
 	
 
-\chapter{Static Calculation Formulas and Results}
+\chapter{Static Calculation Formulas and Results}\label{sec:siacalculation}
 	In this thesis, The SIA380/1 calculation is performed as an excel sheet calculation. A detailed calculation information is given in the tables below, and a detail result breakdown of heat gain and losses is given in the results part.
 	\section{Heat Losses}
 	\textbf{Transmission Heat Loss}\\

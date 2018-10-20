@@ -187,9 +187,24 @@ S.~Burhenne, O.~Tsvetkova, D.~Jacob, G.~P. Henze, and A.~Wagner, ``Uncertainty
   quantification for combined building performance and cost-benefit analyses,''
   \emph{Building and Environment}, vol.~62, pp. 143--154, 2013.
 
+\bibitem{yao2005method}
+R.~Yao and K.~Steemers, ``A method of formulating energy load profile for
+  domestic buildings in the uk,'' \emph{Energy and buildings}, vol.~37, no.~6,
+  pp. 663--671, 2005.
+
+\bibitem{silva2014uncertainty}
+A.~S. Silva and E.~Ghisi, ``Uncertainty analysis of user behaviour and physical
+  parameters in residential building performance simulation,'' \emph{Energy and
+  Buildings}, vol.~76, pp. 381--391, 2014.
+
 \bibitem{crawley2008contrasting}
 D.~B. Crawley, J.~W. Hand, M.~Kummert, and B.~T. Griffith, ``Contrasting the
   capabilities of building energy performance simulation programs,''
   \emph{Building and environment}, vol.~43, no.~4, pp. 661--673, 2008.
+
+\bibitem{ioannou2015energy}
+A.~Ioannou and L.~Itard, ``Energy performance and comfort in residential
+  buildings: Sensitivity for building parameters and occupancy,'' \emph{Energy
+  and Buildings}, vol.~92, pp. 216--233, 2015.
 
 \end{thebibliography}
