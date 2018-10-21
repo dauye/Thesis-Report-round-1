@@ -859,15 +859,15 @@ Empa,Dübendorf\\[2pt]}
 
 			\begin{figure}[ht!]
 			\centering
-			\includegraphics[scale=0.68]{VentilationLevel.jpg}
+			\includegraphics[scale=0.6]{Ventilation_Level.jpg}
 			\caption{Ventilation Level Distribution for different building room types}
 			\label{fig:VentLevel}
 			\end{figure}
 
 			\begin{figure}[ht!]
 			\centering
-			\includegraphics[scale=0.45]{Office_Vent.jpg}
-			\caption{Air Ventilation Distribution for Office Rooms}
+			\includegraphics[scale=0.65]{Kitchen_Vent.jpg}
+			\caption{Air Ventilation Distribution for Kitchen (in 0.001 $m^3/m^2 \cdot s$)}
 			\label{fig:VentDist}
 			\end{figure}
 						
@@ -876,8 +876,8 @@ Empa,Dübendorf\\[2pt]}
 
 			\begin{figure}[ht!]
 			\centering
-			\includegraphics[scale=0.5]{Example_Normal_Distribution.jpg}
-			\caption{Example Air Infiltration Distribution }
+			\includegraphics[scale=0.65]{Example_Normal_Distribution.jpg}
+			\caption{Example Air Infiltration Distribution (with $\mu = 0.25$, $\sigma = 10\% \mu$)}
 			\label{fig:EXPAirInfiltration_Sumatra}
 			\end{figure}
 		
@@ -1141,10 +1141,10 @@ Empa,Dübendorf\\[2pt]}
     		\label{fig:Hongg_solar}
     		\end{figure}			
         
-        The results above show that solar absorptance has proven its ability to influence the heating demand. By solely changing the solar absorptance, the heating demand can achieve a $\pm 4\%$ variation on the residential building. As $50\%$ of the 1000 parameter variation samples fall within the range of $\pm 3.4\%$ of average energy consumption (the residential building), it can conclude that solar absorptance in external facade is worth to be taken into account in energy calculations.
+        The results show that solar absorptance has proven its ability to influence the heating demand. By solely changing the solar absorptance, the heating demand can achieve a $\pm 4\%$ variation on the residential building. As $50\%$ of the 1000 parameter variation samples fall within the range of $\pm 3.4\%$ of average energy consumption (the residential building), it can conclude that solar absorptance in external facade is worth to be taken into account in energy calculations.
 
 	\section{Effect of Convection Coefficient on Heating Demand}
-        	As the correlation matrix above indicates a weak correlation between heating demand and heat convection coefficients, which is contradicted to the hypothesis that heat convection coefficient is an important factor in heating demand calculation, another set of simulation with 150 extra samples are processed. These samples are modified from the calibrated building model, with the only difference in convection coefficient (ranging from 90\% to 110\% of the calibrated values).The results shown in the Figure below indicate a $\pm 2\%$ variation on heating demand. Therefore, it is clear that $\pm 10\%$ of the heat convection coefficient would have less effects on heating demand than altering the solar absorptance from 0.2 to 0.9. \\ 
+        	As the correlation matrix above indicates a weak correlation between heating demand and heat convection coefficients, which is contradicted to the hypothesis that heat convection coefficient is an important factor in heating demand calculation, another set of simulation with 150 extra samples are processed. These simulations use the calibrated building model, with the only difference being the variations in convection coefficient (ranging from 90\% to 110\% of the calibrated values).The results shown in the Figure below indicate a $\pm 2\%$ variation on heating demand. Therefore, it is clear that $\pm 10\%$ of the heat convection coefficient would have less effects on heating demand than altering the solar absorptance from 0.2 to 0.9. \\ 
         	
           	\begin{figure}[htbp]
     		\centering
@@ -1154,35 +1154,47 @@ Empa,Dübendorf\\[2pt]}
     		\end{figure}
         
         \subsection{Global Warming and Heat Island Effect}
-		Figure \ref{fig:Sumatra_Comp} and \ref{fig:Hongg_Comp} shows the heating demand range after the parameter variation in three different outdoor environments, namely, the SIA standard hourly data, the 2015 station weather, and the generated heat island weather based on the 2015 station weather. The annual heating demand range shows a clear decline as the outdoor environment gets warmer.
+		Figure \ref{fig:Sumatra_Comp} and \ref{fig:Hongg_Comp} shows the heating demand variation range under three different outdoor environments, namely, the SIA standard hourly data, the 2015 station weather, and the generated heat island weather based on the 2015 station weather. The annual heating demand range shows a clear decline as the average outdoor dry-bulb temperature gets higher.
 
 	    \begin{figure}[H]
 		\centering
-		\includegraphics[scale=0.63]{Sumatra_Comparison.jpg}
-		\caption{Office Building Heating Demand Comparison}
+		\includegraphics[scale=0.7]{Sumatra_Comparison.jpg}
+		\caption{Office Building Annual Heating Demand Comparison with 3 Different Weather Files}
 		\label{fig:Sumatra_Comp}
 		\end{figure}
 
 	    \begin{figure}[H]
 		\centering
-		\includegraphics[scale=0.63]{Hongg_Comparison.jpg}
-		\caption{Residential Building Heating Demand Comparison}
+		\includegraphics[scale=0.7]{Hongg_Comparison.jpg}
+		\caption{Residential Building Annual Heating Demand Comparison with 3 Different Weather Files}
 		\label{fig:Hongg_Comp}
 		\end{figure}
 		
 
 
 \chapter{Discussion}
-    From the calculation and simulation results above, there are a few points that worth mentioning. For static calculation, the SIA 380/1 standard calculatiom method can achieve a reasonably accurate result when an updated weather information is implemented. The standard can probably consider using internal (net) area instead of external (gross) area for energy calculation, as it provides a more accurate results when net area (excluding walls) is used in calculation.\\
+    From the calculation and simulation results of the previous chapter, there are a few points that worth mentioning. For static calculation, the SIA 380/1 standard calculatiom method can achieve a reasonably accurate result when an updated weather information is implemented. The standard can probably consider using internal (net) area instead of external (gross) area for energy calculation, as it provides a more accurate results when net area (excluding walls) is used in calculation.\\
     
-    For dynamic simulation, weather information is also critical as global warming effect and heat island effect makes the outdoor temperature greatly differ from its assumed values. Also, a more accurate algorithm to simulate heat island effect is needed, as the temperature in city area can differ largely from the weather station's temperature even they are very close to each other. In addition, calibration process is important for analyzing the hourly building performance and gives more confident in annual energy analyses.\\
+    For dynamic simulation, weather information is also critical as varying the outdoor temperatuer can significantly change the resulting simulation heating demand. Also, a more accurate algorithm to simulate heat island effect is needed, as the temperature in city area can differ largely from the weather station's temperature even they are very close to each other. In addition, calibration process is important for analyzing the hourly building performance and gives more confidence in annual energy analyses.\\
     
     At the current stage, it is known that the performance gap come from a number of wrong assumptions of building parameters and schedules. However, these wrong assumptions managed to achieve an internal balance and the combination of these current standard assumptions can indeed provide a reasonably accurate results in macroscopic scale (annual per square meter demand for example). For example, an over estimated heat convection coefficient may lead to a higher energy demand, but an over estimated internal loads would lead to a lower energy demand, and the effect of both over estimation cancel each other. To obtain true accuracy, review or modification are needed for not only a single parameters but also all the others. Improving a single assumption without considering others would even lead to more diverse and inaccurate results.\\
 
 
 
 \chapter{Conclusion}
-    In conclusion, this thesis aims to reduce the deviation between calculated and measured heating demands and find the limitations and short-comings in SIA 380/1 calculation method. A residential building and an office building are accurately modeled and calculated using EnergyPlus and SIA 180 standard calculation method. Both buildings are calibrated then subjected to a large number of simulations with different parameters. The results indicate that the most influential parameters in simulation are key area temperature heating set points, external wall solar absorptance, infiltration and key area lighting schedules. The results also show that the current SIA 380/1 and SIA 2024 schedule would provide a reasonably accurate result if correct weather information is obtained. This is, however, due to a mutuel cancelation effect of a few coupling unappropriated assumptions. In order to obtain true simulation accuracy and reduce the performance gap, it is recommended to create an accurate building envelope and apply accurate outdoor environment, as well as using a set of more comprehensive and accurate occupancy and schedule assumptions.
+    In conclusion, this thesis aims to reduce the deviation between calculated and measured heating demands and find the limitations and short-comings in SIA 380/1 calculation method. A residential building and an office building are accurately modeled and calculated using SIA 180 standard calculation method and EnergyPlus dynamic simulation engine. Both buildings are firstly calibrated until the indoor temperature profile is matched. Then, both buildings are subjected to a large number of simulations with different parameters. Finally, the most influential building simulation parameters are found out by processing the results using different graphic representations approaches such as correlation matrix, histogram and scatter plots. \\
+
+    From the static calculation, the result shows that when applying net floor area and a more recent (2015) weather information from a nearby weather station in static calculation, the annual heating demand are macroscopically close to the measurement value. The results also indicates that the standard SIA 381/2 weather database provides information that is significantly different from the actual weather information in Zurich city. On average, the SIA 381/2 weather data is about 4 degrees lower than the recorded value in year 2015.\\
+
+    From the dynamic calculation, the result shows that the origin simulation has a much lower energy consumption than the measured value. This is partly because of a wrong assumption on building air-tightness. In addition, the performance gap on annual heating demand closes when using a high external convection coefficient (SIA standard value of 25 W/m.K), which indicates an probability of over-estimated internal loads.\\
+
+    The calibration processes have confirmed an over-estimation problem in internal loads, and discovered some previous unnoticed over-estimation problems in SIA 2024 lighting standards. The results indicates that the window blinds may be put down in summer for most of the time, and occupants are likely to open the window in un-heating period.\\
+
+    Finally, the results from the building parameter variations indicate that the most influential parameters in simulation are key area temperature heating set points, external wall solar absorptance, infiltration and key area lighting schedules.\\
+
+    Considering the above mentioned and discussed findings, in order to obtain higher simulation accuracy and reduce the performance gap, it is recommended to create an accurate building envelope, spend more effort on observing and recording the typical user behavior and occupancy patterns, apply accurate outdoor environment such as site dry-bulb temperature and wind speed, as well as using a set of more comprehensive and representative lighting and electronic schedule and activity assumptions.
+
+
 
 
 
