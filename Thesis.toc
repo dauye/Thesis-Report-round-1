@@ -19,11 +19,8 @@
 \contentsline {subsection}{\numberline {3.6.1}Weather Data For Static Calculation}{20}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}Weather Data For Dynamic Calculation}{22}{subsection.3.6.2}
 \contentsline {section}{\numberline {3.7}Static Calculation}{25}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}Losses}{25}{subsection.3.7.1}
-\contentsline {subsection}{\numberline {3.7.2}Gains}{25}{subsection.3.7.2}
-\contentsline {subsection}{\numberline {3.7.3}Measurements expected to close the performance gap}{25}{subsection.3.7.3}
 \contentsline {section}{\numberline {3.8}Dynamic Calculation}{25}{section.3.8}
-\contentsline {section}{\numberline {3.9}Calibration}{27}{section.3.9}
+\contentsline {section}{\numberline {3.9}Calibration}{26}{section.3.9}
 \contentsline {section}{\numberline {3.10}Parameters Variation}{27}{section.3.10}
 \contentsline {section}{\numberline {3.11}Data Processing}{33}{section.3.11}
 \contentsline {subsection}{\numberline {3.11.1}Dynamic Analysis Range}{33}{subsection.3.11.1}

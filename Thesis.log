@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.20)  20 OCT 2018 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.20)  20 OCT 2018 17:42
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -915,7 +915,7 @@ f>
 converted-to.pdf figures/eth_logo_black.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
-<figures/eth_logo_black-eps-converted-to.pdf, id=202, 191.71625pt x 57.21375pt>
+<figures/eth_logo_black-eps-converted-to.pdf, id=190, 191.71625pt x 57.21375pt>
 
 File: figures/eth_logo_black-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/eth_logo_black-eps-converted-to.pdf>
@@ -937,7 +937,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./figures/disco-logo-col-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<figures/disco-logo-col-eps-converted-to.pdf, id=203, 498.36188pt x 143.03438pt
+<figures/disco-logo-col-eps-converted-to.pdf, id=191, 498.36188pt x 143.03438pt
 >
 File: figures/disco-logo-col-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/disco-logo-col-eps-converted-to.pdf>
@@ -1025,7 +1025,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-<./figures/SIA380Issue.jpg, id=291, 376.40625pt x 392.21532pt>
+<./figures/SIA380Issue.jpg, id=276, 376.40625pt x 392.21532pt>
 File: ./figures/SIA380Issue.jpg Graphic file (type jpg)
 <use ./figures/SIA380Issue.jpg>
 Package pdftex.def Info: ./figures/SIA380Issue.jpg  used on input line 71.
@@ -1103,7 +1103,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-<./figures/Energy-relatedData.jpg, id=361, 800.9925pt x 637.63219pt>
+<./figures/Energy-relatedData.jpg, id=346, 800.9925pt x 637.63219pt>
 File: ./figures/Energy-relatedData.jpg Graphic file (type jpg)
 <use ./figures/Energy-relatedData.jpg>
 Package pdftex.def Info: ./figures/Energy-relatedData.jpg  used on input line 1
@@ -1165,12 +1165,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-<./figures/overview.JPG, id=411, 791.95876pt x 314.67563pt>
+<./figures/overview.JPG, id=396, 791.95876pt x 314.67563pt>
 File: ./figures/overview.JPG Graphic file (type jpg)
 <use ./figures/overview.JPG>
 Package pdftex.def Info: ./figures/overview.JPG  used on input line 158.
 (pdftex.def)             Requested size: 395.97841pt x 157.33742pt.
-<./figures/Sumatra_photo.jpg, id=412, 828.84656pt x 615.80063pt>
+<./figures/Sumatra_photo.jpg, id=397, 828.84656pt x 615.80063pt>
 File: ./figures/Sumatra_photo.jpg Graphic file (type jpg)
 <use ./figures/Sumatra_photo.jpg>
 Package pdftex.def Info: ./figures/Sumatra_photo.jpg  used on input line 167.
@@ -1189,7 +1189,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.177 		
          <./figures/overview.JPG>]
-<./figures/Sumatra_OG2_Plan.pdf, id=422, 3709.86pt x 1915.155pt>
+<./figures/Sumatra_OG2_Plan.pdf, id=407, 3709.86pt x 1915.155pt>
 File: ./figures/Sumatra_OG2_Plan.pdf Graphic file (type pdf)
 <use ./figures/Sumatra_OG2_Plan.pdf>
 Package pdftex.def Info: ./figures/Sumatra_OG2_Plan.pdf  used on input line 180
@@ -1199,7 +1199,7 @@ Package pdftex.def Info: ./figures/Sumatra_OG2_Plan.pdf  used on input line 180
 
 pdfTeX warning: pdflatex (file ./figures/Sumatra_OG3_Plan.pdf): PDF inclusion: 
 found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/Sumatra_OG3_Plan.pdf, id=423, 3848.5069pt x 1997.19244pt>
+<./figures/Sumatra_OG3_Plan.pdf, id=408, 3848.5069pt x 1997.19244pt>
 File: ./figures/Sumatra_OG3_Plan.pdf Graphic file (type pdf)
 <use ./figures/Sumatra_OG3_Plan.pdf>
 Package pdftex.def Info: ./figures/Sumatra_OG3_Plan.pdf  used on input line 187
@@ -1227,7 +1227,7 @@ l.195
 
 pdfTeX warning: pdflatex (file ./figures/Hongg_photo1.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.5> allowed
-<./figures/Hongg_photo1.pdf, id=442, 277.035pt x 502.87875pt>
+<./figures/Hongg_photo1.pdf, id=427, 277.035pt x 502.87875pt>
 File: ./figures/Hongg_photo1.pdf Graphic file (type pdf)
 <use ./figures/Hongg_photo1.pdf>
 Package pdftex.def Info: ./figures/Hongg_photo1.pdf  used on input line 201.
@@ -1236,7 +1236,7 @@ Package pdftex.def Info: ./figures/Hongg_photo1.pdf  used on input line 201.
 
 pdfTeX warning: pdflatex (file ./figures/Hongg_photo0.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.5> allowed
-<./figures/Hongg_photo0.pdf, id=443, 380.42125pt x 563.10374pt>
+<./figures/Hongg_photo0.pdf, id=428, 380.42125pt x 563.10374pt>
 File: ./figures/Hongg_photo0.pdf Graphic file (type pdf)
 <use ./figures/Hongg_photo0.pdf>
 Package pdftex.def Info: ./figures/Hongg_photo0.pdf  used on input line 207.
@@ -1245,7 +1245,7 @@ Package pdftex.def Info: ./figures/Hongg_photo0.pdf  used on input line 207.
 
 pdfTeX warning: pdflatex (file ./figures/Hongg_EG_Plan.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<./figures/Hongg_EG_Plan.pdf, id=444, 287.32947pt x 394.20174pt>
+<./figures/Hongg_EG_Plan.pdf, id=429, 287.32947pt x 394.20174pt>
 File: ./figures/Hongg_EG_Plan.pdf Graphic file (type pdf)
 <use ./figures/Hongg_EG_Plan.pdf>
 Package pdftex.def Info: ./figures/Hongg_EG_Plan.pdf  used on input line 215.
@@ -1254,7 +1254,7 @@ Package pdftex.def Info: ./figures/Hongg_EG_Plan.pdf  used on input line 215.
 
 pdfTeX warning: pdflatex (file ./figures/Hongg_1OG_Plan.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<./figures/Hongg_1OG_Plan.pdf, id=445, 289.95528pt x 399.01672pt>
+<./figures/Hongg_1OG_Plan.pdf, id=430, 289.95528pt x 399.01672pt>
 File: ./figures/Hongg_1OG_Plan.pdf Graphic file (type pdf)
 <use ./figures/Hongg_1OG_Plan.pdf>
 Package pdftex.def Info: ./figures/Hongg_1OG_Plan.pdf  used on input line 222.
@@ -1293,12 +1293,12 @@ ed
                                                   \fi \fi 
 l.230 
        <./figures/Hongg_1OG_Plan.pdf>]
-<./figures/Sumatra_dxf.jpg, id=490, 367.3725pt x 414.79968pt>
+<./figures/Sumatra_dxf.jpg, id=475, 367.3725pt x 414.79968pt>
 File: ./figures/Sumatra_dxf.jpg Graphic file (type jpg)
 <use ./figures/Sumatra_dxf.jpg>
 Package pdftex.def Info: ./figures/Sumatra_dxf.jpg  used on input line 236.
 (pdftex.def)             Requested size: 220.42519pt x 248.88173pt.
-<./figures/Hongger_dxf.jpg, id=491, 701.62125pt x 457.71pt>
+<./figures/Hongger_dxf.jpg, id=476, 701.62125pt x 457.71pt>
 File: ./figures/Hongger_dxf.jpg Graphic file (type jpg)
 <use ./figures/Hongger_dxf.jpg>
 Package pdftex.def Info: ./figures/Hongger_dxf.jpg  used on input line 243.
@@ -1485,13 +1485,13 @@ Overfull \hbox (3.1087pt too wide) in paragraph at lines 430--430
 \T1/lmr/m/n/10.95 W/m2K| 
  []
 
-<./figures/SumatraDesignBuilderModel.JPG, id=533, 823.57687pt x 648.17157pt>
+<./figures/SumatraDesignBuilderModel.JPG, id=518, 823.57687pt x 648.17157pt>
 File: ./figures/SumatraDesignBuilderModel.JPG Graphic file (type jpg)
 <use ./figures/SumatraDesignBuilderModel.JPG>
 Package pdftex.def Info: ./figures/SumatraDesignBuilderModel.JPG  used on input
  line 470.
 (pdftex.def)             Requested size: 329.42491pt x 259.26402pt.
-<./figures/HonggDesignBuilderModel.JPG, id=534, 516.42938pt x 638.385pt>
+<./figures/HonggDesignBuilderModel.JPG, id=519, 516.42938pt x 638.385pt>
 File: ./figures/HonggDesignBuilderModel.JPG Graphic file (type jpg)
 <use ./figures/HonggDesignBuilderModel.JPG>
 Package pdftex.def Info: ./figures/HonggDesignBuilderModel.JPG  used on input l
@@ -1772,7 +1772,7 @@ e same identifier (name{table.3.9}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.621 			\textbf{2015 Weather File}
                                    \\]
-<./figures/WeatherStation.jpg, id=585, 531.48563pt x 499.11469pt>
+<./figures/WeatherStation.jpg, id=570, 531.48563pt x 499.11469pt>
 File: ./figures/WeatherStation.jpg Graphic file (type jpg)
 <use ./figures/WeatherStation.jpg>
 Package pdftex.def Info: ./figures/WeatherStation.jpg  used on input line 626.
@@ -1795,13 +1795,13 @@ l.657
                                                   \fi \fi 
 l.657 
        <./figures/WeatherStation.jpg>]
-<./figures/HeatIsland_Construction.jpg, id=595, 828.84656pt x 420.06938pt>
+<./figures/HeatIsland_Construction.jpg, id=580, 828.84656pt x 420.06938pt>
 File: ./figures/HeatIsland_Construction.jpg Graphic file (type jpg)
 <use ./figures/HeatIsland_Construction.jpg>
 Package pdftex.def Info: ./figures/HeatIsland_Construction.jpg  used on input l
 ine 664.
 (pdftex.def)             Requested size: 455.86702pt x 231.03888pt.
-<./figures/HeatIslandConstruction.jpg, id=596, 555.57562pt x 330.48468pt>
+<./figures/HeatIslandConstruction.jpg, id=581, 555.57562pt x 330.48468pt>
 File: ./figures/HeatIslandConstruction.jpg Graphic file (type jpg)
 <use ./figures/HeatIslandConstruction.jpg>
 Package pdftex.def Info: ./figures/HeatIslandConstruction.jpg  used on input li
@@ -1827,7 +1827,12 @@ been already used, duplicate ignored
 l.681 		\[
           \text{Heating Demand} = \text{Heat Losses} - \text{Heat Gains}\] <./f
 igures/HeatIsland_Construction.jpg> <./figures/HeatIslandConstruction.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 684--685
+Underfull \hbox (badness 10000) in paragraph at lines 683--685
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--688
 
  []
 
@@ -1849,12 +1854,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 713--714
 
  []
 
-<./figures/TempSetpoint.jpg, id=612, 344.03531pt x 212.29312pt>
+<./figures/TempSetpoint.jpg, id=597, 344.03531pt x 212.29312pt>
 File: ./figures/TempSetpoint.jpg Graphic file (type jpg)
 <use ./figures/TempSetpoint.jpg>
 Package pdftex.def Info: ./figures/TempSetpoint.jpg  used on input line 717.
 (pdftex.def)             Requested size: 378.44pt x 233.52315pt.
-<figures/JanOffice_Vent.jpg, id=613, 516.42938pt x 255.95625pt>
+<figures/JanOffice_Vent.jpg, id=598, 516.42938pt x 255.95625pt>
 File: figures/JanOffice_Vent.jpg Graphic file (type jpg)
 <use figures/JanOffice_Vent.jpg>
 Package pdftex.def Info: figures/JanOffice_Vent.jpg  used on input line 726.
@@ -1906,7 +1911,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 802--805
 
  []
 
-<./figures/Residential_TempSetpoint.jpg, id=626, 456.95718pt x 345.54094pt>
+<./figures/Residential_TempSetpoint.jpg, id=611, 456.95718pt x 345.54094pt>
 File: ./figures/Residential_TempSetpoint.jpg Graphic file (type jpg)
 <use ./figures/Residential_TempSetpoint.jpg>
 Package pdftex.def Info: ./figures/Residential_TempSetpoint.jpg  used on input 
@@ -1925,7 +1930,7 @@ l.815
                                                   \fi \fi 
 l.815 
        <./figures/Residential_TempSetpoint.jpg>]
-<figures/RoomOccupancy.JPG, id=640, 416.30531pt x 277.78781pt>
+<figures/RoomOccupancy.JPG, id=625, 416.30531pt x 277.78781pt>
 File: figures/RoomOccupancy.JPG Graphic file (type jpg)
 <use figures/RoomOccupancy.JPG>
 Package pdftex.def Info: figures/RoomOccupancy.JPG  used on input line 818.
@@ -1935,13 +1940,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 823--825
 
  []
 
-<figures/LightingLevelDistribution.jpg, id=642, 530.73282pt x 315.42844pt>
+<figures/LightingLevelDistribution.jpg, id=627, 530.73282pt x 315.42844pt>
 File: figures/LightingLevelDistribution.jpg Graphic file (type jpg)
 <use figures/LightingLevelDistribution.jpg>
 Package pdftex.def Info: figures/LightingLevelDistribution.jpg  used on input l
 ine 828.
 (pdftex.def)             Requested size: 371.51044pt x 220.79839pt.
-<figures/ApplianceLevelDistribution.jpg, id=644, 478.03593pt x 291.33844pt>
+<figures/ApplianceLevelDistribution.jpg, id=629, 478.03593pt x 291.33844pt>
 File: figures/ApplianceLevelDistribution.jpg Graphic file (type jpg)
 <use figures/ApplianceLevelDistribution.jpg>
 Package pdftex.def Info: figures/ApplianceLevelDistribution.jpg  used on input 
@@ -1965,7 +1970,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 842--844
 
  []
 
-<figures/DHWLevelDistribution.jpg, id=652, 463.7325pt x 283.81032pt>
+<figures/DHWLevelDistribution.jpg, id=637, 463.7325pt x 283.81032pt>
 File: figures/DHWLevelDistribution.jpg Graphic file (type jpg)
 <use figures/DHWLevelDistribution.jpg>
 Package pdftex.def Info: figures/DHWLevelDistribution.jpg  used on input line 8
@@ -1976,13 +1981,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 855--857
 
  []
 
-<./figures/VentilationLevel.jpg, id=655, 660.21657pt x 339.51843pt>
+<./figures/VentilationLevel.jpg, id=640, 660.21657pt x 339.51843pt>
 File: ./figures/VentilationLevel.jpg Graphic file (type jpg)
 <use ./figures/VentilationLevel.jpg>
 Package pdftex.def Info: ./figures/VentilationLevel.jpg  used on input line 860
 .
 (pdftex.def)             Requested size: 448.94133pt x 230.86948pt.
-<./figures/Office_Vent.jpg, id=656, 895.84688pt x 462.22687pt>
+<./figures/Office_Vent.jpg, id=641, 895.84688pt x 462.22687pt>
 File: ./figures/Office_Vent.jpg Graphic file (type jpg)
 <use ./figures/Office_Vent.jpg>
 Package pdftex.def Info: ./figures/Office_Vent.jpg  used on input line 867.
@@ -1992,7 +1997,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 872--874
 
  []
 
-<./figures/Example_Normal_Distribution.jpg, id=658, 761.09344pt x 475.02469pt>
+<./figures/Example_Normal_Distribution.jpg, id=643, 761.09344pt x 475.02469pt>
 File: ./figures/Example_Normal_Distribution.jpg Graphic file (type jpg)
 <use ./figures/Example_Normal_Distribution.jpg>
 Package pdftex.def Info: ./figures/Example_Normal_Distribution.jpg  used on inp
@@ -2017,7 +2022,7 @@ l.885
 l.885 
        <./figures/ApplianceLevelDistribution.jpg> <./figures/DHWLevelDistributi
 on.jpg>]
-<./figures/Hongger_InConvDist.jpg, id=669, 871.75688pt x 462.97969pt>
+<./figures/Hongger_InConvDist.jpg, id=654, 871.75688pt x 462.97969pt>
 File: ./figures/Hongger_InConvDist.jpg Graphic file (type jpg)
 <use ./figures/Hongger_InConvDist.jpg>
 Package pdftex.def Info: ./figures/Hongger_InConvDist.jpg  used on input line 8
@@ -2067,12 +2072,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 910--912
 
 [33]
 Chapter 4.
-<./figures/Office_SIA.jpg, id=685, 864.22874pt x 496.10344pt>
+<./figures/Office_SIA.jpg, id=670, 864.22874pt x 496.10344pt>
 File: ./figures/Office_SIA.jpg Graphic file (type jpg)
 <use ./figures/Office_SIA.jpg>
 Package pdftex.def Info: ./figures/Office_SIA.jpg  used on input line 921.
 (pdftex.def)             Requested size: 397.55005pt x 228.21034pt.
-<./figures/Residential_SIA.jpg, id=686, 828.09375pt x 459.21562pt>
+<./figures/Residential_SIA.jpg, id=671, 828.09375pt x 459.21562pt>
 File: ./figures/Residential_SIA.jpg Graphic file (type jpg)
 <use ./figures/Residential_SIA.jpg>
 Package pdftex.def Info: ./figures/Residential_SIA.jpg  used on input line 928.
@@ -2087,12 +2092,12 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.934 	\newpage
                		 <./figures/Office_SIA.jpg>]
-<./figures/Office_EP.jpg, id=694, 817.55438pt x 438.8897pt>
+<./figures/Office_EP.jpg, id=679, 817.55438pt x 438.8897pt>
 File: ./figures/Office_EP.jpg Graphic file (type jpg)
 <use ./figures/Office_EP.jpg>
 Package pdftex.def Info: ./figures/Office_EP.jpg  used on input line 941.
 (pdftex.def)             Requested size: 408.7762pt x 219.4443pt.
-<./figures/Residential_EP.jpg, id=695, 960.58875pt x 489.32813pt>
+<./figures/Residential_EP.jpg, id=680, 960.58875pt x 489.32813pt>
 File: ./figures/Residential_EP.jpg Graphic file (type jpg)
 <use ./figures/Residential_EP.jpg>
 Package pdftex.def Info: ./figures/Residential_EP.jpg  used on input line 948.
@@ -2115,12 +2120,12 @@ e.4.3}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.961 		
          <./figures/Residential_SIA.jpg> <./figures/Office_EP.jpg>]
-<./figures/ACH_Compare.JPG, id=705, 560.8453pt x 329.73187pt>
+<./figures/ACH_Compare.JPG, id=690, 560.8453pt x 329.73187pt>
 File: ./figures/ACH_Compare.JPG Graphic file (type jpg)
 <use ./figures/ACH_Compare.JPG>
 Package pdftex.def Info: ./figures/ACH_Compare.JPG  used on input line 964.
 (pdftex.def)             Requested size: 392.58904pt x 230.81071pt.
-<figures/Hongg_Clibration_Origin.JPG, id=706, 594.72188pt x 313.9228pt>
+<figures/Hongg_Clibration_Origin.JPG, id=691, 594.72188pt x 313.9228pt>
 File: figures/Hongg_Clibration_Origin.JPG Graphic file (type jpg)
 <use figures/Hongg_Clibration_Origin.JPG>
 Package pdftex.def Info: figures/Hongg_Clibration_Origin.JPG  used on input lin
@@ -2143,7 +2148,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 976--977
 
  []
 
-<figures/Hongg_Cali_NoFacility.JPG, id=712, 761.84625pt x 394.47375pt>
+<figures/Hongg_Cali_NoFacility.JPG, id=697, 761.84625pt x 394.47375pt>
 File: figures/Hongg_Cali_NoFacility.JPG Graphic file (type jpg)
 <use figures/Hongg_Cali_NoFacility.JPG>
 Package pdftex.def Info: figures/Hongg_Cali_NoFacility.JPG  used on input line 
@@ -2154,7 +2159,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 985--986
 
  []
 
-<./figures/Hongg_Clibration_03NoLight.JPG, id=714, 584.93532pt x 286.82156pt>
+<./figures/Hongg_Clibration_03NoLight.JPG, id=699, 584.93532pt x 286.82156pt>
 File: ./figures/Hongg_Clibration_03NoLight.JPG Graphic file (type jpg)
 <use ./figures/Hongg_Clibration_03NoLight.JPG>
 Package pdftex.def Info: ./figures/Hongg_Clibration_03NoLight.JPG  used on inpu
@@ -2174,7 +2179,7 @@ r (name{figure.4.7}) has been already used, duplicate ignored
 l.992 			\end{figure}
                       <./figures/Hongg_Clibration_Origin.JPG> <./figures/Hongg_
 Cali_NoFacility.JPG>]
-<./figures/Hongg_Clibration_03NewLight.JPG, id=723, 600.74437pt x 310.15875pt>
+<./figures/Hongg_Clibration_03NewLight.JPG, id=708, 600.74437pt x 310.15875pt>
 File: ./figures/Hongg_Clibration_03NewLight.JPG Graphic file (type jpg)
 <use ./figures/Hongg_Clibration_03NewLight.JPG>
 Package pdftex.def Info: ./figures/Hongg_Clibration_03NewLight.JPG  used on inp
@@ -2205,13 +2210,13 @@ l.1025
 l.1025 
         <./figures/Hongg_Clibration_03NoLight.JPG> <./figures/Hongg_Clibration_
 03NewLight.JPG>]
-<figures/Office_Calibration_Ori.JPG, id=734, 910.90312pt x 418.56375pt>
+<figures/Office_Calibration_Ori.JPG, id=719, 910.90312pt x 418.56375pt>
 File: figures/Office_Calibration_Ori.JPG Graphic file (type jpg)
 <use figures/Office_Calibration_Ori.JPG>
 Package pdftex.def Info: figures/Office_Calibration_Ori.JPG  used on input line
  1031.
 (pdftex.def)             Requested size: 318.82086pt x 146.4995pt.
-<./figures/Sumatra_Calibration_AllonShading.JPG, id=735, 1072.005pt x 500.62032
+<./figures/Sumatra_Calibration_AllonShading.JPG, id=720, 1072.005pt x 500.62032
 pt>
 File: ./figures/Sumatra_Calibration_AllonShading.JPG Graphic file (type jpg)
 <use ./figures/Sumatra_Calibration_AllonShading.JPG>
@@ -2223,7 +2228,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1043--1044
 
  []
 
-<./figures/Sumatra_Calibration_NewShading.JPG, id=740, 700.11563pt x 352.31625p
+<./figures/Sumatra_Calibration_NewShading.JPG, id=725, 700.11563pt x 352.31625p
 t>
 File: ./figures/Sumatra_Calibration_NewShading.JPG Graphic file (type jpg)
 <use ./figures/Sumatra_Calibration_NewShading.JPG>
@@ -2253,7 +2258,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1088--1089
 
  []
 
-<./figures/Sumatra_2015Distribution.jpg, id=752, 615.0478pt x 309.40594pt>
+<./figures/Sumatra_2015Distribution.jpg, id=737, 615.0478pt x 309.40594pt>
 File: ./figures/Sumatra_2015Distribution.jpg Graphic file (type jpg)
 <use ./figures/Sumatra_2015Distribution.jpg>
 Package pdftex.def Info: ./figures/Sumatra_2015Distribution.jpg  used on input 
@@ -2278,7 +2283,7 @@ l.1096
                                                   \fi \fi 
 l.1096 
         <./figures/Sumatra_Calibration_NewShading.JPG>]
-<./figures/Hongg_2015Distribution.jpg, id=759, 609.02531pt x 292.84406pt>
+<./figures/Hongg_2015Distribution.jpg, id=744, 609.02531pt x 292.84406pt>
 File: ./figures/Hongg_2015Distribution.jpg Graphic file (type jpg)
 <use ./figures/Hongg_2015Distribution.jpg>
 Package pdftex.def Info: ./figures/Hongg_2015Distribution.jpg  used on input li
@@ -2308,7 +2313,7 @@ l.1109
 l.1109 
         <./figures/Sumatra_2015Distribution.jpg> <./figures/Hongg_2015Distribut
 ion.jpg>]
-<./figures/Sumatra_Matrix.jpg, id=768, 813.79031pt x 696.35156pt>
+<./figures/Sumatra_Matrix.jpg, id=753, 813.79031pt x 696.35156pt>
 File: ./figures/Sumatra_Matrix.jpg Graphic file (type jpg)
 <use ./figures/Sumatra_Matrix.jpg>
 Package pdftex.def Info: ./figures/Sumatra_Matrix.jpg  used on input line 1113.
@@ -2319,7 +2324,7 @@ Overfull \hbox (10.27155pt too wide) in paragraph at lines 1113--1114
  [][] 
  []
 
-<./figures/Hongger_Matrix.jpg, id=769, 797.98125pt x 690.32906pt>
+<./figures/Hongger_Matrix.jpg, id=754, 797.98125pt x 690.32906pt>
 File: ./figures/Hongger_Matrix.jpg Graphic file (type jpg)
 <use ./figures/Hongger_Matrix.jpg>
 Package pdftex.def Info: ./figures/Hongger_Matrix.jpg  used on input line 1120.
@@ -2346,7 +2351,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1128--1129
 
  []
 
-<./figures/Solar_HeatingDemand.JPG, id=774, 829.59938pt x 429.85594pt>
+<./figures/Solar_HeatingDemand.JPG, id=759, 829.59938pt x 429.85594pt>
 File: ./figures/Solar_HeatingDemand.JPG Graphic file (type jpg)
 <use ./figures/Solar_HeatingDemand.JPG>
 Package pdftex.def Info: ./figures/Solar_HeatingDemand.JPG  used on input line 
@@ -2364,12 +2369,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1140--1141
                                                   \fi \fi 
 l.1141         	
                  <./figures/Hongger_Matrix.jpg>]
-<./figures/Hongg_ConvCoe.JPG, id=779, 772.38562pt x 430.60875pt>
+<./figures/Hongg_ConvCoe.JPG, id=764, 772.38562pt x 430.60875pt>
 File: ./figures/Hongg_ConvCoe.JPG Graphic file (type jpg)
 <use ./figures/Hongg_ConvCoe.JPG>
 Package pdftex.def Info: ./figures/Hongg_ConvCoe.JPG  used on input line 1144.
 (pdftex.def)             Requested size: 386.19186pt x 215.30383pt.
-<./figures/Sumatra_Comparison.jpg, id=782, 444.15938pt x 341.02406pt>
+<./figures/Sumatra_Comparison.jpg, id=767, 444.15938pt x 341.02406pt>
 File: ./figures/Sumatra_Comparison.jpg Graphic file (type jpg)
 <use ./figures/Sumatra_Comparison.jpg>
 Package pdftex.def Info: ./figures/Sumatra_Comparison.jpg  used on input line 1
@@ -2388,7 +2393,7 @@ l.1158
                                                   \fi \fi 
 l.1158 
         <./figures/Solar_HeatingDemand.JPG> <./figures/Hongg_ConvCoe.JPG>]
-<./figures/Hongg_Comparison.jpg, id=792, 441.90094pt x 348.55219pt>
+<./figures/Hongg_Comparison.jpg, id=777, 441.90094pt x 348.55219pt>
 File: ./figures/Hongg_Comparison.jpg Graphic file (type jpg)
 <use ./figures/Hongg_Comparison.jpg>
 Package pdftex.def Info: ./figures/Hongg_Comparison.jpg  used on input line 116
@@ -2809,7 +2814,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1639.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1639.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9657E60C8BDEDC5B8887B3F693AF89C7;3606.
+(rerunfilecheck)             Checksum: CE2A5219FD3272533FF13AFA546181E7;3362.
 
 
 LaTeX Warning: There were undefined references.
@@ -2817,10 +2822,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1639.
  ) 
 Here is how much of TeX's memory you used:
- 19080 strings out of 492970
- 356567 string characters out of 3125705
- 432060 words of memory out of 3000000
- 22293 multiletter control sequences out of 15000+200000
+ 19074 strings out of 492970
+ 356465 string characters out of 3125705
+ 432057 words of memory out of 3000000
+ 22290 multiletter control sequences out of 15000+200000
  90454 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,19n,76p,1562b,712s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2847,9 +2852,9 @@ lmr7.pfb><C:/Users/he_ying/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 blic/lm/lmri10.pfb><C:/Users/he_ying/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmsy10.pfb><C:/Users/he_ying/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/public/lm/lmtt10.pfb>
-Output written on Thesis.pdf (64 pages, 5085550 bytes).
+Output written on Thesis.pdf (64 pages, 5084075 bytes).
 PDF statistics:
- 1001 PDF objects out of 1200 (max. 8388607)
- 222 named destinations out of 1000 (max. 500000)
- 655 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 986 PDF objects out of 1000 (max. 8388607)
+ 219 named destinations out of 1000 (max. 500000)
+ 631 words of extra memory for PDF output out of 10000 (max. 10000000)
 
