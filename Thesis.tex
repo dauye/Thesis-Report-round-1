@@ -44,7 +44,7 @@ Empa,Dübendorf\\[2pt]}
 \cleardoublepage
 
 \begin{acknowledgements}
- I thank xxx
+ I would like to thank my thesis advisors Dr. Orehounig and Dr. Mavromatidis. Whenever I ran into troubles or had a question about my research, the doors to their office are always open and my emails are always replied within short time with solutions. 
 \end{acknowledgements}
 
 
@@ -136,7 +136,7 @@ Empa,Dübendorf\\[2pt]}
 
 			\textit{(4) T\&M for energy system controlling} aims at reducing building energy consumption without sacrificing the occupants' thermal comfort, and can be devided by three groups: \textit{intelligent HVAC system, artificial lighting} and \textit{occupancy-based control system} \cite{ZOU2018165,hong2015review}. The limitation for T\&M for building automatic control would be it relies heavily on controlling algorithms and the accuracy of sensoring equipments. Therefore, a mal-functioning sensor group would paralise the control system.
 
-	\section{Simulation Parameter Variation}
+	\section{Building Simulation Parameter Variation}
 		There are a number of research papers trying different approaches to mitigate the problem caused by input uncertainties due to lack of necessary information \cite{GeorgeThesis}. A majority of research papers involve using normal distribution to allocate the uncertain parameters while some others also use different allocation methods such as triangular or uniform distribution. Most uncertainties can be grouped into different types, Mavromatidis \cite{GeorgeThesis} has provided a summary of building simulation uncertainties and classified the related simulation parameters into 4 different types: (1) Building-related parameters; (2) occupant-related parameters; (3) indoor environment-related parameters and (4) weather/climate parameters \cite{GeorgeThesis}.\\
 
 		(1) \textit{Building-related parameters} are those related to building envelope material properties such as construction material thermal properties and infiltration/air tightness. The uncertainties of this type of parameters are due to unknown or partly unknown construction information, or because of the material performance being inconsistent with the lab specifications due to measurement errors, poor workmanship, installation, quality and aging problem \cite{GeorgeThesis}. One of the most difficult-to-measure parameters is air-tightness/air infiltration rate, which can be measured only by a time-consuming blower-door test. Therefore, in many cases a typical assumed value is used for the building simulation processes, and this typical assumed air infiltration value is sometimes different from the actual value \cite{GeorgeThesis,burhenne2013uncertainty}.\\
@@ -145,7 +145,7 @@ Empa,Dübendorf\\[2pt]}
 
 		(3) \textit{Indoor environment-related parameters} such as thermostat values, ventilation level, shading and window opening preferences can be varied from person to person. Similar to the user behavior pattern discussed above, probabilistic approaches are widely used in several researches \cite{GeorgeThesis} Both thermostat setpoints and indoor air quality such as air change rates are of high interest for many researchers, and normal and triangular distribution are a popular way to address uncertainties related to these indoor environment-related parameters \cite{GeorgeThesis}. 
 
-	\section{Simulation Research for Swiss Buildings}
+	\section{Building Simulation Research for Swiss Buildings}
 		In 2015 a research has been done by \textit{Lemon Consult} \cite{SIAPreviousreport} aiming to investigate the reason behind the huge performance gaps in uninsulated old buildings when using SIA 380/1 and SIA 382 calculation method. The research concluded that three main reasons are the most important: too poor U-values, too low indoor air temperature for unheated ares (based on a research on basement actual temperature), and the discrepancies between standard climate data and actual outdoor air temperature \cite{SIAPreviousreport}. However, there are still some unsolved problems in the previous research. Firstly, the actual temperature of the building site is not fully recorded and used in SIA 380/2 calculation. Secondly, the relations and rankings between the key parameters are not clear. Therefore, in this thesis, a more accurate and up-to-date weather information is implemented in both static and dynamic calculations, and the correlation relationship between the heating demand and each key parameter are also investigated more closely.
 
 
@@ -162,18 +162,20 @@ Empa,Dübendorf\\[2pt]}
 
 	\section{Office Building Introduction}
 		
-		\begin{figure}[ht]
-		\centering
-		\includegraphics[scale=0.45]{Sumatra_photo.jpg}
-		\caption{Sumatrastrasse 10 Office Building}
-		\label{fig:Sumatra_photo}
-		\end{figure}
+
 		 
 		
 		According to the given information, the office building is constructed in 1951 and is located at Sumatrastrasse 10, 8006 Zurich, Switzerland. The building has 4 floors and a basement. The building  is facing west, and the window-to-wall ratio is 59\% on its west and south facade. The east facade of its ground floor and first floor is submerged into ground and there are heavy cover of plants on the upper floors with only a few necessary windows. There is also an underground floor used as warehouse and it's not included in any building model in this thesis.\\
 
 		Figure \ref{fig:sumatra_og2} and \ref{fig:sumatra_og3} below are the floor plans of the building.
 		The floor layout of ground floor, first floor and second floor are thought to be identical, and the third would have some small differences. For each floor, there is a toilet, a small office and 2 middle offices and a staircase. There is also a big office in each floor at the south side at ground floor, first floor and second floor. At the third floor, part of the big office and the corridor become a meeting room and a small pastry area as shown in the figures below. The detail building envelope material and modelling parameters are at chapter \textit{Methodology}.
+
+		\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.45]{Sumatra_photo.jpg}
+		\caption{Sumatrastrasse 10 Office Building}
+		\label{fig:Sumatra_photo}
+		\end{figure}
 		
 		\begin{figure}[ht!]
 		  \centering
@@ -189,7 +191,7 @@ Empa,Dübendorf\\[2pt]}
 		  \label{fig:sumatra_og3}
 		\end{figure}
 	
-		
+	\newpage	
 	\section{Residential Building Introduction}
 		Figures \ref{fig:hongg_NE} and \ref{fig:hongg_SW} show photos of the residential building. The residential building is a part of a multi-family town house constructed in 1894. It is located at Honggerstrasse 23, 8037 Zurich, Switzerland. The building has 5 floors, the top floor is a loft and there is also an extra basement. There are 4 apartments in the building. The first apartment occupies the ground floor and the first floor, and the other 3 apartments each occupy one floor. Figure \ref{fig:hongg_eg_plan} and Figure \ref{fig:hongg_og1_plan} are the floor plans of the residential building. The ground floor is connected with the first floor internally via a small staircase behide the kitchen. The black and red lines in Figure \ref{fig:hongg_eg_plan} show the ground floor layout and the yellow line indicates the layout of the upper floor. Similarily, Figure \ref{fig:hongg_og1_plan} shows the floor plans from first floor upward. The  red line indicates the layout of first floor and the yellow line shows the layout from second floor up. The detail building envelope material and modelling parameters are shown at \textit{the Chapter Methodology}.\\
 		
@@ -233,7 +235,7 @@ Empa,Dübendorf\\[2pt]}
 
 			\begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.6]{Sumatra_dxf.jpg}
+			\includegraphics[scale=0.8]{Sumatra_dxf.jpg}
 			\caption{dxf drawing files for office building}
 			\label{fig:SumatraDxf}
 			\end{figure}
@@ -372,9 +374,9 @@ Empa,Dübendorf\\[2pt]}
 			\begin{table}[h!]
 			  \centering
 			\caption{Wall material list of office building}
-			    \begin{tabular}{rrrrrrr}
+			    \begin{tabular}{lrrrcrr}
 			    \toprule
-			         & \multicolumn{1}{p{4em}}{Thickness \newline{}m} & \multicolumn{1}{p{3.145em}}{Density \newline{}kg/m$^3$} & \multicolumn{1}{p{3.285em}}{Lambda \newline{}W/MK} & \multicolumn{1}{p{3.57em}}{Heat Capacity\newline{} KJ/Kg.K} & \multicolumn{1}{p{2.93em}}{R Value \newline{}m$^2$K/W} & \multicolumn{1}{p{3.145em}}{U Value \newline{}W/m$^2$K} \\
+			         & \multicolumn{1}{p{4em}}{Thickness \newline{}(m)} & \multicolumn{1}{p{3.145em}}{Density \newline{}(kg/m$^3$)} & \multicolumn{1}{p{3.285em}}{Lambda \newline{}(W/mK)} & \multicolumn{1}{p{5.1em}}{Heat \newline{}Capacity (kJ/kg.K)} & \multicolumn{1}{p{3.5em}}{R Value \newline{}(m$^2$K/W)} & \multicolumn{1}{p{3.145em}}{U Value \newline{}(W/m$^2$K)} \\
 			    \midrule
 			    \multicolumn{7}{p{26.86em}}{EG East Wall} \\
 			    \multicolumn{1}{l}{Outside convection coefficient} &      &      &      &      &      &  \\
@@ -425,9 +427,9 @@ Empa,Dübendorf\\[2pt]}
 			\begin{table}[h!]
 			  \centering
 			\caption{Residential building wall material}
-			    \begin{tabular}{rrrrrrr}
+			    \begin{tabular}{rrrrcrr}
 			    \toprule
-			         & \multicolumn{1}{p{3.93em}}{Thickness m} & \multicolumn{1}{p{3.07em}}{Density kg/m$^3$} & \multicolumn{1}{p{3.145em}}{Lambda W/MK} & \multicolumn{1}{p{3.57em}}{Heat Capacity KJ/Kg.K} & \multicolumn{1}{p{3.355em}}{R Value m$^2$K/W} & \multicolumn{1}{p{3.355em}}{U Value W/m2K} \\
+			         & \multicolumn{1}{p{3.93em}}{Thickness (m)} & \multicolumn{1}{p{3.07em}}{Density (kg/m$^3$)} & \multicolumn{1}{p{3.145em}}{Lambda (W/mK)} & \multicolumn{1}{p{5.em}}{Heat \newline{}Capacity (kJ/kg.K)} & \multicolumn{1}{p{3.55em}}{R Value (m$^2$K/W)} & \multicolumn{1}{p{3.55em}}{U Value (W/m$^2$K)} \\
 			    \midrule
 			    \multicolumn{7}{c}{External Wall} \\
 			    \midrule
@@ -616,7 +618,7 @@ Empa,Dübendorf\\[2pt]}
 				An .\textit{epw} weather file is needed for dynamic calculation using \textit{EnergyPlus}. The weather file is either from a meteological organization or from modifying an existing weather file. It contains a large number of weather information such as dry-bulb temperature, wet-bulb temperature, relative humidity, wind speed, wind direction, hourly solar radiation, cloudiness etc.\\
 
 			\textbf{Typical Meteorological Year Weather File}\\
-				A typical year Zurich weather file is obtained by using Meteonorm\todo{Add Reference}. It also become the basis for other custom-made weather files that are used in this thesis. The basic statistic information of the typical year weather file is shown at the 3$^{rd}$ column of Table \ref{tab:StaticWeatherCompare}. \\
+				A typical year Zurich weather file is obtained by using Meteonorm \cite{GeorgeThesis}. It is also the basis for other custom-made weather files that are used in this thesis such as 2015 station weather file and heat island weather file. The basic statistic information of the typical year weather file is shown at the 3$^{rd}$ column of Table \ref{tab:StaticWeatherCompare}. \\
 
 			\textbf{2015 Weather File}\\
 				The 2015 weather file is created from the typical Zurich weather file by replacing the dry bulb temperature, wet bulb temperature, relative humidity, wind speed, and wind direction by the actual hourly measured data in Zurich in 2015. The source of weather data is from \textit{Federal Office of Meteology and Climatology MeteoSwiss}. Considering the location of the two existing building, the weather station is chosen to be \textit{NABZUE}, which located at Zurich city as shown in Figure \ref{fig:NABZUE}. The exact location and the detailed weather file information is shown in Table \ref{tab:2015DataInformation}.
@@ -914,7 +916,11 @@ Empa,Dübendorf\\[2pt]}
 \chapter{Results}
 
 	\section{Static Calculation}
-		The results of static calculation are shown in the following sections. Firstly the results of office building then the residential building results at each steps are shown below according the methodology. A summary is also given after each energy loss and energy gain section is presented.
+		The results of static calculation are shown in the following sections. Firstly the results of office building then the residential building results at each steps are shown below according the methodology. A summary is also given after each energy loss and energy gain section is presented.\\
+
+		Figure \ref{fig:Sumatra_SIA} and Figure \ref{fig:Hongger_SIA} show the static calculation results based on SIA 380/1 standard. The first bar from the left shows the result from a previous report given by \textit{Lemon Consult} \cite{SIAPreviousreport}, the calculation is using the gross floor area which external walls and internal partitions are included. The second bar represent the result from a corrected building envelop, which net area is used and the external walls and internal partitions are excluded from the floor area calculation. The results show a significant drop in heating demand after using internal net area instead of gross area, which may indicate that net area is a better parameter in SIA 380/1 calculation than gross area.\\
+
+		The third bar represents a calculation result from changing the SIA 381/2 stand weather condition to the actual 2015 weather condition from Zurich NABZUE station. From the previous chapter, it is clear that the overall temperature in 2015 is much warmer than the standard SIA 381/2 weather assumption, which may become a major reason of heating energy overestimation and a huge performance gap. The results from both the office building and the residential building indicate a significant performance gap improvement after the year 2015 actual weather condition is used. Therefore, it indicates that in macroscopic view, SIA 380/1 calculation standard can achieve a much smaller performance gap by using the net floor area and an accurate weather condition. 
 
 		\begin{figure}[htbp]
 		\centering
@@ -933,7 +939,7 @@ Empa,Dübendorf\\[2pt]}
 		
 	\newpage		  
 	\section{Dynamic Simulation}		
-			The dynamic simulation results are shown below in Figure \ref{fig:Sumatra_EP} and Figure \ref{fig:Hongger_EP} below. Firstly, the simulation is run in 2015 weather conditions and with standard building envelope. Secondly, the air change ratio is changed to a more realistic value of 0.3 ACH. Then, the SIA standard heat convection coefficient values are applied on the model and the result shows a close match between the calculated heating demand and the measured heating demand. It appears that both buildings can obtain a very close estimation when using these approaches. However, in order to further verify the building simulation methods and parameters, a building calibration is needed for both buildings.
+			The dynamic simulation results are shown below in Figure \ref{fig:Sumatra_EP} and Figure \ref{fig:Hongger_EP} below. Firstly, the simulation is run in 2015 weather conditions and with standard building envelope, which is shown in the first bar from the left. Secondly, the air change ratio is changed from 0.1 ACH to a more realistic value of 0.3 ACH, which is shown in the second bar from the left. Then, the third bar shows the results after SIA standard heat convection coefficient values are applied on the model. The result shows a close match between the calculated heating demand and the measured heating demand. It appears that both buildings can obtain a very close estimation when using these approaches. However, in order to further verify the building simulation methods and parameters, a building calibration is needed for both buildings.
 		
 
 		\begin{figure}[htbp]
@@ -954,15 +960,15 @@ Empa,Dübendorf\\[2pt]}
 
 
 
-
+	\newpage
 	\section{Calibration Results}
 
-			Figure \ref{fig:ACH_Compare} below shows a comparison of calculated indoor temperature from 1$^{st}$ June to 10$^{th}$ June in 2015 in the residential building under different air tightness (0.1/0.3/0.5 air change per hour infiltration level). The blue line with huge fluctuation represents the outdoor temperature from the weather station, the red line represents the measured indoor temperature, and the gray, orange, and dark blue line represent the calculated indoor temperature of the three rooms at the same apartment. The result indicates that the air infiltration dose not have a strong impact on indoor temperature profile. Therefore, the air infiltration is used to calibrate the annual heating demand to the measured value after the temperature profile is matched.\\
+			Figure \ref{fig:ACH_Compare} shows a comparison of average calculated indoor temperature from 1$^{st}$ June to 10$^{th}$ June in 2015 in the residential building under different air tightness (0.1/0.3/0.5 air change per hour infiltration level). The blue line with huge fluctuation represents the outdoor temperature from the weather station, the red line represents the measured indoor temperature, and the gray, orange, and orange line represent the calculated indoor temperature of the three rooms at the same apartment. The result indicates that the air infiltration dose not have a strong impact on indoor temperature profile. Therefore, the air infiltration is used to calibrate the annual heating demand to the measured value after the temperature profile is matched. The result also indicates that the simulated indoor temperatures are more fluctuated than the measured actual value, which is probably due to some wrong assumptions on building operations or user behavior.\\
 		
 			\begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.7]{ACH_Compare.JPG}
-			\caption{Origin Temperature Profile of Residential Building}
+			\includegraphics[scale=0.75]{ACH_Compare.JPG}
+			\caption{Temperature Profile (Average) Comparison Between Different (0.1/0.3/0.5) ACH Values}
 			\label{fig:ACH_Compare}
 			\end{figure}
 
@@ -973,16 +979,16 @@ Empa,Dübendorf\\[2pt]}
 			\label{fig:HonggCalibrationOrigin}
 			\end{figure}
 			
-			Figure \ref{fig:HonggCalibrationOrigin} above shows a temperature profile of the first floor apartment with 0.3 ACH infiltration. The light blue line with huge fluctuation is the outdoor temperature measured by the weather station. The The less fluctuated dark blue line represents the measured indoor temperature. The rest lines in grey, yellow and red represent the calculated indoor temperature of three bedrooms within the apartment. This origin temperature profile indicates an over-estimation on heat gains. Therefore, the calibration process aimed on reducing the internal gains by varying the building appliance schedules.\\
+			Figure \ref{fig:HonggCalibrationOrigin} shows a temperature profile of the first floor apartment with 0.3 ACH infiltration. The light blue line with huge fluctuation is the outdoor temperature measured by the weather station. The The less fluctuated dark blue line represents the measured indoor temperature. The rest lines in grey, yellow and red represent the calculated indoor temperature of three bedrooms within the apartment. This origin temperature profile indicates an over-estimation on heat gains. Therefore, the calibration process aimed on reducing the internal gains by varying the building electronic appliance and lighting schedules.\\
 			
 			\begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.6]{figures/Hongg_Cali_NoFacility.JPG}
+			\includegraphics[scale=0.57]{figures/Hongg_Cali_NoFacility.JPG}
 			\caption{Temperature Profile of Residential Building Without Internal Gains}
 			\label{fig:HonggCalibrationNoGains}
 			\end{figure}
 			
-			In order to verify the above conclusion, another simulation is taken with no active appliance. The result in Figure \ref{fig:HonggCalibrationNoGains} proved that the wrong appliance assumption schedule is the cause of this over-heating problem. The room temperature dropped around 4 degrees when all the appliances are turned off. From the SIA 2024 schedule, the lighting schedule and lighting level for residential buildings are modified as it shows an over-estimation during daytime. \\
+			In order to verify the above conclusion, another simulation is taken with no electronic appliance and lighting. The result in Figure \ref{fig:HonggCalibrationNoGains} proved that the wrong appliance and lighting assumption schedule is the cause of this over-heating problem. The room temperature dropped around 4 degrees when all the appliances are turned off. When carefully checking the lighting schedule and electronic appliance provided by SIA 2024 schedule, it found that the lighting schedule and lighting level are well over estimated for residential buildings. Therefore, the residential buildings are modified as Table \ref{tab:HonggLightingCtrl}. \\
 
 			\begin{figure}[H]
 			\centering
@@ -1015,12 +1021,12 @@ Empa,Dübendorf\\[2pt]}
 			
 			\begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.5]{Hongg_Clibration_03NewLight.JPG}
+			\includegraphics[scale=0.7]{Hongg_Clibration_03NewLight.JPG}
 			\caption{Temperature Profile of Residential Building with New Lighting Schedule}
 			\label{fig:HonggerCalibrationNewLight}
 			\end{figure}
 			
-			From Figure \ref{fig:HonggerCalibrationNewLight} above it is known that
+			When applying the new lighting schedule and keeping the appliance schedule as it is, the calibration result is shown in Figure \ref{fig:HonggerCalibrationNewLight}. The result shows a temperature profile estimation very close to the measurement value, and the indoor temperature can be claimed as completed.
 			The origin air infiltration level is 0.3 ACH. However, the annual heating demand indicates that this setting has higher demand than the measured value. Therefore, the air infiltration is slightly decreased to 0.25 ACH in order to fit the annual heating demand.\\ 
 
 			\textbf{Office Building Calibration}\\
@@ -1028,14 +1034,14 @@ Empa,Dübendorf\\[2pt]}
 
 			\begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.35]{figures/Office_Calibration_Ori.JPG}
+			\includegraphics[scale=0.70]{figures/Office_Calibration_Ori.JPG}
 			\caption{Origin Temperature Profile of Office Building}
 			\label{fig:Sumatra_Calibration_Ori}
 			\end{figure}
 			
 			\begin{figure}[h!]
 			\centering
-			\includegraphics[scale=0.3]{Sumatra_Calibration_AllonShading.JPG}
+			\includegraphics[scale=0.7]{Sumatra_Calibration_AllonShading.JPG}
 			\caption{Temperature Profile of Office Building with 24/7 shading}
 			\label{fig:Sumatra_Calibration_Allshade}
 			\end{figure}			
@@ -1059,7 +1065,7 @@ Empa,Dübendorf\\[2pt]}
             
 		\begin{table}[htbp]
 		\centering
-		\caption{Annual Heating Demand of Office Building in Different Ventilation Level}
+		\caption{Annual Heating Demand of Office Building for Different Ventilation Levels}
 		    \begin{tabular}{ccc}
 		    \toprule
 		    Infiltration Level (ACH) & Total Outdoor Air (ACH) & Heating Demand ($kWh/m^2$)\\
@@ -1076,11 +1082,12 @@ Empa,Dübendorf\\[2pt]}
 		
             \begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.5]{Sumatra_Calibration_NewShading.JPG}
+			\includegraphics[scale=0.65]{Sumatra_Calibration_NewShading.JPG}
 			\caption{Temperature Profile of Office Building with new shading schedule}
 			\label{fig:Sumatra_Calibration_NewShading}
 			\end{figure}
-			
+	
+	\newpage	
 	\section{Parameters Variation Results}
 
 		The parameters variation processes can be done after the buildings are calibrated. The results are presented in a form of histograms and correlation matrices. The histogram helps understand the range of the varied samples and the total influence to parameter variation, while the correlation matrix can better understand the correlations between parameters and parameters, or parameters and heating demand. In addition, the relationship between all parameters and the domestic hot water consumption is also observed from the correlation matrices\\
@@ -1101,11 +1108,11 @@ Empa,Dübendorf\\[2pt]}
 		\label{fig:Hongg_StationHistogram}
 		\end{figure}
 
-		Figure \ref{fig:Sumatra_Matrix} and Figure \ref{fig:Hongg_Matrix} below shows the correlation matrices of the office building and the residential building. Correlation matrix is a heat map with many pixels, where each pixel represent a correlation between two intersec parameters. A pixel with deep color indicates the correlation between two parameters is strong, while a pixel with light color indicates the correlation between two parameters is weak.\\
+		Figure \ref{fig:Sumatra_Matrix} and Figure \ref{fig:Hongg_Matrix} show the correlation matrices for the office building and the residential building. Correlation matrix is a heat map with many pixels, where each pixel represent a correlation between two intersec parameters. A pixel with deep color indicates the correlation between two parameters is strong, while a pixel with light color indicates the correlation between two parameters is weak.\\
 		
-		In this thesis, the main focus is the correlation between heating demand, domestic hot water consumption and others. Therefore, the second last row represents the correlation between domestic hot waters and other parameters, and the last row represents the correlation between heating demand and other parameters.\\
+		In this thesis, the main focus is the correlation between heating demand, domestic hot water consumption and others. Therefore, the second last row represents the correlation between domestic hot water and other parameters, and the last row represents the correlation between heating demand and other parameters.\\
 		
-		The correlation matrix of office building indicates that a strong correlation exists between office temperature setpoint (0.67)/solar absorptance (-0.34) and heating demand. Also, corridor temperature setpoint (0.28) and office appliance (-0.17) are the influential facters among all others. The residential building's correlation matrix also indicated that the key area setpoint temperature (0.58) and the solar absorptance (-0.45) are the influential facters to heating demand. In addition, air infiltration in residential building also showed a very strong correlation of 0.53, making it the second most strongest correlated factor among all. As for domestic hot water, both correlation matrices showed that the domestic hot water demand is strongly depended on the domestic hot water demand of the key area.
+		The correlation matrix for the office building indicates that a strong correlation exists between office temperature setpoint (0.67)/solar absorptance (-0.34) and heating demand. Also, corridor temperature setpoint (0.28) and office appliance (-0.17) are the influential facters among all others. The residential building's correlation matrix also indicates that the key area setpoint temperature (0.58) and the solar absorptance (-0.45) are the influential facters to heating demand. In addition, air infiltration in residential building also showed a very strong correlation of 0.53, making it the second strongest correlated factor among all. As for domestic hot water, both correlation matrices showed that the domestic hot water demand is strongly depended on the domestic hot water demand of the key area.
 
 		
 	    \begin{figure}[H]
